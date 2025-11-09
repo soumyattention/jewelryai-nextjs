@@ -59,7 +59,7 @@ const Hero = () => {
 
             {/* Sub-headline */}
             <p className="text-lg sm:text-xl md:text-xl text-gray-600 mb-6 md:mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0 px-2 sm:px-0">
-              We create stunning, hyper-realistic, on-model jewelry photography and videography with 95% retention of details—at a fraction of the cost.
+              We create stunning, hyper-realistic, on-model jewelry photography and videography with 98% retention of details—at a fraction of the cost.
             </p>
 
             {/* Image Swiper - Mobile: Show here, Desktop: Hide here */}

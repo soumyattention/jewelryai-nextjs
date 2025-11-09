@@ -40,7 +40,7 @@ const Comparison = () => {
     },
     {
       icon: Award,
-      title: '4K Quality, 95% Accuracy',
+      title: '4K Quality, 98% Accuracy',
       description: 'Preserve every jewelry detail'
     },
     {

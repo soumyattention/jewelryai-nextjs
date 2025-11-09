@@ -144,7 +144,7 @@ const FinalCTA = () => {
                 <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-amber-500/20 to-yellow-600/20 rounded-2xl flex items-center justify-center mx-auto mb-4 backdrop-blur-sm border border-amber-400/20">
                   <Sparkles className="w-7 h-7 sm:w-8 sm:h-8 text-amber-400" />
                 </div>
-                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">95% Accuracy</h3>
+                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">98% Accuracy</h3>
                 <p className="text-gray-400 text-sm sm:text-sm">Preserve every detail</p>
               </div>
             </div>

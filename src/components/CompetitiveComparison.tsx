@@ -35,7 +35,7 @@ const CompetitiveComparison = () => {
       mediaType: 'video',
       status: 'winner',
       description: 'Flawless, hyper-realistic result',
-      features: ['95% accuracy and realism', 'Studio quality lighting and reflections', 'Video generation with accurate physics and movements'],
+      features: ['98% accuracy and realism', 'Studio quality lighting and reflections', 'Video generation with accurate physics and movements'],
       conclusion: 'The future of jewelry marketing with unparalleled quality and detail'
     }
   ];
@@ -48,7 +48,7 @@ const CompetitiveComparison = () => {
             AI sucks at jewelry. So we trained it.
           </h2>
           <p className="text-lg sm:text-lg text-gray-600 max-w-4xl mx-auto px-4 sm:px-0">
-            Generic AI (like ChatGPT) are built for creativity, but jewelry requires original detailing. Our 3-layer AI diffusion engine, trained on 1000s of jewelry images, is a state-of-the-art AI model to preserve, predict and maintain 95% accuracy with ultra-realism.
+            Generic AI (like ChatGPT) are built for creativity, but jewelry requires original detailing. Our 3-layer AI diffusion engine, trained on 1000s of jewelry images, is a state-of-the-art AI model to preserve, predict and maintain 98% accuracy with ultra-realism.
           </p>
         </div>
 
