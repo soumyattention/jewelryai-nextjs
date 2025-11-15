@@ -192,6 +192,66 @@ const PricingPage = () => {
             ))}
           </div>
 
+          {/* Creative Cinematic Video Package */}
+          <div className="text-center mt-12 sm:mt-16 px-4 sm:px-0">
+            <div className="max-w-2xl mx-auto">
+              <div className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-6 sm:p-8 border-2 border-purple-200/50 shadow-lg hover:shadow-xl transition-all duration-300">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white px-4 py-1.5 rounded-full text-sm font-bold">
+                    Video Package
+                  </div>
+                </div>
+
+                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">Creative Cinematic Video</h3>
+
+                <div className="mb-4">
+                  <span className="text-4xl sm:text-5xl font-bold text-gray-900">$199</span>
+                </div>
+
+                <p className="text-base sm:text-lg text-gray-600 mb-6">
+                  Professional editorial photos and video clips delivered in 7 days
+                </p>
+
+                <div className="grid sm:grid-cols-2 gap-3 mb-6 text-left">
+                  <div className="flex items-start space-x-2">
+                    <div className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-purple-100">
+                      <Check className="w-3 h-3 text-purple-600" />
+                    </div>
+                    <span className="text-base text-gray-700">Editorial Photos</span>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <div className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-purple-100">
+                      <Check className="w-3 h-3 text-purple-600" />
+                    </div>
+                    <span className="text-base text-gray-700">Video Clips</span>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <div className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-purple-100">
+                      <Check className="w-3 h-3 text-purple-600" />
+                    </div>
+                    <span className="text-base text-gray-700">7 Days Delivery</span>
+                  </div>
+                  <div className="flex items-start space-x-2">
+                    <div className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5 bg-purple-100">
+                      <Check className="w-3 h-3 text-purple-600" />
+                    </div>
+                    <span className="text-base text-gray-700">Cinematic Quality</span>
+                  </div>
+                </div>
+
+                <a
+                  href="https://checkout.dodopayments.com/buy/pdt_2oQ6WERYioZd66sKStYDa?quantity=1&showDiscounts=false"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-semibold rounded-xl text-white bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/40 transition-all duration-200 touch-manipulation min-h-[48px] transform hover:scale-105"
+                >
+                  <span>Get Cinematic Video</span>
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Custom Packages */}
           <div className="text-center mt-12 sm:mt-16 px-4 sm:px-0">
             <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-6 sm:p-8 border border-gray-200/50">
