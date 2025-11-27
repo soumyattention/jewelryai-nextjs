@@ -15,13 +15,13 @@ const PricingPage = () => {
       description: 'Perfect for quality testing',
       features: [
         'Up to 3 Jewelry Articles',
-        '5 AI Editorial Photoshoots',
+        '3 AI Editorial Photoshoots',
         '1 Creative Cinematic Video',
         '7 Days Delivery',
         '1 Revision Request'
       ],
       specs: {
-        photos: 5,
+        photos: 3,
         videos: 1,
         turnaround: '7 days',
         revisions: 1,
@@ -35,12 +35,12 @@ const PricingPage = () => {
     },
     {
       name: 'Launch',
-      price: '$499',
-      priceNumeric: 499,
+      price: '$799',
+      priceNumeric: 799,
       description: 'Your perfect pivot to AI',
       features: [
         'Up to 25 AI Editorial Photoshoots',
-        'Up to 10 AI Cinematic Videos',
+        'Up to 5 AI Cinematic Videos',
         'Most Natural AI Models (indistinguishable from reality)',
         'Highest Quality of AI Image/Video Models to be used',
         'Bring your reference model/pose/style/anything',
@@ -48,7 +48,7 @@ const PricingPage = () => {
       ],
       specs: {
         photos: 25,
-        videos: 10,
+        videos: 5,
         turnaround: '3-5 days',
         revisions: 'Unlimited',
         resolution: '4K',
@@ -61,12 +61,12 @@ const PricingPage = () => {
     },
     {
       name: 'The Collection',
-      price: '$799',
-      priceNumeric: 799,
+      price: '$1199',
+      priceNumeric: 1199,
       description: 'One month of highest-quality contents',
       features: [
         'Up to 60 AI Editorial Photoshoots (Upscaled to 4K)',
-        'Up to 20 AI Cinematic Videos (30s 1080p each)',
+        'Up to 12 AI Cinematic Videos (30s 1080p each)',
         'Most Natural AI Models (indistinguishable from reality)',
         'Highest Quality of AI Image/Video Models to be used',
         'Bring your reference model/pose/style/anything',
@@ -74,7 +74,7 @@ const PricingPage = () => {
       ],
       specs: {
         photos: 60,
-        videos: 20,
+        videos: 12,
         turnaround: '2-3 days',
         revisions: 'Unlimited',
         resolution: '4K',
@@ -91,9 +91,9 @@ const PricingPage = () => {
     <div className="min-h-screen bg-white font-inter flex flex-col">
       {/* Schema Markup */}
       <SchemaProduct
-        name="Premium AI Jewelry Photography Package"
-        description="Complete AI jewelry photography service with 25 photoshoots, 10 cinematic videos, unlimited revisions, and premium AI models"
-        price="499"
+        name="AI Jewelry Photography Packages"
+        description="Explore our AI jewelry photography and videography packages, with options for 3 photos & 1 video, 25 photos & 5 videos, or 60 photos & 12 videos. Premium AI models, unlimited revisions, and fast turnaround available."
+        price="799"
         priceCurrency="USD"
         aggregateRating={{
           ratingValue: "5.0",

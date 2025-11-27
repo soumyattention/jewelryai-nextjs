@@ -12,7 +12,7 @@
       "currency": "USD",
       "description": "Perfect for quality testing",
       "features": {
-        "aiEditorialPhotos": 5,
+        "aiEditorialPhotos": 3,
         "aiCinematicVideos": 1,
         "jewelryArticles": 3,
         "turnaroundTime": "7 days",
@@ -23,17 +23,17 @@
         "commercialLicense": true,
         "customPoses": false
       },
-      "pricePerPhoto": 19.80
+      "pricePerPhoto": 33.00
     },
     {
       "name": "Launch",
-      "price": 499,
+      "price": 799,
       "currency": "USD",
       "description": "Your perfect pivot to AI",
       "mostPopular": true,
       "features": {
         "aiEditorialPhotos": 25,
-        "aiCinematicVideos": 10,
+        "aiCinematicVideos": 5,
         "turnaroundTime": "3-5 days",
         "revisions": "Unlimited",
         "resolution": "4K",
@@ -44,16 +44,16 @@
         "customStyles": true,
         "referenceModel": true
       },
-      "pricePerPhoto": 19.96
+      "pricePerPhoto": 31.96
     },
     {
       "name": "The Collection",
-      "price": 799,
+      "price": 1199,
       "currency": "USD",
       "description": "One month of highest-quality contents",
       "features": {
         "aiEditorialPhotos": 60,
-        "aiCinematicVideos": 20,
+        "aiCinematicVideos": 12,
         "turnaroundTime": "2-3 days",
         "revisions": "Unlimited",
         "resolution": "4K",
@@ -66,12 +66,12 @@
         "videoLength": "30s per video",
         "videoResolution": "1080p"
       },
-      "pricePerPhoto": 13.32
+      "pricePerPhoto": 19.98
     }
   ],
   "comparison": {
     "aiPhotography": {
-      "costRange": "99-799 USD",
+      "costRange": "99-1199 USD",
       "turnaroundTime": "2-7 days",
       "modelFees": 0,
       "studioFees": 0,
@@ -90,10 +90,10 @@
     },
     "annualSavings": {
       "for10Photoshoots": {
-        "aiCost": 4990,
+        "aiCost": 7990,
         "traditionalCost": 15000,
-        "savings": 10010,
-        "savingsPercentage": 67
+        "savings": 7010,
+        "savingsPercentage": 46
       }
     }
   },
