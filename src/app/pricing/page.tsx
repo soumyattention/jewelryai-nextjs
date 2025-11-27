@@ -10,18 +10,18 @@ const PricingPage = () => {
   const packages = [
     {
       name: 'First Look',
-      price: '$99',
-      priceNumeric: 99,
+      price: '$299',
+      priceNumeric: 299,
       description: 'Perfect for quality testing',
       features: [
         'Up to 3 Jewelry Articles',
-        '3 AI Editorial Photoshoots',
+        '5 AI Editorial Photoshoots',
         '1 Creative Cinematic Video',
         '7 Days Delivery',
         '1 Revision Request'
       ],
       specs: {
-        photos: 3,
+        photos: 5,
         videos: 1,
         turnaround: '7 days',
         revisions: 1,

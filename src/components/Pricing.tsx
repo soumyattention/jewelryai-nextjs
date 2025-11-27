@@ -7,7 +7,7 @@ const Pricing = () => {
   const packages = [
     {
       name: 'First Look',
-      price: '$99',
+      price: '$299',
       description: 'Perfect for quality testing',
       features: [
         'Up to 3 Jewelry Articles',
