@@ -102,7 +102,7 @@ const Hero = () => {
                 }}
                 className="group bg-gradient-to-r from-emerald-500 to-green-600 text-white px-6 sm:px-8 py-4 sm:py-4 rounded-xl font-semibold text-lg sm:text-lg hover:from-emerald-600 hover:to-green-700 transform hover:scale-105 transition-all duration-200 shadow-2xl hover:shadow-emerald-500/25 flex items-center justify-center space-x-2 touch-manipulation min-h-[48px]"
               >
-                <span>Try Us For $99</span>
+                <span>Check Pricing</span>
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-200" />
               </a>
               
