@@ -8,7 +8,7 @@ import { SchemaProduct } from '@/components/schema';
 
 const PricingPage = () => {
   return (
-    <div className="min-h-screen bg-white font-inter flex flex-col">
+    <div className="min-h-screen bg-white flex flex-col">
       {/* Schema Markup */}
       <SchemaProduct
         name="AI Jewelry Photography Packages"
