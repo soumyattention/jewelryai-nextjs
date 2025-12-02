@@ -59,9 +59,9 @@ const PricingChart = () => {
         { name: "Jewelry Articles", values: { starter: "3", pro: "10", elite: "20", vid15: "-", vid30: "-", bulk50: "-", bulk100: "-" } },
         { name: "AI Editorial Photos", values: { starter: "Up to 10", pro: "Up to 30", elite: "Up to 60", vid15: "-", vid30: "-", bulk50: "50", bulk100: "100" } },
         { name: "Cinematic Videos", values: { 
-          starter: <div className="flex flex-col items-center"><span>1</span><span className="text-[10px] text-gray-500 font-normal">(approx $399 per video)</span></div>, 
-          pro: <div className="flex flex-col items-center"><span>5</span><span className="text-[10px] text-gray-500 font-normal">(approx $160 per video)</span></div>, 
-          elite: <div className="flex flex-col items-center"><span>10</span><span className="text-[10px] text-gray-500 font-normal">(approx $136 per video)</span></div>, 
+          starter: <div className="flex flex-col items-center"><span>1</span><span className="text-xs sm:text-sm text-gray-600 font-medium mt-1">(approx $399 per video)</span></div>, 
+          pro: <div className="flex flex-col items-center"><span>5</span><span className="text-xs sm:text-sm text-gray-600 font-medium mt-1">(approx $160 per video)</span></div>, 
+          elite: <div className="flex flex-col items-center"><span>10</span><span className="text-xs sm:text-sm text-gray-600 font-medium mt-1">(approx $136 per video)</span></div>, 
           vid15: "-", vid30: "-", bulk50: "-", bulk100: "-" 
         } },
         { name: "Professional Video", values: { starter: "-", pro: "-", elite: "1 (Free)", vid15: "1 (15s)", vid30: "1 (30s)", bulk50: "-", bulk100: "-" } },
