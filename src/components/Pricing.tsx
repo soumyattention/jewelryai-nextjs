@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Check, Star, ArrowRight, ChevronDown, ChevronUp, AlertCircle, X, Crown } from 'lucide-react';
+import { Check, Star, ArrowRight, ChevronDown, ChevronUp, AlertCircle, X, Crown, ListPlus, Sparkles } from 'lucide-react';
 
 const Pricing = () => {
   const [showBulk, setShowBulk] = useState(false);
@@ -297,7 +297,7 @@ const Pricing = () => {
         </div>
 
         {/* 3. BULK SECTION (Red - Collapsible) */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto mb-20">
            {/* Heading for Bulk Section */}
            <div className="text-center mb-6">
              <h3 className="text-xl font-bold text-gray-700">Looking for Cheaper Options?</h3>
@@ -333,6 +333,44 @@ const Pricing = () => {
                 <Card key={idx} pkg={pkg} type="bulk" />
               ))}
             </div>
+          </div>
+        </div>
+
+        {/* Compare All Button */}
+        <div className="text-center mb-20">
+          <a
+            href="/chart"
+            className="inline-flex items-center gap-2 bg-gray-900 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-800 transition-all hover:scale-105 shadow-xl"
+          >
+            <ListPlus className="w-5 h-5" />
+            Compare All Packages
+          </a>
+        </div>
+
+        {/* Request Free Trial Block */}
+        <div className="max-w-3xl mx-auto mb-20 px-4">
+          <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-red-50 via-rose-50 to-white rounded-3xl p-8 sm:p-10 border border-red-100 shadow-xl text-center relative overflow-hidden">
+            <div className="relative z-10">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-red-100 rounded-full mb-4 text-red-600">
+                <Sparkles className="w-6 h-6" />
+              </div>
+              <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">Not sure which plan to pick?</h3>
+              <p className="text-gray-600 mb-8 max-w-xl mx-auto text-lg">
+                Experience the magic of Jewelry AI firsthand. Request a free trial to see the quality before you commit.
+              </p>
+              <a 
+                href="https://wa.me/447727727748"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-bold text-white bg-gradient-to-r from-red-500 to-rose-600 hover:from-red-600 hover:to-rose-700 shadow-lg shadow-red-500/30 transition-all duration-200 transform hover:-translate-y-0.5"
+              >
+                Request a Free Trial
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </a>
+            </div>
+            {/* Decorative background elements */}
+            <div className="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-red-500/10 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-40 h-40 bg-rose-500/10 rounded-full blur-3xl"></div>
           </div>
         </div>
 
