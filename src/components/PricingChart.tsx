@@ -58,14 +58,13 @@ const PricingChart = () => {
       rows: [
         { name: "Jewelry Articles", values: { starter: "3", pro: "10", elite: "20", vid15: "-", vid30: "-", bulk50: "-", bulk100: "-" } },
         { name: "AI Editorial Photos", values: { starter: "Up to 10", pro: "Up to 30", elite: "Up to 60", vid15: "-", vid30: "-", bulk50: "50", bulk100: "100" } },
-        { name: "Cinematic Videos", values: { starter: "1", pro: "5", elite: "10", vid15: "-", vid30: "-", bulk50: "-", bulk100: "-" } },
+        { name: "Cinematic Videos", values: { 
+          starter: <div className="flex flex-col items-center"><span>1</span><span className="text-[10px] text-gray-500 font-normal">(approx $399 per video)</span></div>, 
+          pro: <div className="flex flex-col items-center"><span>5</span><span className="text-[10px] text-gray-500 font-normal">(approx $160 per video)</span></div>, 
+          elite: <div className="flex flex-col items-center"><span>10</span><span className="text-[10px] text-gray-500 font-normal">(approx $136 per video)</span></div>, 
+          vid15: "-", vid30: "-", bulk50: "-", bulk100: "-" 
+        } },
         { name: "Professional Video", values: { starter: "-", pro: "-", elite: "1 (Free)", vid15: "1 (15s)", vid30: "1 (30s)", bulk50: "-", bulk100: "-" } },
-      ]
-    },
-    {
-      category: "Value & Metrics",
-      rows: [
-        { name: "Approx. Cost per Video", values: { starter: "$399", pro: "~$160", elite: "~$136", vid15: "$299", vid30: "$499", bulk50: "-", bulk100: "-" } },
       ]
     },
     {
@@ -109,12 +108,12 @@ const PricingChart = () => {
                     {/* Tags */}
                     <div className="mb-3 h-6 flex justify-center items-end">
                       {pkg.popular && (
-                        <span className="inline-block bg-gradient-to-r from-amber-500 to-orange-500 text-white text-[10px] font-bold px-3 py-1 rounded-full shadow-md uppercase tracking-wide transform hover:scale-105 transition-transform">
+                        <span className="inline-block bg-gradient-to-r from-amber-500 to-orange-500 text-white text-[10px] font-bold px-3 py-1 rounded-full shadow-md uppercase tracking-wide transform hover:scale-105 transition-transform whitespace-nowrap">
                           Best Value
                         </span>
                       )}
                       {pkg.highQuality && (
-                        <span className="inline-block bg-gradient-to-r from-emerald-500 to-green-600 text-white text-[10px] font-bold px-3 py-1 rounded-full shadow-md uppercase tracking-wide transform hover:scale-105 transition-transform">
+                        <span className="inline-block bg-gradient-to-r from-emerald-500 to-green-600 text-white text-[10px] font-bold px-3 py-1 rounded-full shadow-md uppercase tracking-wide transform hover:scale-105 transition-transform whitespace-nowrap">
                           Highest Quality
                         </span>
                       )}
@@ -157,7 +156,8 @@ const PricingChart = () => {
                       if (val === true) display = <div className="bg-green-100 rounded-full p-1 inline-block"><Check className="w-4 h-4 sm:w-5 sm:h-5 text-green-600" /></div>;
                       else if (val === false) display = <X className="w-4 h-4 sm:w-5 sm:h-5 text-gray-300 mx-auto" />;
                       else if (val === "-") display = <Minus className="w-3 h-3 sm:w-4 sm:h-4 text-gray-200 mx-auto" />;
-                      else display = <span className="font-bold text-gray-800 text-xs sm:text-sm">{val}</span>;
+                      else if (React.isValidElement(val)) display = val; // Support ReactNode
+                      else display = <span className="font-bold text-gray-800 text-xs sm:text-sm">{val as string}</span>;
 
                       return (
                         <td key={pkg.id} className="p-3 sm:p-4 border-b border-r border-gray-200 last:border-r-0 text-center bg-white group-hover/row:bg-gray-50/50 relative">
