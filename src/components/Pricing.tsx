@@ -388,14 +388,24 @@ const Pricing = () => {
                We offer tailored packages for large collections, enterprise clients, and specific creative requirements.
              </p>
              
-             <a 
-               href="https://wa.me/447727727748"
-               target="_blank"
-               rel="noopener noreferrer" 
-               className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-xl text-white bg-amber-500 hover:bg-amber-600 shadow-lg hover:shadow-amber-200 transition-all duration-200 transform hover:-translate-y-0.5"
-             >
-               Contact Us for Custom Pricing
-             </a>
+             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+               <a 
+                 href="https://wa.me/447727727748"
+                 target="_blank"
+                 rel="noopener noreferrer" 
+                 className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-xl text-white bg-amber-500 hover:bg-amber-600 shadow-lg hover:shadow-amber-200 transition-all duration-200 transform hover:-translate-y-0.5"
+               >
+                 Contact Us for Custom Pricing
+               </a>
+               <a 
+                 href="https://checkout.dodopayments.com/buy/pdt_fHn4R05QqPBl38zBbc48B?quantity=1&showDiscounts=false"
+                 target="_blank"
+                 rel="noopener noreferrer" 
+                 className="inline-flex items-center justify-center px-8 py-3 border border-amber-500 text-base font-bold rounded-xl text-amber-600 bg-white hover:bg-amber-50 shadow-lg transition-all duration-200 transform hover:-translate-y-0.5"
+               >
+                 Custom Payment
+               </a>
+             </div>
            </div>
         </div>
 
