@@ -26,6 +26,7 @@ export interface GalleryItem {
 }
 
 // Gallery items - Videos only (images now come from ImageKit folders)
+// Updated: January 9, 2025 - Env vars now configured on Vercel
 export const galleryItems: GalleryItem[] = [
     // Videos
     {
