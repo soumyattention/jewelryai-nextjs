@@ -37,10 +37,15 @@ function getImageKitClient() {
     urlEndpoint = FALLBACK_CONFIG.urlEndpoint;
   }
 
+  // Log key details for debugging (only first/last chars for security)
   console.log('[Gallery API] ImageKit config:', {
     hasPublicKey: !!publicKey,
     hasPrivateKey: !!privateKey,
     hasUrlEndpoint: !!urlEndpoint,
+    publicKeyPrefix: publicKey ? publicKey.substring(0, 10) + '...' : null,
+    privateKeyPrefix: privateKey ? privateKey.substring(0, 10) + '...' : null,
+    privateKeyLength: privateKey ? privateKey.length : 0,
+    privateKeyChar18: privateKey ? privateKey.charAt(18) : null,
     urlEndpoint: urlEndpoint
   });
 
