@@ -1,10 +1,11 @@
 'use client';
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { motion, useMotionValue } from "framer-motion";
 import { cn } from "../../lib/utils";
 import { Button } from "./button";
-import { galleryItems } from "../../lib/gallery-data";
+import { GalleryItem } from "../../lib/gallery-data";
+import { fetchImagesFromFolders } from "../../lib/gallery-api";
 
 export const PhotoGallery = ({
   animationDelay = 0.5,
@@ -13,26 +14,39 @@ export const PhotoGallery = ({
 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [featuredImages, setFeaturedImages] = useState<GalleryItem[]>([]);
 
+  // Fetch featured images from ImageKit and trigger animation
   useEffect(() => {
-    // First make the container visible with a fade-in
-    const visibilityTimer = setTimeout(() => {
-      setIsVisible(true);
-    }, animationDelay * 1000);
-
-    // Then start the photo animations after a short delay
-    const animationTimer = setTimeout(
-      () => {
+    const fetchFeatured = async () => {
+      try {
+        const images = await fetchImagesFromFolders();
+        const featured = images.filter(img => img.selected && img.type === 'image');
+        setFeaturedImages(featured);
+        // First make the container visible with a fade-in (after animationDelay)
+        const visibilityTimer = setTimeout(() => {
+          setIsVisible(true);
+        }, animationDelay * 1000);
+        // Then start the photo animations after a short delay
+        const animationTimer = setTimeout(
+          () => {
+            setIsLoaded(true);
+          },
+          (animationDelay + 0.4) * 1000
+        );
+        return () => {
+          clearTimeout(visibilityTimer);
+          clearTimeout(animationTimer);
+        };
+      } catch (err) {
+        console.error('Failed to fetch featured images:', err);
+        // Still trigger animation even on error
+        setIsVisible(true);
         setIsLoaded(true);
-      },
-      (animationDelay + 0.4) * 1000
-    ); // Add 0.4s for the opacity transition
-
-    return () => {
-      clearTimeout(visibilityTimer);
-      clearTimeout(animationTimer);
+      }
     };
-  }, [animationDelay]);
+    fetchFeatured();
+  }, []);
 
   // Animation variants for the container
   const containerVariants = {
@@ -69,10 +83,12 @@ export const PhotoGallery = ({
     }),
   };
 
-  // Get 5 random selected photos
-  const selectedPhotos = galleryItems.filter(item => item.selected && item.type === 'image');
-  const shuffledSelected = selectedPhotos.sort(() => 0.5 - Math.random());
-  const randomPhotos = shuffledSelected.slice(0, 5);
+  // Get 5 random featured photos from ImageKit
+  const randomPhotos = useMemo(() => {
+    if (featuredImages.length === 0) return [];
+    const shuffled = [...featuredImages].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, 5);
+  }, [featuredImages]);
 
   // Photo positions - responsive layout for mobile and desktop
   const photos = randomPhotos.map((photo, index) => {
@@ -126,32 +142,57 @@ export const PhotoGallery = ({
             animate={isLoaded ? "visible" : "hidden"}
           >
             <div className="relative h-[140px] w-[140px] sm:h-[180px] sm:w-[180px] lg:h-[220px] lg:w-[220px]">
-              {[...photos].reverse().map((photo) => (
-                <motion.div
-                  key={photo.id}
-                  className="absolute left-0 top-0"
-                  style={{ zIndex: photo.mobilePosition.zIndex }}
-                  variants={photoVariants}
-                  custom={{
-                    x: typeof window !== 'undefined' && window.innerWidth < 1024
-                      ? photo.mobilePosition.x
-                      : photo.desktopPosition.x,
-                    y: typeof window !== 'undefined' && window.innerWidth < 1024
-                      ? photo.mobilePosition.y
-                      : photo.desktopPosition.y,
-                    order: photo.order,
-                  }}
-                >
-                  <Photo
-                    width={140}
-                    height={140}
-                    src={photo.src}
-                    alt="Jewelry AI Portfolio"
-                    direction={photo.direction}
-                    className="sm:!w-[180px] sm:!h-[180px] lg:!w-[220px] lg:!h-[220px]"
-                  />
-                </motion.div>
-              ))}
+              {randomPhotos.length > 0 ? (
+                [...photos].reverse().map((photo) => (
+                  <motion.div
+                    key={photo.id}
+                    className="absolute left-0 top-0"
+                    style={{ zIndex: photo.mobilePosition.zIndex }}
+                    variants={photoVariants}
+                    custom={{
+                      x: typeof window !== 'undefined' && window.innerWidth < 1024
+                        ? photo.mobilePosition.x
+                        : photo.desktopPosition.x,
+                      y: typeof window !== 'undefined' && window.innerWidth < 1024
+                        ? photo.mobilePosition.y
+                        : photo.desktopPosition.y,
+                      order: photo.order,
+                    }}
+                  >
+                    <Photo
+                      width={140}
+                      height={140}
+                      src={photo.src}
+                      alt="Jewelry AI Portfolio"
+                      direction={photo.direction}
+                      className="sm:!w-[180px] sm:!h-[180px] lg:!w-[220px] lg:!h-[220px]"
+                    />
+                  </motion.div>
+                ))
+              ) : (
+                // Placeholder while loading
+                Array.from({ length: 5 }).map((_, i) => (
+                  <motion.div
+                    key={`placeholder-${i}`}
+                    className="absolute left-0 top-0"
+                    style={{ zIndex: 5 - i }}
+                    variants={photoVariants}
+                    custom={{
+                      x: typeof window !== 'undefined' && window.innerWidth < 1024
+                        ? ["-200px", "-100px", "0px", "100px", "200px"][4 - i]
+                        : ["-320px", "-160px", "0px", "160px", "320px"][4 - i],
+                      y: typeof window !== 'undefined' && window.innerWidth < 1024
+                        ? ["10px", "20px", "5px", "15px", "25px"][4 - i]
+                        : ["15px", "32px", "8px", "22px", "44px"][4 - i],
+                      order: 4 - i,
+                    }}
+                  >
+                    <div
+                      className="sm:!w-[180px] sm:!h-[180px] lg:!w-[220px] lg:!h-[220px] bg-gray-200 rounded-2xl sm:rounded-3xl animate-pulse"
+                    />
+                  </motion.div>
+                ))
+              )}
             </div>
           </motion.div>
         </motion.div>

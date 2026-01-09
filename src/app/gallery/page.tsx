@@ -4,7 +4,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { galleryItems, GalleryItem } from '@/lib/gallery-data';
-import { X, ChevronLeft, ChevronRight, Play, Grid3x3 } from 'lucide-react';
+import { fetchImagesFromFolders } from '@/lib/gallery-api';
+import { X, ChevronLeft, ChevronRight, Play, Grid3x3, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Component as Docks } from '@/components/ui/docks';
 import { PhotoGallery } from '@/components/ui/gallery';
@@ -31,8 +32,36 @@ const Gallery = () => {
     return shuffled;
   };
 
-  // Randomize items once on mount
-  const [randomizedItems] = useState(() => shuffleArray(galleryItems));
+  // State for dynamically fetched images
+  const [dynamicImages, setDynamicImages] = useState<GalleryItem[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // Fetch images from ImageKit folders on mount
+  useEffect(() => {
+    const fetchDynamicImages = async () => {
+      try {
+        setIsLoading(true);
+        const fetchedImages = await fetchImagesFromFolders();
+        setDynamicImages(fetchedImages);
+        setError(null);
+      } catch (err) {
+        console.error('Failed to fetch images from ImageKit:', err);
+        setError('Failed to load new images');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchDynamicImages();
+  }, []);
+
+  // Combine static gallery items with dynamic ImageKit images
+  // Existing items (from gallery-data.ts) come first, then new ones from ImageKit
+  const allGalleryItems = [...galleryItems, ...dynamicImages];
+
+  // Randomize items whenever allGalleryItems changes
+  const randomizedItems = React.useMemo(() => shuffleArray(allGalleryItems), [allGalleryItems]);
 
   // Handle category change with scroll to top
   const handleCategoryChange = (category: "all" | "photos" | "videos" | "featured") => {
@@ -202,64 +231,85 @@ const Gallery = () => {
 
         {/* Gallery Grid */}
         <div ref={galleryTopRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-            <AnimatePresence mode="sync">
-              {filteredItems.map((item, index) => (
-                <motion.div
-                  key={item.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -20 }}
-                  transition={{
-                    duration: 0.2,
-                    ease: "easeOut"
-                  }}
-                  onClick={() => openFullscreen(item, index)}
-                  className="group relative aspect-[4/5] overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer"
-                >
-                  {/* Media */}
-                  {item.type === 'video' ? (
-                    <div className="relative w-full h-full" data-video-id={item.id}>
-                      <video
-                        ref={(el) => {
-                          if (el) videoRefs.current[item.id] = el;
-                        }}
-                        src={item.src}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                        muted
-                        loop
-                        playsInline
-                        preload="metadata"
-                      />
-                      {/* Glassmorphic Video Play Indicator */}
-                      <div className="absolute top-3 right-3 pointer-events-none">
-                        <div className="w-10 h-10 bg-white/20 backdrop-blur-md border border-white/30 rounded-full flex items-center justify-center shadow-lg">
-                          <Play className="w-4 h-4 text-white ml-0.5" fill="currentColor" />
+          {/* Loading State */}
+          {isLoading && (
+            <div className="col-span-full flex flex-col items-center justify-center py-20">
+              <Loader2 className="w-10 h-10 animate-spin text-amber-500 mb-4" />
+              <p className="text-gray-600">Loading gallery images...</p>
+            </div>
+          )}
+
+          {/* Error State */}
+          {error && !isLoading && (
+            <div className="col-span-full flex flex-col items-center justify-center py-20">
+              <div className="bg-red-50 text-red-600 px-6 py-4 rounded-lg mb-4">
+                {error}
+              </div>
+              <p className="text-gray-500 text-sm">Existing gallery items are still available above.</p>
+            </div>
+          )}
+
+          {/* Gallery Items - Only show when not loading */}
+          {!isLoading && (
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+              <AnimatePresence mode="sync">
+                {filteredItems.map((item, index) => (
+                  <motion.div
+                    key={item.id}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{
+                      duration: 0.2,
+                      ease: "easeOut"
+                    }}
+                    onClick={() => openFullscreen(item, index)}
+                    className="group relative aspect-[4/5] overflow-hidden rounded-2xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer"
+                  >
+                    {/* Media */}
+                    {item.type === 'video' ? (
+                      <div className="relative w-full h-full" data-video-id={item.id}>
+                        <video
+                          ref={(el) => {
+                            if (el) videoRefs.current[item.id] = el;
+                          }}
+                          src={item.src}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                          muted
+                          loop
+                          playsInline
+                          preload="metadata"
+                        />
+                        {/* Glassmorphic Video Play Indicator */}
+                        <div className="absolute top-3 right-3 pointer-events-none">
+                          <div className="w-10 h-10 bg-white/20 backdrop-blur-md border border-white/30 rounded-full flex items-center justify-center shadow-lg">
+                            <Play className="w-4 h-4 text-white ml-0.5" fill="currentColor" />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ) : (
-                    <img
-                      src={item.src}
-                      alt={item.alt}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                      loading="lazy"
-                    />
-                  )}
+                    ) : (
+                      <img
+                        src={item.src}
+                        alt={item.alt}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        loading="lazy"
+                      />
+                    )}
 
-                  {/* Overlay on Hover */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    {/* Overlay on Hover */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-                  {/* Featured Badge */}
-                  {item.selected && (
-                    <div className="absolute top-3 right-3 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-semibold shadow-lg">
-                      Featured
-                    </div>
-                  )}
-                </motion.div>
-              ))}
-            </AnimatePresence>
-          </div>
+                    {/* Featured Badge */}
+                    {item.selected && (
+                      <div className="absolute top-3 right-3 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-semibold shadow-lg">
+                        Featured
+                      </div>
+                    )}
+                  </motion.div>
+                ))}
+              </AnimatePresence>
+            </div>
+          )}
 
           {/* Show All Button - Only visible when on Featured tab */}
           {selectedCategory === 'featured' && (
