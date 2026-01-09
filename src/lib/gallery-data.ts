@@ -87,7 +87,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design x132.jpg"
     },
     {
-        id: 11010,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/x127.png",
+        id: 11010,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/x127.png",
         alt: "AI-generated jewelry design x127.png"
     },
     {
@@ -105,7 +109,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design x126.png"
     },
     {
-        id: 11013,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/x125.jpg",
+        id: 11013,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/x125.jpg",
         alt: "AI-generated jewelry design x125.jpg"
     },
     {
@@ -263,7 +271,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design gr2.png"
     },
     {
-        id: 11036,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/DX4.png",
+        id: 11036,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/DX4.png",
         alt: "AI-generated jewelry design DX4.png"
     },
     {
@@ -316,7 +328,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design pp1.png"
     },
     {
-        id: 11044,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/u6.png",
+        id: 11044,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/u6.png",
         alt: "AI-generated jewelry design u6.png"
     },
     {
@@ -348,7 +364,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design WhatsApp Image 2025-08-12 at 9.33.43 PM.jpeg"
     },
     {
-        id: 11049,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/WhatsApp%20Image%202025-08-12%20at%2011.27.28%20PM.jpeg",
+        id: 11049,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/WhatsApp%20Image%202025-08-12%20at%2011.27.28%20PM.jpeg",
         alt: "AI-generated jewelry design WhatsApp Image 2025-08-12 at 11.27.28 PM.jpeg"
     },
     {
@@ -387,7 +407,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design mnmf3'.png"
     },
     {
-        id: 11055,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/bln%20ten2.png",
+        id: 11055,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/bln%20ten2.png",
         alt: "AI-generated jewelry design bln ten2.png"
     },
     {
@@ -405,11 +429,19 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design bln ten.png"
     },
     {
-        id: 11058,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/bln34.png",
+        id: 11058,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/bln34.png",
         alt: "AI-generated jewelry design bln34.png"
     },
     {
-        id: 11059,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/bln33.jpg",
+        id: 11059,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/bln33.jpg",
         alt: "AI-generated jewelry design bln33.jpg"
     },
     {
@@ -434,7 +466,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design 8f99264b-27b8-427b-8a8e-d8a863fd7a7f.png"
     },
     {
-        id: 11063,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/lzf1.png",
+        id: 11063,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/lzf1.png",
         alt: "AI-generated jewelry design lzf1.png"
     },
     {
@@ -515,23 +551,43 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design binder2.jpg"
     },
     {
-        id: 11075,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/11-1.png",
+        id: 11075,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/11-1.png",
         alt: "AI-generated jewelry design 11-1.png"
     },
     {
-        id: 11076,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/rx7.png",
+        id: 11076,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/rx7.png",
         alt: "AI-generated jewelry design rx7.png"
     },
     {
-        id: 11077,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/22-1.png",
+        id: 11077,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/22-1.png",
         alt: "AI-generated jewelry design 22-1.png"
     },
     {
-        id: 11078,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/21-2.png",
+        id: 11078,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/21-2.png",
         alt: "AI-generated jewelry design 21-2.png"
     },
     {
-        id: 11079,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/rm2.png",
+        id: 11079,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/rm2.png",
         alt: "AI-generated jewelry design rm2.png"
     },
     {
@@ -542,7 +598,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design rm1.png"
     },
     {
-        id: 11081,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/36-1.png",
+        id: 11081,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/36-1.png",
         alt: "AI-generated jewelry design 36-1.png"
     },
     {
@@ -679,7 +739,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design png1.1.png"
     },
     {
-        id: 11101,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/45-1.png",
+        id: 11101,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/45-1.png",
         alt: "AI-generated jewelry design 45-1.png"
     },
     {
@@ -690,7 +754,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design 43-2.png"
     },
     {
-        id: 11103,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/33-3.png",
+        id: 11103,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/33-3.png",
         alt: "AI-generated jewelry design 33-3.png"
     },
     {
@@ -764,7 +832,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design 17-2.png"
     },
     {
-        id: 11114,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/hanif02.jpeg",
+        id: 11114,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/hanif02.jpeg",
         alt: "AI-generated jewelry design hanif02.jpeg"
     },
     {
@@ -894,7 +966,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design Men's RING.png"
     },
     {
-        id: 11133,\n        category: "photos",\n        type: "image",\n        selected: true,\n        src: "https://ik.imagekit.io/soumya3301/November/run53.png",
+        id: 11133,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/November/run53.png",
         alt: "AI-generated jewelry design run53.png"
     },
     {
