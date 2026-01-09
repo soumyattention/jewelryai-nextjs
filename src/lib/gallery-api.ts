@@ -19,6 +19,14 @@ function getImageKitClient() {
   const privateKey = process.env.NEXT_PUBLIC_IMAGEKIT_PRIVATE_KEY;
   const urlEndpoint = process.env.NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT;
 
+  console.log('[Gallery API] Checking env vars:', {
+    hasPublicKey: !!publicKey,
+    hasPrivateKey: !!privateKey,
+    hasUrlEndpoint: !!urlEndpoint,
+    publicKeyPrefix: publicKey ? publicKey.substring(0, 10) + '...' : null,
+    urlEndpoint: urlEndpoint
+  });
+
   if (!publicKey || !privateKey || !urlEndpoint) {
     throw new Error(`Missing ImageKit credentials: publicKey=${!!publicKey}, privateKey=${!!privateKey}, urlEndpoint=${!!urlEndpoint}`);
   }
