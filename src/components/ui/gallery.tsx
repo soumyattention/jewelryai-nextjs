@@ -4,8 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import { motion, useMotionValue } from "framer-motion";
 import { cn } from "../../lib/utils";
 import { Button } from "./button";
-import { GalleryItem } from "../../lib/gallery-data";
-import { fetchImagesFromFolders } from "../../lib/gallery-api";
+import { GalleryItem, photoItems } from "../../lib/gallery-data";
 
 export const PhotoGallery = ({
   animationDelay = 0.5,
@@ -16,37 +15,28 @@ export const PhotoGallery = ({
   const [isLoaded, setIsLoaded] = useState(false);
   const [featuredImages, setFeaturedImages] = useState<GalleryItem[]>([]);
 
-  // Fetch featured images from ImageKit and trigger animation
+  // Use static gallery images for animation
   useEffect(() => {
-    const fetchFeatured = async () => {
-      try {
-        const images = await fetchImagesFromFolders();
-        const featured = images.filter(img => img.selected && img.type === 'image');
-        setFeaturedImages(featured);
-        // First make the container visible with a fade-in (after animationDelay)
-        const visibilityTimer = setTimeout(() => {
-          setIsVisible(true);
-        }, animationDelay * 1000);
-        // Then start the photo animations after a short delay
-        const animationTimer = setTimeout(
-          () => {
-            setIsLoaded(true);
-          },
-          (animationDelay + 0.4) * 1000
-        );
-        return () => {
-          clearTimeout(visibilityTimer);
-          clearTimeout(animationTimer);
-        };
-      } catch (err) {
-        console.error('Failed to fetch featured images:', err);
-        // Still trigger animation even on error
-        setIsVisible(true);
+    // Get featured images from static data
+    const featured = photoItems.filter(img => img.selected && img.type === 'image');
+    setFeaturedImages(featured.length > 0 ? photoItems.filter(img => img.type === 'image') : photoItems.slice(0, 5));
+    
+    // First make the container visible with a fade-in (after animationDelay)
+    const visibilityTimer = setTimeout(() => {
+      setIsVisible(true);
+    }, animationDelay * 1000);
+    // Then start the photo animations after a short delay
+    const animationTimer = setTimeout(
+      () => {
         setIsLoaded(true);
-      }
+      },
+      (animationDelay + 0.4) * 1000
+    );
+    return () => {
+      clearTimeout(visibilityTimer);
+      clearTimeout(animationTimer);
     };
-    fetchFeatured();
-  }, []);
+  }, [animationDelay]);
 
   // Animation variants for the container
   const containerVariants = {
