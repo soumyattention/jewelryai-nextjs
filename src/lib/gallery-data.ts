@@ -1,4 +1,4 @@
-// Define an interface for gallery items
+/// Define an interface for gallery items
 export interface GalleryItem {
     id: number;
     category: "photos" | "videos";
@@ -7,28 +7,1181 @@ export interface GalleryItem {
     alt: string;
     autoplay?: boolean;
     selected?: boolean;
-
-    // Enhanced SEO fields
-    seoTitle?: string;
-    seoDescription?: string;
-    keywords?: string[];
-    jewelryType?: "ring" | "necklace" | "earrings" | "bracelet" | "watch" | "brooch" | "pendant" | "anklet" | "other";
-    style?: "luxury" | "minimalist" | "vintage" | "modern" | "classic" | "boho" | "art-deco" | "contemporary";
-    occasion?: "wedding" | "engagement" | "anniversary" | "everyday" | "formal" | "casual" | "party";
-    targetAudience?: "bridal" | "women" | "men" | "unisex";
-    dominantColors?: string[];
-    materials?: string[];
-    setting?: string;
-
-    // Video-specific
-    duration?: number;
-    videoDescription?: string;
 }
 
-// Gallery items - Videos only (images now come from ImageKit folders)
-// Updated: January 9, 2025 - Env vars re-added (15s ago)
+// Static gallery items - Images from November and January folders (URLs hardcoded, no API calls)
+// Generated: January 9, 2026
+// November: 135 images
+// January: 31 images
+// Total: 166 images + 33 videos
+
+export const photoItems: GalleryItem[] = [
+    {
+        id: 11000,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x139.png",
+        alt: "AI-generated jewelry design x139.png"
+    },
+    {
+        id: 11001,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x136.png",
+        alt: "AI-generated jewelry design x136.png"
+    },
+    {
+        id: 11002,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x135.jpg",
+        alt: "AI-generated jewelry design x135.jpg"
+    },
+    {
+        id: 11003,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x134.jpg",
+        alt: "AI-generated jewelry design x134.jpg"
+    },
+    {
+        id: 11004,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x144.png",
+        alt: "AI-generated jewelry design x144.png"
+    },
+    {
+        id: 11005,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x142.png",
+        alt: "AI-generated jewelry design x142.png"
+    },
+    {
+        id: 11006,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x130.png",
+        alt: "AI-generated jewelry design x130.png"
+    },
+    {
+        id: 11007,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x131.png",
+        alt: "AI-generated jewelry design x131.png"
+    },
+    {
+        id: 11008,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x129.png",
+        alt: "AI-generated jewelry design x129.png"
+    },
+    {
+        id: 11009,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x132.jpg",
+        alt: "AI-generated jewelry design x132.jpg"
+    },
+    {
+        id: 11010,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x127.png",
+        alt: "AI-generated jewelry design x127.png"
+    },
+    {
+        id: 11011,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x128.png",
+        alt: "AI-generated jewelry design x128.png"
+    },
+    {
+        id: 11012,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x126.png",
+        alt: "AI-generated jewelry design x126.png"
+    },
+    {
+        id: 11013,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x125.jpg",
+        alt: "AI-generated jewelry design x125.jpg"
+    },
+    {
+        id: 11014,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x100.png",
+        alt: "AI-generated jewelry design x100.png"
+    },
+    {
+        id: 11015,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x118.png",
+        alt: "AI-generated jewelry design x118.png"
+    },
+    {
+        id: 11016,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x121.png",
+        alt: "AI-generated jewelry design x121.png"
+    },
+    {
+        id: 11017,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x115.png",
+        alt: "AI-generated jewelry design x115.png"
+    },
+    {
+        id: 11018,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x109.png",
+        alt: "AI-generated jewelry design x109.png"
+    },
+    {
+        id: 11019,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x113.jpeg",
+        alt: "AI-generated jewelry design x113.jpeg"
+    },
+    {
+        id: 11020,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x101.png",
+        alt: "AI-generated jewelry design x101.png"
+    },
+    {
+        id: 11021,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x114.png",
+        alt: "AI-generated jewelry design x114.png"
+    },
+    {
+        id: 11022,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x112.png",
+        alt: "AI-generated jewelry design x112.png"
+    },
+    {
+        id: 11023,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x105.png",
+        alt: "AI-generated jewelry design x105.png"
+    },
+    {
+        id: 11024,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x104.png",
+        alt: "AI-generated jewelry design x104.png"
+    },
+    {
+        id: 11025,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x108.png",
+        alt: "AI-generated jewelry design x108.png"
+    },
+    {
+        id: 11026,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x110.jpg",
+        alt: "AI-generated jewelry design x110.jpg"
+    },
+    {
+        id: 11027,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x111.jpg",
+        alt: "AI-generated jewelry design x111.jpg"
+    },
+    {
+        id: 11028,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/D2.png",
+        alt: "AI-generated jewelry design D2.png"
+    },
+    {
+        id: 11029,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/P7.png",
+        alt: "AI-generated jewelry design P7.png"
+    },
+    {
+        id: 11030,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/P1%20(1).png",
+        alt: "AI-generated jewelry design P1 (1).png"
+    },
+    {
+        id: 11031,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x2%20(1).png",
+        alt: "AI-generated jewelry design x2 (1).png"
+    },
+    {
+        id: 11032,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/x5.png",
+        alt: "AI-generated jewelry design x5.png"
+    },
+    {
+        id: 11033,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/w8.png",
+        alt: "AI-generated jewelry design w8.png"
+    },
+    {
+        id: 11034,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/gr3.png",
+        alt: "AI-generated jewelry design gr3.png"
+    },
+    {
+        id: 11035,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/gr2.png",
+        alt: "AI-generated jewelry design gr2.png"
+    },
+    {
+        id: 11036,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/DX4.png",
+        alt: "AI-generated jewelry design DX4.png"
+    },
+    {
+        id: 11037,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/tokyo3.png",
+        alt: "AI-generated jewelry design tokyo3.png"
+    },
+    {
+        id: 11038,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/w6.png",
+        alt: "AI-generated jewelry design w6.png"
+    },
+    {
+        id: 11039,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/DX1.png",
+        alt: "AI-generated jewelry design DX1.png"
+    },
+    {
+        id: 11040,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/tokyo4.png",
+        alt: "AI-generated jewelry design tokyo4.png"
+    },
+    {
+        id: 11041,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/marika1.png",
+        alt: "AI-generated jewelry design marika1.png"
+    },
+    {
+        id: 11042,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/marika2.png",
+        alt: "AI-generated jewelry design marika2.png"
+    },
+    {
+        id: 11043,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/pp1.png",
+        alt: "AI-generated jewelry design pp1.png"
+    },
+    {
+        id: 11044,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/u6.png",
+        alt: "AI-generated jewelry design u6.png"
+    },
+    {
+        id: 11045,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/ai_ice_cream_ring4.png",
+        alt: "AI-generated jewelry design ai_ice_cream_ring4.png"
+    },
+    {
+        id: 11046,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/WhatsApp%20Image%202025-08-12%20at%2010.39.51%20PM.jpeg",
+        alt: "AI-generated jewelry design WhatsApp Image 2025-08-12 at 10.39.51 PM.jpeg"
+    },
+    {
+        id: 11047,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/WhatsApp%20Image%202025-08-12%20at%2011.22.21%20PM.jpeg",
+        alt: "AI-generated jewelry design WhatsApp Image 2025-08-12 at 11.22.21 PM.jpeg"
+    },
+    {
+        id: 11048,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/WhatsApp%20Image%202025-08-12%20at%209.33.43%20PM.jpeg",
+        alt: "AI-generated jewelry design WhatsApp Image 2025-08-12 at 9.33.43 PM.jpeg"
+    },
+    {
+        id: 11049,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/WhatsApp%20Image%202025-08-12%20at%2011.27.28%20PM.jpeg",
+        alt: "AI-generated jewelry design WhatsApp Image 2025-08-12 at 11.27.28 PM.jpeg"
+    },
+    {
+        id: 11050,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/mnmf1'.png",
+        alt: "AI-generated jewelry design mnmf1'.png"
+    },
+    {
+        id: 11051,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/dnour3.png",
+        alt: "AI-generated jewelry design dnour3.png"
+    },
+    {
+        id: 11052,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/mnmf4.png",
+        alt: "AI-generated jewelry design mnmf4.png"
+    },
+    {
+        id: 11053,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/eng3.png",
+        alt: "AI-generated jewelry design eng3.png"
+    },
+    {
+        id: 11054,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/mnmf3'.png",
+        alt: "AI-generated jewelry design mnmf3'.png"
+    },
+    {
+        id: 11055,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/bln%20ten2.png",
+        alt: "AI-generated jewelry design bln ten2.png"
+    },
+    {
+        id: 11056,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/erato2.jpg",
+        alt: "AI-generated jewelry design erato2.jpg"
+    },
+    {
+        id: 11057,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/bln%20ten.png",
+        alt: "AI-generated jewelry design bln ten.png"
+    },
+    {
+        id: 11058,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/bln34.png",
+        alt: "AI-generated jewelry design bln34.png"
+    },
+    {
+        id: 11059,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/bln33.jpg",
+        alt: "AI-generated jewelry design bln33.jpg"
+    },
+    {
+        id: 11060,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/bln32%20(1).png",
+        alt: "AI-generated jewelry design bln32 (1).png"
+    },
+    {
+        id: 11061,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/lz1.png",
+        alt: "AI-generated jewelry design lz1.png"
+    },
+    {
+        id: 11062,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/8f99264b-27b8-427b-8a8e-d8a863fd7a7f.png",
+        alt: "AI-generated jewelry design 8f99264b-27b8-427b-8a8e-d8a863fd7a7f.png"
+    },
+    {
+        id: 11063,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/lzf1.png",
+        alt: "AI-generated jewelry design lzf1.png"
+    },
+    {
+        id: 11064,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/ff1.png",
+        alt: "AI-generated jewelry design ff1.png"
+    },
+    {
+        id: 11065,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/openart-b8d0f97f47d9416886efceadcf3475b5_raw.jpg",
+        alt: "AI-generated jewelry design openart-b8d0f97f47d9416886efceadcf3475b5_raw.jpg"
+    },
+    {
+        id: 11066,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/p2.png",
+        alt: "AI-generated jewelry design p2.png"
+    },
+    {
+        id: 11067,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/bln39.jpg",
+        alt: "AI-generated jewelry design bln39.jpg"
+    },
+    {
+        id: 11068,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/bln36.jpg",
+        alt: "AI-generated jewelry design bln36.jpg"
+    },
+    {
+        id: 11069,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/bln37.jpg",
+        alt: "AI-generated jewelry design bln37.jpg"
+    },
+    {
+        id: 11070,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/g5.png",
+        alt: "AI-generated jewelry design g5.png"
+    },
+    {
+        id: 11071,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/G1.png",
+        alt: "AI-generated jewelry design G1.png"
+    },
+    {
+        id: 11072,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/binder1.jpg",
+        alt: "AI-generated jewelry design binder1.jpg"
+    },
+    {
+        id: 11073,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/E3%20(1).png",
+        alt: "AI-generated jewelry design E3 (1).png"
+    },
+    {
+        id: 11074,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/binder2.jpg",
+        alt: "AI-generated jewelry design binder2.jpg"
+    },
+    {
+        id: 11075,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/11-1.png",
+        alt: "AI-generated jewelry design 11-1.png"
+    },
+    {
+        id: 11076,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/rx7.png",
+        alt: "AI-generated jewelry design rx7.png"
+    },
+    {
+        id: 11077,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/22-1.png",
+        alt: "AI-generated jewelry design 22-1.png"
+    },
+    {
+        id: 11078,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/21-2.png",
+        alt: "AI-generated jewelry design 21-2.png"
+    },
+    {
+        id: 11079,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/rm2.png",
+        alt: "AI-generated jewelry design rm2.png"
+    },
+    {
+        id: 11080,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/rm1.png",
+        alt: "AI-generated jewelry design rm1.png"
+    },
+    {
+        id: 11081,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/36-1.png",
+        alt: "AI-generated jewelry design 36-1.png"
+    },
+    {
+        id: 11082,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/30-1.png",
+        alt: "AI-generated jewelry design 30-1.png"
+    },
+    {
+        id: 11083,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/rx10.png",
+        alt: "AI-generated jewelry design rx10.png"
+    },
+    {
+        id: 11084,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/rx6.jpeg",
+        alt: "AI-generated jewelry design rx6.jpeg"
+    },
+    {
+        id: 11085,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/rm3.jpeg",
+        alt: "AI-generated jewelry design rm3.jpeg"
+    },
+    {
+        id: 11086,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/rx3.png",
+        alt: "AI-generated jewelry design rx3.png"
+    },
+    {
+        id: 11087,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/81.jpeg",
+        alt: "AI-generated jewelry design 81.jpeg"
+    },
+    {
+        id: 11088,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/22-n.jpeg",
+        alt: "AI-generated jewelry design 22-n.jpeg"
+    },
+    {
+        id: 11089,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/freepik__make-different-pose-and-camera-angle-for-this-shoo__88253.jpeg",
+        alt: "AI-generated jewelry design freepik__make-different-pose-and-camera-angle-for-this-shoo__88253.jpeg"
+    },
+    {
+        id: 11090,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/34-5.png",
+        alt: "AI-generated jewelry design 34-5.png"
+    },
+    {
+        id: 11091,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/40-4.png",
+        alt: "AI-generated jewelry design 40-4.png"
+    },
+    {
+        id: 11092,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/fyne_1.jpeg",
+        alt: "AI-generated jewelry design fyne_1.jpeg"
+    },
+    {
+        id: 11093,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/png8.1.png",
+        alt: "AI-generated jewelry design png8.1.png"
+    },
+    {
+        id: 11094,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/png5.1.png",
+        alt: "AI-generated jewelry design png5.1.png"
+    },
+    {
+        id: 11095,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/lorise_1.jpeg",
+        alt: "AI-generated jewelry design lorise_1.jpeg"
+    },
+    {
+        id: 11096,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/50-2.png",
+        alt: "AI-generated jewelry design 50-2.png"
+    },
+    {
+        id: 11097,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/png3.1.png",
+        alt: "AI-generated jewelry design png3.1.png"
+    },
+    {
+        id: 11098,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/40-3'.png",
+        alt: "AI-generated jewelry design 40-3'.png"
+    },
+    {
+        id: 11099,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/45-3.png",
+        alt: "AI-generated jewelry design 45-3.png"
+    },
+    {
+        id: 11100,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/png1.1.png",
+        alt: "AI-generated jewelry design png1.1.png"
+    },
+    {
+        id: 11101,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/45-1.png",
+        alt: "AI-generated jewelry design 45-1.png"
+    },
+    {
+        id: 11102,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/43-2.png",
+        alt: "AI-generated jewelry design 43-2.png"
+    },
+    {
+        id: 11103,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/33-3.png",
+        alt: "AI-generated jewelry design 33-3.png"
+    },
+    {
+        id: 11104,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/33-2.png",
+        alt: "AI-generated jewelry design 33-2.png"
+    },
+    {
+        id: 11105,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/RF%201%20(1).jpeg",
+        alt: "AI-generated jewelry design RF 1 (1).jpeg"
+    },
+    {
+        id: 11106,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/RF%203%20(1).jpeg",
+        alt: "AI-generated jewelry design RF 3 (1).jpeg"
+    },
+    {
+        id: 11107,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/h11.jpeg",
+        alt: "AI-generated jewelry design h11.jpeg"
+    },
+    {
+        id: 11108,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/RF%202%20(1).jpeg",
+        alt: "AI-generated jewelry design RF 2 (1).jpeg"
+    },
+    {
+        id: 11109,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/hy.jpeg",
+        alt: "AI-generated jewelry design hy.jpeg"
+    },
+    {
+        id: 11110,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/terry1-1.jpeg",
+        alt: "AI-generated jewelry design terry1-1.jpeg"
+    },
+    {
+        id: 11111,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/789.png",
+        alt: "AI-generated jewelry design 789.png"
+    },
+    {
+        id: 11112,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/dalya1.jpeg",
+        alt: "AI-generated jewelry design dalya1.jpeg"
+    },
+    {
+        id: 11113,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/17-2.png",
+        alt: "AI-generated jewelry design 17-2.png"
+    },
+    {
+        id: 11114,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/hanif02.jpeg",
+        alt: "AI-generated jewelry design hanif02.jpeg"
+    },
+    {
+        id: 11115,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/gh2.jpeg",
+        alt: "AI-generated jewelry design gh2.jpeg"
+    },
+    {
+        id: 11116,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/df2.jpeg",
+        alt: "AI-generated jewelry design df2.jpeg"
+    },
+    {
+        id: 11117,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/gh4.jpeg",
+        alt: "AI-generated jewelry design gh4.jpeg"
+    },
+    {
+        id: 11118,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/terry1-2%20(1).jpeg",
+        alt: "AI-generated jewelry design terry1-2 (1).jpeg"
+    },
+    {
+        id: 11119,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/15-1.png",
+        alt: "AI-generated jewelry design 15-1.png"
+    },
+    {
+        id: 11120,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/17%20-%203.png",
+        alt: "AI-generated jewelry design 17 - 3.png"
+    },
+    {
+        id: 11121,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/ir4.jpeg",
+        alt: "AI-generated jewelry design ir4.jpeg"
+    },
+    {
+        id: 11122,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/df6.png",
+        alt: "AI-generated jewelry design df6.png"
+    },
+    {
+        id: 11123,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/31-3.png",
+        alt: "AI-generated jewelry design 31-3.png"
+    },
+    {
+        id: 11124,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/11-3.png",
+        alt: "AI-generated jewelry design 11-3.png"
+    },
+    {
+        id: 11125,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/42-1.png",
+        alt: "AI-generated jewelry design 42-1.png"
+    },
+    {
+        id: 11126,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/f6g.png",
+        alt: "AI-generated jewelry design f6g.png"
+    },
+    {
+        id: 11127,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/8-2.png",
+        alt: "AI-generated jewelry design 8-2.png"
+    },
+    {
+        id: 11128,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/run10.png",
+        alt: "AI-generated jewelry design run10.png"
+    },
+    {
+        id: 11129,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/craw1.png",
+        alt: "AI-generated jewelry design craw1.png"
+    },
+    {
+        id: 11130,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/j7dg.png",
+        alt: "AI-generated jewelry design j7dg.png"
+    },
+    {
+        id: 11131,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/run3.png",
+        alt: "AI-generated jewelry design run3.png"
+    },
+    {
+        id: 11132,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/Men's%20RING.png",
+        alt: "AI-generated jewelry design Men's RING.png"
+    },
+    {
+        id: 11133,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/run53.png",
+        alt: "AI-generated jewelry design run53.png"
+    },
+    {
+        id: 11134,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/November/run9.png",
+        alt: "AI-generated jewelry design run9.png"
+    },
+    {
+        id: 12000,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan6.jpg",
+        alt: "AI-generated jewelry design jan6.jpg"
+    },
+    {
+        id: 12001,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan30.jpg",
+        alt: "AI-generated jewelry design jan30.jpg"
+    },
+    {
+        id: 12002,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan13.jpg",
+        alt: "AI-generated jewelry design jan13.jpg"
+    },
+    {
+        id: 12003,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan11.jpg",
+        alt: "AI-generated jewelry design jan11.jpg"
+    },
+    {
+        id: 12004,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan1.jpg",
+        alt: "AI-generated jewelry design jan1.jpg"
+    },
+    {
+        id: 12005,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan29.jpg",
+        alt: "AI-generated jewelry design jan29.jpg"
+    },
+    {
+        id: 12006,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan27.jpg",
+        alt: "AI-generated jewelry design jan27.jpg"
+    },
+    {
+        id: 12007,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan20.jpg",
+        alt: "AI-generated jewelry design jan20.jpg"
+    },
+    {
+        id: 12008,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan12.jpg",
+        alt: "AI-generated jewelry design jan12.jpg"
+    },
+    {
+        id: 12009,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan9.jpg",
+        alt: "AI-generated jewelry design jan9.jpg"
+    },
+    {
+        id: 12010,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan33.jpg",
+        alt: "AI-generated jewelry design jan33.jpg"
+    },
+    {
+        id: 12011,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan18.png",
+        alt: "AI-generated jewelry design jan18.png"
+    },
+    {
+        id: 12012,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan10.jpg",
+        alt: "AI-generated jewelry design jan10.jpg"
+    },
+    {
+        id: 12013,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan34.jpg",
+        alt: "AI-generated jewelry design jan34.jpg"
+    },
+    {
+        id: 12014,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan22.jpg",
+        alt: "AI-generated jewelry design jan22.jpg"
+    },
+    {
+        id: 12015,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan21.jpg",
+        alt: "AI-generated jewelry design jan21.jpg"
+    },
+    {
+        id: 12016,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan19.png",
+        alt: "AI-generated jewelry design jan19.png"
+    },
+    {
+        id: 12017,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan15.jpg",
+        alt: "AI-generated jewelry design jan15.jpg"
+    },
+    {
+        id: 12018,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan8.png",
+        alt: "AI-generated jewelry design jan8.png"
+    },
+    {
+        id: 12019,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan14.png",
+        alt: "AI-generated jewelry design jan14.png"
+    },
+    {
+        id: 12020,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan16.png",
+        alt: "AI-generated jewelry design jan16.png"
+    },
+    {
+        id: 12021,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan7.png",
+        alt: "AI-generated jewelry design jan7.png"
+    },
+    {
+        id: 12022,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan31.png",
+        alt: "AI-generated jewelry design jan31.png"
+    },
+    {
+        id: 12023,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan2.png",
+        alt: "AI-generated jewelry design jan2.png"
+    },
+    {
+        id: 12024,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan32.png",
+        alt: "AI-generated jewelry design jan32.png"
+    },
+    {
+        id: 12025,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan5.png",
+        alt: "AI-generated jewelry design jan5.png"
+    },
+    {
+        id: 12026,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan26.png",
+        alt: "AI-generated jewelry design jan26.png"
+    },
+    {
+        id: 12027,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan24.png",
+        alt: "AI-generated jewelry design jan24.png"
+    },
+    {
+        id: 12028,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan23.png",
+        alt: "AI-generated jewelry design jan23.png"
+    },
+    {
+        id: 12029,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan35.png",
+        alt: "AI-generated jewelry design jan35.png"
+    },
+    {
+        id: 12030,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/January/jan25.png",
+        alt: "AI-generated jewelry design jan25.png"
+    }
+];
+
+// Videos (unchanged)
 export const galleryItems: GalleryItem[] = [
-    // Videos
     {
         id: 1001,
         category: "videos",
@@ -295,7 +1448,5 @@ export const galleryItems: GalleryItem[] = [
     }
 ];
 
-// Export filtered lists
-export const photoItems: GalleryItem[] = [];
 export const videoItems = galleryItems.filter(item => item.type === "video");
 export const selectedItems: GalleryItem[] = [];
