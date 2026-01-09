@@ -222,20 +222,6 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design D2.png"
     },
     {
-        id: 11029,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/P7.png",
-        alt: "AI-generated jewelry design P7.png"
-    },
-    {
-        id: 11030,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/P1%20(1).png",
-        alt: "AI-generated jewelry design P1 (1).png"
-    },
-    {
         id: 11031,
         category: "photos",
         type: "image",
@@ -264,26 +250,12 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design gr3.png"
     },
     {
-        id: 11035,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/gr2.png",
-        alt: "AI-generated jewelry design gr2.png"
-    },
-    {
         id: 11036,
         category: "photos",
         type: "image",
         selected: true,
         src: "https://ik.imagekit.io/soumya3301/November/DX4.png",
         alt: "AI-generated jewelry design DX4.png"
-    },
-    {
-        id: 11037,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/tokyo3.png",
-        alt: "AI-generated jewelry design tokyo3.png"
     },
     {
         id: 11038,
@@ -298,13 +270,6 @@ export const photoItems: GalleryItem[] = [
         type: "image",
         src: "https://ik.imagekit.io/soumya3301/November/DX1.png",
         alt: "AI-generated jewelry design DX1.png"
-    },
-    {
-        id: 11040,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/tokyo4.png",
-        alt: "AI-generated jewelry design tokyo4.png"
     },
     {
         id: 11041,
@@ -372,13 +337,6 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design WhatsApp Image 2025-08-12 at 11.27.28 PM.jpeg"
     },
     {
-        id: 11050,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/mnmf1'.png",
-        alt: "AI-generated jewelry design mnmf1'.png"
-    },
-    {
         id: 11051,
         category: "photos",
         type: "image",
@@ -386,25 +344,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design dnour3.png"
     },
     {
-        id: 11052,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/mnmf4.png",
-        alt: "AI-generated jewelry design mnmf4.png"
-    },
-    {
         id: 11053,
         category: "photos",
         type: "image",
         src: "https://ik.imagekit.io/soumya3301/November/eng3.png",
         alt: "AI-generated jewelry design eng3.png"
-    },
-    {
-        id: 11054,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/mnmf3'.png",
-        alt: "AI-generated jewelry design mnmf3'.png"
     },
     {
         id: 11055,
@@ -450,13 +394,6 @@ export const photoItems: GalleryItem[] = [
         type: "image",
         src: "https://ik.imagekit.io/soumya3301/November/bln32%20(1).png",
         alt: "AI-generated jewelry design bln32 (1).png"
-    },
-    {
-        id: 11061,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/lz1.png",
-        alt: "AI-generated jewelry design lz1.png"
     },
     {
         id: 11062,
@@ -514,20 +451,6 @@ export const photoItems: GalleryItem[] = [
         type: "image",
         src: "https://ik.imagekit.io/soumya3301/November/bln37.jpg",
         alt: "AI-generated jewelry design bln37.jpg"
-    },
-    {
-        id: 11070,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/g5.png",
-        alt: "AI-generated jewelry design g5.png"
-    },
-    {
-        id: 11071,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/G1.png",
-        alt: "AI-generated jewelry design G1.png"
     },
     {
         id: 11072,
@@ -840,25 +763,11 @@ export const photoItems: GalleryItem[] = [
         alt: "AI-generated jewelry design hanif02.jpeg"
     },
     {
-        id: 11115,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/gh2.jpeg",
-        alt: "AI-generated jewelry design gh2.jpeg"
-    },
-    {
         id: 11116,
         category: "photos",
         type: "image",
         src: "https://ik.imagekit.io/soumya3301/November/df2.jpeg",
         alt: "AI-generated jewelry design df2.jpeg"
-    },
-    {
-        id: 11117,
-        category: "photos",
-        type: "image",
-        src: "https://ik.imagekit.io/soumya3301/November/gh4.jpeg",
-        alt: "AI-generated jewelry design gh4.jpeg"
     },
     {
         id: 11118,
@@ -1290,14 +1199,6 @@ export const galleryItems: GalleryItem[] = [
         autoplay: true
     },
     {
-        id: 1011,
-        category: "videos",
-        type: "video",
-        src: "https://customer-ceouac30q8dlws1c.cloudflarestream.com/f7c45583b5597152a28e3419049f43b0/downloads/default.mp4",
-        alt: "AI-generated jewelry video",
-        autoplay: true
-    },
-    {
         id: 1012,
         category: "videos",
         type: "video",
@@ -1318,22 +1219,6 @@ export const galleryItems: GalleryItem[] = [
         category: "videos",
         type: "video",
         src: "https://customer-ceouac30q8dlws1c.cloudflarestream.com/8d24b8b30f0e0c508951f8cee36d079e/downloads/default.mp4",
-        alt: "AI-generated jewelry video",
-        autoplay: true
-    },
-    {
-        id: 1015,
-        category: "videos",
-        type: "video",
-        src: "https://customer-ceouac30q8dlws1c.cloudflarestream.com/403fccbf1df3781f152be5efd20fa8e9/downloads/default.mp4",
-        alt: "AI-generated jewelry video",
-        autoplay: true
-    },
-    {
-        id: 1016,
-        category: "videos",
-        type: "video",
-        src: "https://customer-ceouac30q8dlws1c.cloudflarestream.com/2d68b15717c3f5aaf906e8dbbab70409/downloads/default.mp4",
         alt: "AI-generated jewelry video",
         autoplay: true
     },
@@ -1434,14 +1319,6 @@ export const galleryItems: GalleryItem[] = [
         autoplay: true
     },
     {
-        id: 1035,
-        category: "videos",
-        type: "video",
-        src: "https://customer-ceouac30q8dlws1c.cloudflarestream.com/2bedeac4d49e39963cfb5c562e06ebb2/downloads/default.mp4",
-        alt: "AI-generated jewelry video",
-        autoplay: true
-    },
-    {
         id: 1036,
         category: "videos",
         type: "video",
@@ -1454,14 +1331,6 @@ export const galleryItems: GalleryItem[] = [
         category: "videos",
         type: "video",
         src: "https://customer-ceouac30q8dlws1c.cloudflarestream.com/100f8c523455da241d6d30ea76726c0a/downloads/default.mp4",
-        alt: "AI-generated jewelry video",
-        autoplay: true
-    },
-    {
-        id: 1038,
-        category: "videos",
-        type: "video",
-        src: "https://customer-ceouac30q8dlws1c.cloudflarestream.com/b5a55d0eb16dd549a0a8b329b76c9127/downloads/default.mp4",
         alt: "AI-generated jewelry video",
         autoplay: true
     },
