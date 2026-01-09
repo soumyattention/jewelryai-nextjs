@@ -972,6 +972,7 @@ export const photoItems: GalleryItem[] = [
         id: 12001,
         category: "photos",
         type: "image",
+        selected: true,
         src: "https://ik.imagekit.io/soumya3301/January/jan30.jpg",
         alt: "AI-generated jewelry design jan30.jpg"
     },
@@ -1042,6 +1043,7 @@ export const photoItems: GalleryItem[] = [
         id: 12011,
         category: "photos",
         type: "image",
+        selected: true,
         src: "https://ik.imagekit.io/soumya3301/January/jan18.png",
         alt: "AI-generated jewelry design jan18.png"
     },
@@ -1063,6 +1065,7 @@ export const photoItems: GalleryItem[] = [
         id: 12014,
         category: "photos",
         type: "image",
+        selected: true,
         src: "https://ik.imagekit.io/soumya3301/January/jan22.jpg",
         alt: "AI-generated jewelry design jan22.jpg"
     },
@@ -1070,6 +1073,7 @@ export const photoItems: GalleryItem[] = [
         id: 12015,
         category: "photos",
         type: "image",
+        selected: true,
         src: "https://ik.imagekit.io/soumya3301/January/jan21.jpg",
         alt: "AI-generated jewelry design jan21.jpg"
     },
@@ -1098,6 +1102,7 @@ export const photoItems: GalleryItem[] = [
         id: 12019,
         category: "photos",
         type: "image",
+        selected: true,
         src: "https://ik.imagekit.io/soumya3301/January/jan14.png",
         alt: "AI-generated jewelry design jan14.png"
     },
@@ -1126,6 +1131,7 @@ export const photoItems: GalleryItem[] = [
         id: 12023,
         category: "photos",
         type: "image",
+        selected: true,
         src: "https://ik.imagekit.io/soumya3301/January/jan2.png",
         alt: "AI-generated jewelry design jan2.png"
     },
@@ -1133,6 +1139,7 @@ export const photoItems: GalleryItem[] = [
         id: 12024,
         category: "photos",
         type: "image",
+        selected: true,
         src: "https://ik.imagekit.io/soumya3301/January/jan32.png",
         alt: "AI-generated jewelry design jan32.png"
     },
@@ -1175,6 +1182,7 @@ export const photoItems: GalleryItem[] = [
         id: 12030,
         category: "photos",
         type: "image",
+        selected: true,
         src: "https://ik.imagekit.io/soumya3301/January/jan25.png",
         alt: "AI-generated jewelry design jan25.png"
     }
