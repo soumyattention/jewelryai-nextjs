@@ -1191,22 +1191,6 @@ export const galleryItems: GalleryItem[] = [
         autoplay: true
     },
     {
-        id: 1010,
-        category: "videos",
-        type: "video",
-        src: "https://customer-ceouac30q8dlws1c.cloudflarestream.com/1a1e37ef8d66075a08458ed092947b43/downloads/default.mp4",
-        alt: "AI-generated jewelry video",
-        autoplay: true
-    },
-    {
-        id: 1012,
-        category: "videos",
-        type: "video",
-        src: "https://customer-ceouac30q8dlws1c.cloudflarestream.com/8cdb09de52c7e3fb0f01b23f1a32c26d/downloads/default.mp4",
-        alt: "AI-generated jewelry video",
-        autoplay: true
-    },
-    {
         id: 1013,
         category: "videos",
         type: "video",
