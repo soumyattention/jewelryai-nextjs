@@ -3,13 +3,31 @@
 import React from 'react';
 import { Instagram, MessageSquare, Mail, Linkedin, Twitter } from 'lucide-react';
 
+const InstagramLogo = ({ className }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+  </svg>
+);
+
+const LinkedInLogo = ({ className }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
+    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+  </svg>
+);
+
+const XLogo = ({ className }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+);
+
 const Team = () => {
   const teamMembers = [
     {
       id: 1,
       name: 'Soumya Mahato',
       role: 'Vibe Coder',
-      image: 'https://ik.imagekit.io/soumya3301/4.png?updatedAt=1750741699812',
+      image: 'https://ik.imagekit.io/soumya3301/soumya%20dp%20x.PNG?tr=w-1080,h-1080',
       skills: [
         { name: 'Vibe Coding', color: 'emerald' },
         { name: 'AI and ML', color: 'blue' },
@@ -25,10 +43,10 @@ const Team = () => {
       id: 2,
       name: 'Yusra Fawad',
       role: 'Creative Head',
-      image: 'https://ik.imagekit.io/soumya3301/5.png?updatedAt=1750741699602',
+      image: 'https://ik.imagekit.io/soumya3301/yusra%20dp%20new%20copy.png?tr=w-1080,h-1080',
       skills: [
         { name: 'Visual Design', color: 'pink' },
-        { name: 'Creative Photography', color: 'orange' },
+        { name: 'Marketing', color: 'orange' },
         { name: 'Vibe Coding', color: 'emerald' }
       ],
       social: {
@@ -77,19 +95,19 @@ const Team = () => {
         glow: 'rgba(249, 115, 22, 0.2)'
       }
     };
-    
+
     return colorMap[color as keyof typeof colorMap] || colorMap.emerald;
   };
   const getSocialIcon = (platform: string) => {
     switch (platform) {
       case 'instagram':
-        return Instagram;
+        return InstagramLogo;
       case 'linkedin':
-        return Linkedin;
+        return LinkedInLogo;
       case 'twitter':
-        return Twitter;
+        return XLogo;
       default:
-        return Twitter;
+        return XLogo;
     }
   };
 
@@ -100,7 +118,7 @@ const Team = () => {
       case 'linkedin':
         return 'hover:from-blue-600 hover:to-blue-700 hover:shadow-blue-600/25 hover:text-white';
       case 'twitter':
-        return 'hover:from-blue-400 hover:to-blue-500 hover:shadow-blue-400/25 hover:text-white';
+        return 'hover:from-gray-900 hover:to-black hover:shadow-gray-900/25 hover:text-white';
       default:
         return 'hover:from-gray-500 hover:to-gray-600 hover:shadow-gray-500/25 hover:text-white';
     }
@@ -126,12 +144,12 @@ const Team = () => {
         {/* Team Grid */}
         <div className="grid md:grid-cols-2 gap-8 sm:gap-12 max-w-4xl mx-auto">
           {teamMembers.map((member) => (
-            <div 
+            <div
               key={member.id}
               className="group relative"
             >
               {/* Glassmorphic Card */}
-              <div 
+              <div
                 className="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
                 style={{
                   background: 'rgba(255, 255, 255, 0.15)',
@@ -149,7 +167,7 @@ const Team = () => {
                   {/* Profile Image */}
                   <div className="flex justify-center mb-6">
                     <div className="relative">
-                      <div 
+                      <div
                         className="w-28 h-28 sm:w-32 sm:h-32 rounded-2xl overflow-hidden shadow-2xl ring-4 ring-white/30"
                         style={{
                           background: 'rgba(255, 255, 255, 0.1)',
@@ -158,8 +176,8 @@ const Team = () => {
                           boxShadow: '0 20px 40px rgba(0, 0, 0, 0.15), 0 10px 20px rgba(0, 0, 0, 0.1)'
                         }}
                       >
-                        <img 
-                          src={member.image} 
+                        <img
+                          src={member.image}
                           alt={member.name}
                           className="w-full h-full object-cover"
                         />
@@ -185,26 +203,26 @@ const Team = () => {
                       {member.skills.map((skill, index) => {
                         const colors = getSkillColors(skill.color);
                         return (
-                        <span 
-                          key={index}
-                          className="px-3 py-1.5 text-xs sm:text-sm font-medium rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg"
-                          style={{
-                            background: colors.background,
-                            backdropFilter: 'blur(10px)',
-                            WebkitBackdropFilter: 'blur(10px)',
-                            border: `1px solid ${colors.border}`,
-                            color: colors.text,
-                            boxShadow: colors.shadow
-                          }}
-                          onMouseEnter={(e) => {
-                            e.currentTarget.style.boxShadow = `${colors.shadow}, 0 0 20px ${colors.glow}`;
-                          }}
-                          onMouseLeave={(e) => {
-                            e.currentTarget.style.boxShadow = colors.shadow;
-                          }}
-                        >
-                          {skill.name}
-                        </span>
+                          <span
+                            key={index}
+                            className="px-3 py-1.5 text-xs sm:text-sm font-medium rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg"
+                            style={{
+                              background: colors.background,
+                              backdropFilter: 'blur(10px)',
+                              WebkitBackdropFilter: 'blur(10px)',
+                              border: `1px solid ${colors.border}`,
+                              color: colors.text,
+                              boxShadow: colors.shadow
+                            }}
+                            onMouseEnter={(e) => {
+                              e.currentTarget.style.boxShadow = `${colors.shadow}, 0 0 20px ${colors.glow}`;
+                            }}
+                            onMouseLeave={(e) => {
+                              e.currentTarget.style.boxShadow = colors.shadow;
+                            }}
+                          >
+                            {skill.name}
+                          </span>
                         );
                       })}
                     </div>
@@ -215,7 +233,7 @@ const Team = () => {
                     {Object.entries(member.social).map(([platform, link]) => {
                       const IconComponent = getSocialIcon(platform);
                       const colorClasses = getSocialColor(platform);
-                      
+
                       return (
                         <a
                           key={platform}
@@ -248,7 +266,7 @@ const Team = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-12 sm:mt-16">
-          <div 
+          <div
             className="inline-block rounded-2xl p-6 sm:p-8 max-w-2xl mx-auto"
             style={{
               background: 'rgba(255, 255, 255, 0.15)',
@@ -264,7 +282,7 @@ const Team = () => {
             <p className="text-base sm:text-lg text-gray-600 mb-6">
               We're always looking for talented individuals to join our mission of revolutionizing jewelry photography with AI.
             </p>
-            <a 
+            <a
               href="#"
               className="inline-flex items-center space-x-2 bg-gradient-to-r from-amber-500 to-yellow-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold hover:from-amber-600 hover:to-yellow-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl touch-manipulation min-h-[48px] text-base sm:text-base"
             >

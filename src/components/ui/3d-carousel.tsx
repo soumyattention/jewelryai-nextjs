@@ -140,9 +140,8 @@ const Carousel = memo(
               className="absolute flex h-full origin-center items-center justify-center rounded-xl bg-transparent p-2"
               style={{
                 width: `${faceWidth}px`,
-                transform: `rotateY(${
-                  i * (360 / faceCount)
-                }deg) translateZ(${radius}px)`,
+                transform: `rotateY(${i * (360 / faceCount)
+                  }deg) translateZ(${radius}px)`,
               }}
               onClick={() => handleClick(imgUrl, i)}
             >
@@ -164,7 +163,11 @@ const Carousel = memo(
   }
 )
 
-function ThreeDPhotoCarousel() {
+interface ThreeDPhotoCarouselProps {
+  images?: string[];
+}
+
+function ThreeDPhotoCarousel({ images }: ThreeDPhotoCarouselProps) {
   const [activeImg, setActiveImg] = useState<string | null>(null)
   const [isCarouselActive, setIsCarouselActive] = useState(true)
   const [isInView, setIsInView] = useState(false)
@@ -172,7 +175,7 @@ function ThreeDPhotoCarousel() {
   const rotation = useMotionValue(0)
   const autoRotationRef = useRef<NodeJS.Timeout | null>(null)
   const carouselRef = useRef<HTMLDivElement>(null)
-  const cards = useMemo(() => jewelryImages, [])
+  const cards = useMemo(() => images || jewelryImages, [images])
 
   // Intersection Observer to detect when carousel is in view
   useEffect(() => {
@@ -249,7 +252,7 @@ function ThreeDPhotoCarousel() {
             layout="position"
             onClick={handleClose}
             className="fixed inset-0 bg-white/10 backdrop-blur-xl border border-white/20 flex items-center justify-center z-50 m-5 md:m-36 lg:mx-[19rem] rounded-3xl cursor-pointer shadow-2xl"
-            style={{ 
+            style={{
               willChange: "opacity",
               background: "rgba(255, 255, 255, 0.1)",
               backdropFilter: "blur(20px)",
@@ -270,7 +273,7 @@ function ThreeDPhotoCarousel() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
-            
+
             <motion.img
               layoutId={`img-${activeImg}`}
               src={activeImg}
@@ -290,7 +293,7 @@ function ThreeDPhotoCarousel() {
           </motion.div>
         )}
       </AnimatePresence>
-      <div 
+      <div
         className="relative h-[350px] sm:h-[450px] md:h-[500px] w-full overflow-hidden"
         onMouseEnter={handleUserInteraction}
         onTouchStart={handleUserInteraction}

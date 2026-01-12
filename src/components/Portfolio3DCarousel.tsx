@@ -3,7 +3,15 @@
 import React from 'react';
 import { ThreeDPhotoCarousel } from './ui/3d-carousel';
 
+import { photoItems } from '../lib/gallery-data';
+
 const Portfolio3DCarousel = () => {
+  const featuredImages = photoItems
+    .filter(item => item.selected)
+    .sort(() => 0.5 - Math.random()) // Shuffle array
+    .slice(0, 8) // Take only 8 images to maintain carousel size
+    .map(item => item.src);
+
   return (
     <section className="py-6 sm:py-12 md:py-16 lg:py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -12,14 +20,14 @@ const Portfolio3DCarousel = () => {
             Experience Our Work in 3D
           </h2>
           <p className="text-lg sm:text-lg text-gray-600 max-w-3xl mx-auto px-4 sm:px-0">
-            Drag to rotate and explore our AI-generated jewelry photography from every angle. 
+            Drag to rotate and explore our AI-generated jewelry photography from every angle.
             Click on any image to view it in full detail.
           </p>
         </div>
 
         {/* 3D Carousel Container */}
         <div className="relative">
-          <ThreeDPhotoCarousel />
+          <ThreeDPhotoCarousel images={featuredImages} />
         </div>
 
         {/* Instructions */}
@@ -38,22 +46,22 @@ const Portfolio3DCarousel = () => {
                 <span>Click to enlarge</span>
               </div>
             </div>
-            
+
             {/* View Portfolio Button */}
             <a
-                                      href="/gallery"
+              href="/gallery"
               className="group inline-flex items-center space-x-2 bg-gradient-to-r from-amber-400/20 to-yellow-500/20 backdrop-blur-sm px-6 py-3 rounded-full border border-amber-300/50 shadow-lg hover:shadow-xl hover:shadow-amber-400/25 transition-all duration-300 transform hover:scale-105 touch-manipulation min-h-[48px] text-sm font-medium text-amber-700 hover:text-amber-800"
               style={{
                 boxShadow: '0 4px 20px rgba(251, 191, 36, 0.15), 0 0 0 1px rgba(251, 191, 36, 0.1)',
               }}
             >
               <div className="w-2 h-2 bg-gradient-to-r from-amber-400 to-yellow-500 rounded-full animate-pulse shadow-sm"></div>
-                              <span>View Gallery</span>
+              <span>View Gallery</span>
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </a>
-            </div>
+          </div>
         </div>
       </div>
     </section>

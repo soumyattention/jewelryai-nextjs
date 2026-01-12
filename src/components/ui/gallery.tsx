@@ -18,9 +18,14 @@ export const PhotoGallery = ({
   // Use static gallery images for animation
   useEffect(() => {
     // Get featured images from static data
-    const featured = photoItems.filter(img => img.selected && img.type === 'image');
-    setFeaturedImages(featured.length > 0 ? photoItems.filter(img => img.type === 'image') : photoItems.slice(0, 5));
-    
+    const featured = photoItems
+      .filter(img => img.selected && img.type === 'image')
+      .sort(() => 0.5 - Math.random()) // Shuffle randomly
+      .slice(0, 5); // Take top 5
+
+    // Fallback if not enough featured images
+    setFeaturedImages(featured.length > 0 ? featured : photoItems.slice(0, 5));
+
     // First make the container visible with a fade-in (after animationDelay)
     const visibilityTimer = setTimeout(() => {
       setIsVisible(true);
@@ -111,7 +116,7 @@ export const PhotoGallery = ({
 
   return (
     <div className="mt-8 sm:mt-12 relative z-0 photo-gallery-container">
-       <div className="absolute inset-0 max-md:hidden top-[200px] -z-10 h-[300px] w-full bg-transparent bg-[linear-gradient(to_right,#57534e_1px,transparent_1px),linear-gradient(to_bottom,#57534e_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-20 [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div>
+      <div className="absolute inset-0 max-md:hidden top-[200px] -z-10 h-[300px] w-full bg-transparent bg-[linear-gradient(to_right,#57534e_1px,transparent_1px),linear-gradient(to_bottom,#57534e_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-20 [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div>
       <p className="lg:text-md mb-2 mt-4 text-center text-xs font-light uppercase tracking-widest text-slate-600 px-4">
         A Journey Through Visual Stories
       </p>
@@ -190,7 +195,7 @@ export const PhotoGallery = ({
       <div className="flex w-full justify-center">
         <a href="/gallery">
           <Button className="bg-gradient-to-r from-amber-500 to-yellow-600 text-white hover:from-amber-600 hover:to-yellow-700 touch-manipulation min-h-[48px] px-6 sm:px-8 text-sm sm:text-base">
-                            View All Gallery
+            View All Gallery
           </Button>
         </a>
       </div>

@@ -4,9 +4,14 @@ import React from 'react';
 import { Play, Star, ArrowRight } from 'lucide-react';
 import { ImageSwiper } from './ui/image-swiper';
 
+import { photoItems } from '../lib/gallery-data';
+
 const Hero = () => {
-  // High-quality jewelry photography images from Pexels
-  const jewelryImages = "https://ik.imagekit.io/soumya3301/3.png?updatedAt=1750483598664,https://ik.imagekit.io/soumya3301/8.png?updatedAt=1750483597465,https://ik.imagekit.io/soumya3301/7.png?updatedAt=1750483598632,https://ik.imagekit.io/soumya3301/1.png?updatedAt=1750483666775,https://ik.imagekit.io/soumya3301/2.png?updatedAt=1750483598632,https://ik.imagekit.io/soumya3301/6.png?updatedAt=1750483598830,https://ik.imagekit.io/soumya3301/Necklace/replicate-prediction-qftbnva4w1rmc0cqkcbaec8t34.jpg?updatedAt=1750705074646,https://ik.imagekit.io/soumya3301/Necklace/022404992414_2244edfe4fd911f0afe58584d6140a20_output_0superresolution.jpg?updatedAt=1750705074676";
+  // Use featured images from gallery data
+  const jewelryImages = photoItems
+    .filter(item => item.selected)
+    .map(item => item.src)
+    .join(',');
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 sm:pt-24 md:pt-28 lg:pt-20">
