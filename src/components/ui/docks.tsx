@@ -7,7 +7,7 @@ interface DocksProps {
   onCategoryChange: (category: "all" | "photos" | "videos" | "featured") => void;
 }
 
-export const Component = ({ selectedCategory, onCategoryChange }: DocksProps) => {
+export const Component = ({ selectedCategory, onCategoryChange, showFeatured = true }: DocksProps & { showFeatured?: boolean }) => {
   return (
     <div
       className="
@@ -18,38 +18,41 @@ export const Component = ({ selectedCategory, onCategoryChange }: DocksProps) =>
         transition-colors duration-500
       "
     >
-      <button
-        onClick={() => onCategoryChange('featured')}
-        className={`
-          px-3 py-2 rounded-l-full
-          flex items-center gap-1.5
-          ${selectedCategory === 'featured'
-            ? 'bg-gradient-to-r from-amber-500 to-yellow-600 text-white shadow-md'
-            : 'text-slate-700 dark:text-white bg-transparent hover:bg-white/40 dark:hover:bg-white/10'
-          }
-          transition-all duration-300
-          focus:outline-none focus:ring-0
-          group
-        `}
-        aria-label="Featured"
-      >
-        <Star
+      {showFeatured && (
+        <button
+          onClick={() => onCategoryChange('featured')}
           className={`
-            w-4 h-4
-            text-current
-            transition-transform duration-300
-            group-hover:scale-110
-            ${selectedCategory === 'featured' ? 'fill-current' : ''}
+            px-3 py-2 rounded-l-full
+            flex items-center gap-1.5
+            ${selectedCategory === 'featured'
+              ? 'bg-gradient-to-r from-amber-500 to-yellow-600 text-white shadow-md'
+              : 'text-slate-700 dark:text-white bg-transparent hover:bg-white/40 dark:hover:bg-white/10'
+            }
+            transition-all duration-300
+            focus:outline-none focus:ring-0
+            group
           `}
-          aria-hidden="true"
-        />
-        <span className="select-none font-medium text-sm">Featured</span>
-      </button>
+          aria-label="Featured"
+        >
+          <Star
+            className={`
+              w-4 h-4
+              text-current
+              transition-transform duration-300
+              group-hover:scale-110
+              ${selectedCategory === 'featured' ? 'fill-current' : ''}
+            `}
+            aria-hidden="true"
+          />
+          <span className="select-none font-medium text-sm">Featured</span>
+        </button>
+      )}
 
       <button
         onClick={() => onCategoryChange('all')}
         className={`
           px-3 py-2
+          ${showFeatured ? '' : 'rounded-l-full'}
           flex items-center gap-1.5
           ${selectedCategory === 'all'
             ? 'bg-gradient-to-r from-amber-500 to-yellow-600 text-white shadow-md'

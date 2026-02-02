@@ -1424,5 +1424,194 @@ export const galleryItems: GalleryItem[] = [
     }
 ];
 
+
 export const videoItems = galleryItems.filter(item => item.type === "video");
 export const selectedItems: GalleryItem[] = [];
+
+export const recentFolderItems: GalleryItem[] = [
+    {
+        id: 20000,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/fc5da02f-0224-4b11-809d-5bfe45e9d217.png?updatedAt=1770024468779",
+        alt: "AI-generated jewelry design fc5da02f-0224-4b11-809d-5bfe45e9d217.png",
+        selected: true
+    },
+    {
+        id: 20001,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/lz9s.jpg?updatedAt=1770024468975",
+        alt: "AI-generated jewelry design lz9s.jpg",
+        selected: true
+    },
+    {
+        id: 20002,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/fal2.jpeg?updatedAt=1770024471253",
+        alt: "AI-generated jewelry design fal2.jpeg",
+        selected: true
+    },
+    {
+        id: 20003,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/hd1.png?updatedAt=1770024472128",
+        alt: "AI-generated jewelry design hd1.png",
+        selected: true
+    },
+    {
+        id: 20004,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/hd4.png?updatedAt=1770024472377",
+        alt: "AI-generated jewelry design hd4.png",
+        selected: true
+    },
+    {
+        id: 20005,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/paw2%20(1).png?updatedAt=1770024473298",
+        alt: "AI-generated jewelry design paw2 (1).png",
+        selected: true
+    },
+    {
+        id: 20006,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/vikjet.png?updatedAt=1770024473684",
+        alt: "AI-generated jewelry design vikjet.png",
+        selected: true
+    },
+    {
+        id: 20007,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/jan51.png?updatedAt=1770024474828",
+        alt: "AI-generated jewelry design jan51.png",
+        selected: true
+    },
+    {
+        id: 20008,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/jan50.png?updatedAt=1770024475008",
+        alt: "AI-generated jewelry design jan50.png",
+        selected: true
+    },
+    {
+        id: 20009,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/earringx_3.jpg?updatedAt=1770024474792",
+        alt: "AI-generated jewelry design earringx_3.jpg",
+        selected: true
+    },
+    {
+        id: 20010,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/Soumya_mahato_Image_5_27116905-11bc-436e-8e16-3dd249b8e653_340d1b2f-3d3c-4f83-839a-74bda10ff44e%20(1).png?updatedAt=1770024475460",
+        alt: "AI-generated jewelry design Soumya_mahato_Image_5_27116905-11bc-436e-8e16-3dd249b8e653_340d1b2f-3d3c-4f83-839a-74bda10ff44e (1).png",
+        selected: true
+    },
+    {
+        id: 20011,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/Soumya_mahato_Upscale_the_7th_image_of_the_grid_to_8k,_high-res,_sharp_and_deta_b3204f4a-e3f2-45a6-a4bf-de86c594da03%20(1).png?updatedAt=1770024475535",
+        alt: "AI-generated jewelry design Soumya_mahato_Upscale_the_7th_image_of_the_grid_to_8k,_high-res,_sharp_and_deta_b3204f4a-e3f2-45a6-a4bf-de86c594da03 (1).png",
+        selected: true
+    },
+    {
+        id: 20012,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/nbr2%20(1).png?updatedAt=1770024475607",
+        alt: "AI-generated jewelry design nbr2 (1).png",
+        selected: true
+    },
+    {
+        id: 20013,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/earringx_6.jpg?updatedAt=1770024475504",
+        alt: "AI-generated jewelry design earringx_6.jpg",
+        selected: true
+    },
+    {
+        id: 20014,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/jan52.png?updatedAt=1770024475902",
+        alt: "AI-generated jewelry design jan52.png",
+        selected: true
+    },
+    {
+        id: 20015,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/earringx_1.png?updatedAt=1770024475669",
+        alt: "AI-generated jewelry design earringx_1.png",
+        selected: true
+    },
+    {
+        id: 20016,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/r5.jpg.jpeg?updatedAt=1770024475668",
+        alt: "AI-generated jewelry design r5.jpg.jpeg",
+        selected: true
+    },
+    {
+        id: 20017,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/Soumya_mahato_Image_6_51113fcb-51ae-4e68-a06d-7e9aa544fa60_5af0ec0d-a4ed-4d00-a514-80734b01e670.png?updatedAt=1770024475750",
+        alt: "AI-generated jewelry design Soumya_mahato_Image_6_51113fcb-51ae-4e68-a06d-7e9aa544fa60_5af0ec0d-a4ed-4d00-a514-80734b01e670.png",
+        selected: true
+    },
+    {
+        id: 20018,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/paw3%20(1).jpg?updatedAt=1770024479811",
+        alt: "AI-generated jewelry design paw3 (1).jpg",
+        selected: true
+    },
+    {
+        id: 20019,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/fal1.jpeg?updatedAt=1770024480457",
+        alt: "AI-generated jewelry design fal1.jpeg",
+        selected: true
+    },
+    {
+        id: 20020,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/earring2_5.png?updatedAt=1770024481877",
+        alt: "AI-generated jewelry design earring2_5.png",
+        selected: true
+    },
+    {
+        id: 20021,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/Soumya_mahato_make_the_earring_on_her_ear_(first_image)_bit_smaller_in_length,_404762a1-e5f2-442d-9172-39196d15eb57.png?updatedAt=1770024481995",
+        alt: "AI-generated jewelry design Soumya_mahato_make_the_earring_on_her_ear_(first_image)_bit_smaller_in_length,_404762a1-e5f2-442d-9172-39196d15eb57.png",
+        selected: true
+    },
+    {
+        id: 20022,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/is3.png?updatedAt=1770024481932",
+        alt: "AI-generated jewelry design is3.png",
+        selected: true
+    }
+];
+
