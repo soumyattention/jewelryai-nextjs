@@ -1325,6 +1325,102 @@ export const galleryItems: GalleryItem[] = [
         src: "https://customer-ceouac30q8dlws1c.cloudflarestream.com/73fa55b85efe595a0a41ff6f69daafaf/downloads/default.mp4",
         alt: "AI-generated jewelry video",
         autoplay: true
+    },
+    {
+        id: 1040,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1770021120/xv-4_dj5vkx.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1041,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1770021167/jai_bh5mxr.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1042,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1770021167/jai_bh5mxr.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1043,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769068573/su_vid-1_wmwjf2.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1044,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769068469/hny-2_rbnzjh.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1045,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769068303/earring_a6pbxa.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1046,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769068332/Untitled_18_-_Copy-3_jm1tzf.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1047,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769068291/cat1-1_y9tftf.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1048,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769068278/cat1_ze6vlq.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1049,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769067345/nxt_anhgti.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1050,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769066976/ice_cube_dlwenk.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1051,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769066981/candle_bmzy85.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
     }
 ];
 
