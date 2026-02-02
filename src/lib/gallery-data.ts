@@ -1421,6 +1421,22 @@ export const galleryItems: GalleryItem[] = [
         src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769066981/candle_bmzy85.mp4",
         alt: "AI-generated jewelry video",
         autoplay: true
+    },
+    {
+        id: 1052,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769070764/paw_full_1_kvgsf8.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1053,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769068332/Untitled_18_-_Copy-3_jm1tzf.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
     }
 ];
 

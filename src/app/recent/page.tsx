@@ -25,7 +25,11 @@ const Gallery = () => {
 
     // Filter items based on user selection
     const allowedIds = [
-        1040, 1041, 1043, 1048, 1047, 1049, 1050, 1051, 1045, 11078, 11087, 12001, 12014, 12015, 12017, 12019, 12018, 12029, 12030, 12026, 12020, 12023, 12013, 12022, 12024, 12007, 12005, 12003, 11132
+        1040, 1041, 1043, 1049, 1045,
+        12019, 12018, 12020, 12023, 12013, 12005, 12003,
+        11132,
+        20000, 20001, 20002, 20003, 20004, 20007, 20008, 20009, 20010, 20011, 20012, 20013, 20014, 20015, 20017, 20019, 20020, 20021, 20022,
+        1052, 1053 // New videos
     ];
 
     // Shuffle array function
@@ -38,12 +42,11 @@ const Gallery = () => {
         return shuffled;
     };
 
-    // All gallery data is now static - no API calls needed
-    // Combine filtered existing items + all items from "Recent" folder
-    const allGalleryItems = [
-        ...[...galleryItems, ...photoItems].filter(item => allowedIds.includes(item.id)),
-        ...recentFolderItems
-    ];
+    // Combine all potential items from all sources
+    const allPotentialItems = [...galleryItems, ...photoItems, ...recentFolderItems];
+
+    // Filter to include ONLY the IDs specified by the user
+    const allGalleryItems = allPotentialItems.filter(item => allowedIds.includes(item.id));
 
     // Randomize items whenever allGalleryItems changes
     const randomizedItems = React.useMemo(() => shuffleArray(allGalleryItems), [allGalleryItems]); // Re-calculates on mount
@@ -263,13 +266,6 @@ const Gallery = () => {
 
                                     {/* Overlay on Hover */}
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-
-                                    {/* Featured Badge */}
-                                    {item.selected && (
-                                        <div className="absolute top-3 right-3 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-semibold shadow-lg">
-                                            Featured
-                                        </div>
-                                    )}
                                 </motion.div>
                             ))}
                         </AnimatePresence>
