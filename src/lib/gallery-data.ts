@@ -1113,6 +1113,28 @@ export const photoItems: GalleryItem[] = [
         selected: true,
         src: "https://ik.imagekit.io/soumya3301/January/jan25.png",
         alt: "AI-generated jewelry design jan25.png"
+    },
+    {
+        id: 12031,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/x-1.jpg",
+        alt: "AI-generated jewelry design x-1.jpg"
+    },
+    {
+        id: 12032,
+        category: "photos",
+        type: "image",
+        src: "https://ik.imagekit.io/soumya3301/Recent/x-2.jpg",
+        alt: "AI-generated jewelry design x-2.jpg"
+    },
+    {
+        id: 12033,
+        category: "photos",
+        type: "image",
+        selected: true,
+        src: "https://ik.imagekit.io/soumya3301/Recent/x-3.jpg",
+        alt: "AI-generated jewelry design x-3.jpg"
     }
 ];
 
@@ -1628,6 +1650,14 @@ export const recentFolderItems: GalleryItem[] = [
         src: "https://ik.imagekit.io/soumya3301/Recent/is3.png?updatedAt=1770024481932",
         alt: "AI-generated jewelry design is3.png",
         selected: true
+    },
+    {
+        id: 20023,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1770263770/aisha_baker_we7vtk.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
     }
 ];
 
