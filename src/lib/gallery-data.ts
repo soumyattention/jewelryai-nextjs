@@ -1459,6 +1459,38 @@ export const galleryItems: GalleryItem[] = [
         src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1769068332/Untitled_18_-_Copy-3_jm1tzf.mp4",
         alt: "AI-generated jewelry video",
         autoplay: true
+    },
+    {
+        id: 1054,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1771597438/ck-1_ysnohh.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1055,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1771597570/rachel_vid_1_eruazc.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1056,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1771597581/cube_n11q00.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 1057,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1771597601/final_video_k42h7i.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
     }
 ];
 
@@ -1656,6 +1688,38 @@ export const recentFolderItems: GalleryItem[] = [
         category: "videos",
         type: "video",
         src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1770263770/aisha_baker_we7vtk.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 20024,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1771597438/ck-1_ysnohh.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 20025,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1771597570/rachel_vid_1_eruazc.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 20026,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1771597581/cube_n11q00.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 20027,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1771597601/final_video_k42h7i.mp4",
         alt: "AI-generated jewelry video",
         autoplay: true
     }
