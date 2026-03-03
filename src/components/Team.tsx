@@ -35,7 +35,6 @@ const Team = () => {
       ],
       social: {
         instagram: 'https://www.instagram.com/soumya.attention/',
-        linkedin: 'https://www.linkedin.com/in/imsoumya423/',
         twitter: 'https://x.com/soumyattention'
       }
     },
@@ -50,9 +49,7 @@ const Team = () => {
         { name: 'Vibe Coding', color: 'emerald' }
       ],
       social: {
-        instagram: 'https://www.instagram.com/yusrattention/',
-        linkedin: 'https://www.linkedin.com/in/yusrafawad/',
-        twitter: 'https://x.com/yusrattention'
+        instagram: 'https://www.instagram.com/yusrattention/'
       }
     }
   ];
