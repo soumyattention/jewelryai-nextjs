@@ -121,7 +121,7 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
 
       {/* Card Stack */}
       <div
-        className="relative flex h-[520px] w-[340px] items-center justify-center"
+        className="relative flex h-[620px] w-[340px] items-center justify-center"
         style={{ perspective: "1200px" }}
       >
         {items.map((item, index) => {
@@ -155,14 +155,23 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
                 zIndex: style.zIndex,
               }}
             >
-              <div
-                className="relative h-[440px] w-[300px] overflow-hidden rounded-3xl bg-zinc-900 ring-1 ring-white/10"
-                style={{
-                  boxShadow: isCurrent
-                    ? "0 25px 50px -12px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08)"
-                    : "0 10px 30px -10px rgba(0,0,0,0.4)",
-                }}
-              >
+                <a
+                  href={isCurrent ? item.href : undefined}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`relative block h-[520px] w-[290px] overflow-hidden rounded-3xl bg-zinc-900 ring-1 ring-white/10 ${
+                    isCurrent ? "cursor-pointer" : ""
+                  }`}
+                  style={{
+                    boxShadow: isCurrent
+                      ? "0 25px 50px -12px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08)"
+                      : "0 10px 30px -10px rgba(0,0,0,0.4)",
+                  }}
+                  onClick={(e) => {
+                    // Prevent dragging from triggering a click
+                    if (!isCurrent) e.preventDefault()
+                  }}
+                >
                 {/* Card inner glow */}
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-b from-white/10 via-transparent to-transparent z-[1]" />
 
@@ -237,7 +246,7 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
                     </motion.a>
                   )}
                 </div>
-              </div>
+              </a>
             </motion.div>
           )
         })}

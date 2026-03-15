@@ -15,7 +15,7 @@ const portfolioItems: PortfolioItem[] = [
     alt: "Charles Krypell Signature Basket Weave bracelet",
     href: "https://www.instagram.com/reel/DVBaxDXjh3h/",
     client: "charleskrypellstore",
-    jewelerName: "Charles Krypell",
+    jewelerName: "Charles Krypell Jewelry",
     caption: "A true icon in 18K yellow gold, hand-set with diamonds, sapphires, and emeralds.",
     followersCount: "145K",
   },
@@ -37,7 +37,7 @@ const portfolioItems: PortfolioItem[] = [
     alt: "Charles Krypell Frame Ring",
     href: "https://www.instagram.com/reel/DVrPnYcCUZv/",
     client: "charleskrypellstore",
-    jewelerName: "Charles Krypell",
+    jewelerName: "Charles Krypell Jewelry",
     caption: "Emerald-cut diamond dramatically framed by hand-cut, channel-set baguettes.",
     followersCount: "145K",
   },
@@ -70,7 +70,7 @@ const portfolioItems: PortfolioItem[] = [
     alt: "Hidden Space Aurel Ring",
     href: "https://www.instagram.com/p/DU69KSnD8CK/",
     client: "hiddenspacejewelry",
-    jewelerName: "Hidden Space",
+    jewelerName: "Hidden Space Jewelry",
     caption: "A pear sapphire cut in deliberate angles, more structure than sentiment.",
     followersCount: "143K",
   },
@@ -109,24 +109,11 @@ export default function LinksPageClient() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
       >
-        {/* Decorative badge */}
-        <motion.div
-          className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm px-4 py-1.5 mb-5"
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.3, duration: 0.5 }}
-        >
-          <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-          <span className="text-[11px] font-semibold tracking-widest uppercase text-white/70">
-            Portfolio
-          </span>
-        </motion.div>
-
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight bg-gradient-to-b from-white via-white/90 to-white/50 bg-clip-text text-transparent">
           Curated Portfolio
         </h1>
-        <p className="mt-3 max-w-md text-sm sm:text-base text-zinc-400 leading-relaxed">
-          A curated list of work posted on our client pages
+        <p className="mt-3 max-w-md text-sm sm:text-base text-zinc-400 leading-relaxed mx-auto">
+          A curated list of instagram reels made with JewelryAI
         </p>
 
         {/* Subtle divider */}
