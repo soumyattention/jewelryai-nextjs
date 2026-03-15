@@ -1,0 +1,2852 @@
+[
+  {
+    "slug": "tiffany-and-co",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Tiffany & Co. — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Tiffany & Co. profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1837 in USA.",
+      "primary_keyword": "tiffany & co. jewelry photography",
+      "secondary_keywords": [
+        "tiffany & co. brand",
+        "tiffany & co. AI photos",
+        "tiffany & co. product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Tiffany & Co. — Brand Profile & Photography Insights",
+      "introduction": "Tiffany & Co., founded in 1837 in USA, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Tiffany & Co. History",
+          "body": "Established in 1837, Tiffany & Co. has built a reputation for exceptional craftsmanship and design. Based in USA, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Tiffany & Co.'s visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Tiffany & Co.'s visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Tiffany & Co. use AI photography?",
+          "answer": "While we can't speak to Tiffany & Co.'s specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Tiffany & Co.?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Tiffany & Co.'s photography distinctive?",
+          "answer": "Tiffany & Co. is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Tiffany & Co.? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Tiffany & Co.",
+        "foundingDate": "1837"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Tiffany & Co.",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1837"
+      },
+      {
+        "label": "Country",
+        "value": "USA"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1837",
+        "milestone": "Tiffany & Co. founded in USA"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Tiffany & Co.'s century-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "cartier",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Cartier — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Cartier profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1847 in France.",
+      "primary_keyword": "cartier jewelry photography",
+      "secondary_keywords": [
+        "cartier brand",
+        "cartier AI photos",
+        "cartier product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Cartier — Brand Profile & Photography Insights",
+      "introduction": "Cartier, founded in 1847 in France, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Cartier History",
+          "body": "Established in 1847, Cartier has built a reputation for exceptional craftsmanship and design. Based in France, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Cartier's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Cartier's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Cartier use AI photography?",
+          "answer": "While we can't speak to Cartier's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Cartier?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Cartier's photography distinctive?",
+          "answer": "Cartier is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Cartier? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Cartier",
+        "foundingDate": "1847"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Cartier",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1847"
+      },
+      {
+        "label": "Country",
+        "value": "France"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1847",
+        "milestone": "Cartier founded in France"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Cartier's century-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "harry-winston",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Harry Winston — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Harry Winston profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1932 in USA.",
+      "primary_keyword": "harry winston jewelry photography",
+      "secondary_keywords": [
+        "harry winston brand",
+        "harry winston AI photos",
+        "harry winston product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Harry Winston — Brand Profile & Photography Insights",
+      "introduction": "Harry Winston, founded in 1932 in USA, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Harry Winston History",
+          "body": "Established in 1932, Harry Winston has built a reputation for exceptional craftsmanship and design. Based in USA, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Harry Winston's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Harry Winston's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Harry Winston use AI photography?",
+          "answer": "While we can't speak to Harry Winston's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Harry Winston?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Harry Winston's photography distinctive?",
+          "answer": "Harry Winston is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Harry Winston? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Harry Winston",
+        "foundingDate": "1932"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Harry Winston",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1932"
+      },
+      {
+        "label": "Country",
+        "value": "USA"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1932",
+        "milestone": "Harry Winston founded in USA"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Harry Winston's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "van-cleef-and-arpels",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Van Cleef & Arpels — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Van Cleef & Arpels profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1906 in France.",
+      "primary_keyword": "van cleef & arpels jewelry photography",
+      "secondary_keywords": [
+        "van cleef & arpels brand",
+        "van cleef & arpels AI photos",
+        "van cleef & arpels product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Van Cleef & Arpels — Brand Profile & Photography Insights",
+      "introduction": "Van Cleef & Arpels, founded in 1906 in France, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Van Cleef & Arpels History",
+          "body": "Established in 1906, Van Cleef & Arpels has built a reputation for exceptional craftsmanship and design. Based in France, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Van Cleef & Arpels's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Van Cleef & Arpels's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Van Cleef & Arpels use AI photography?",
+          "answer": "While we can't speak to Van Cleef & Arpels's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Van Cleef & Arpels?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Van Cleef & Arpels's photography distinctive?",
+          "answer": "Van Cleef & Arpels is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Van Cleef & Arpels? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Van Cleef & Arpels",
+        "foundingDate": "1906"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Van Cleef & Arpels",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1906"
+      },
+      {
+        "label": "Country",
+        "value": "France"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1906",
+        "milestone": "Van Cleef & Arpels founded in France"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Van Cleef & Arpels's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "bulgari",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Bulgari — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Bulgari profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1884 in Italy.",
+      "primary_keyword": "bulgari jewelry photography",
+      "secondary_keywords": [
+        "bulgari brand",
+        "bulgari AI photos",
+        "bulgari product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Bulgari — Brand Profile & Photography Insights",
+      "introduction": "Bulgari, founded in 1884 in Italy, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Bulgari History",
+          "body": "Established in 1884, Bulgari has built a reputation for exceptional craftsmanship and design. Based in Italy, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Bulgari's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Bulgari's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Bulgari use AI photography?",
+          "answer": "While we can't speak to Bulgari's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Bulgari?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Bulgari's photography distinctive?",
+          "answer": "Bulgari is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Bulgari? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bulgari",
+        "foundingDate": "1884"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Bulgari",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1884"
+      },
+      {
+        "label": "Country",
+        "value": "Italy"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1884",
+        "milestone": "Bulgari founded in Italy"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Bulgari's century-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "chopard",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Chopard — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Chopard profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1860 in Switzerland.",
+      "primary_keyword": "chopard jewelry photography",
+      "secondary_keywords": [
+        "chopard brand",
+        "chopard AI photos",
+        "chopard product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Chopard — Brand Profile & Photography Insights",
+      "introduction": "Chopard, founded in 1860 in Switzerland, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Chopard History",
+          "body": "Established in 1860, Chopard has built a reputation for exceptional craftsmanship and design. Based in Switzerland, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Chopard's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Chopard's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Chopard use AI photography?",
+          "answer": "While we can't speak to Chopard's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Chopard?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Chopard's photography distinctive?",
+          "answer": "Chopard is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Chopard? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Chopard",
+        "foundingDate": "1860"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Chopard",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1860"
+      },
+      {
+        "label": "Country",
+        "value": "Switzerland"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1860",
+        "milestone": "Chopard founded in Switzerland"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Chopard's century-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "graff",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Graff — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Graff profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1960 in UK.",
+      "primary_keyword": "graff jewelry photography",
+      "secondary_keywords": [
+        "graff brand",
+        "graff AI photos",
+        "graff product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Graff — Brand Profile & Photography Insights",
+      "introduction": "Graff, founded in 1960 in UK, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Graff History",
+          "body": "Established in 1960, Graff has built a reputation for exceptional craftsmanship and design. Based in UK, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Graff's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Graff's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Graff use AI photography?",
+          "answer": "While we can't speak to Graff's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Graff?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Graff's photography distinctive?",
+          "answer": "Graff is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Graff? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Graff",
+        "foundingDate": "1960"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Graff",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1960"
+      },
+      {
+        "label": "Country",
+        "value": "UK"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1960",
+        "milestone": "Graff founded in UK"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Graff's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "david-yurman",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "David Yurman — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "David Yurman profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1980 in USA.",
+      "primary_keyword": "david yurman jewelry photography",
+      "secondary_keywords": [
+        "david yurman brand",
+        "david yurman AI photos",
+        "david yurman product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "David Yurman — Brand Profile & Photography Insights",
+      "introduction": "David Yurman, founded in 1980 in USA, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "David Yurman History",
+          "body": "Established in 1980, David Yurman has built a reputation for exceptional craftsmanship and design. Based in USA, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "David Yurman's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by David Yurman's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does David Yurman use AI photography?",
+          "answer": "While we can't speak to David Yurman's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like David Yurman?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes David Yurman's photography distinctive?",
+          "answer": "David Yurman is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like David Yurman? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "David Yurman",
+        "foundingDate": "1980"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "David Yurman",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1980"
+      },
+      {
+        "label": "Country",
+        "value": "USA"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1980",
+        "milestone": "David Yurman founded in USA"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "David Yurman's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "pandora",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Pandora — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Pandora profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1982 in Denmark.",
+      "primary_keyword": "pandora jewelry photography",
+      "secondary_keywords": [
+        "pandora brand",
+        "pandora AI photos",
+        "pandora product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Pandora — Brand Profile & Photography Insights",
+      "introduction": "Pandora, founded in 1982 in Denmark, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Pandora History",
+          "body": "Established in 1982, Pandora has built a reputation for exceptional craftsmanship and design. Based in Denmark, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Pandora's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Pandora's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Pandora use AI photography?",
+          "answer": "While we can't speak to Pandora's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Pandora?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Pandora's photography distinctive?",
+          "answer": "Pandora is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Pandora? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Pandora",
+        "foundingDate": "1982"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Pandora",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1982"
+      },
+      {
+        "label": "Country",
+        "value": "Denmark"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1982",
+        "milestone": "Pandora founded in Denmark"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Pandora's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "swarovski",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Swarovski — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Swarovski profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1895 in Austria.",
+      "primary_keyword": "swarovski jewelry photography",
+      "secondary_keywords": [
+        "swarovski brand",
+        "swarovski AI photos",
+        "swarovski product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Swarovski — Brand Profile & Photography Insights",
+      "introduction": "Swarovski, founded in 1895 in Austria, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Swarovski History",
+          "body": "Established in 1895, Swarovski has built a reputation for exceptional craftsmanship and design. Based in Austria, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Swarovski's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Swarovski's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Swarovski use AI photography?",
+          "answer": "While we can't speak to Swarovski's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Swarovski?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Swarovski's photography distinctive?",
+          "answer": "Swarovski is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Swarovski? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Swarovski",
+        "foundingDate": "1895"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Swarovski",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1895"
+      },
+      {
+        "label": "Country",
+        "value": "Austria"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1895",
+        "milestone": "Swarovski founded in Austria"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Swarovski's century-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "de-beers",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "De Beers — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "De Beers profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1888 in UK.",
+      "primary_keyword": "de beers jewelry photography",
+      "secondary_keywords": [
+        "de beers brand",
+        "de beers AI photos",
+        "de beers product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "De Beers — Brand Profile & Photography Insights",
+      "introduction": "De Beers, founded in 1888 in UK, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "De Beers History",
+          "body": "Established in 1888, De Beers has built a reputation for exceptional craftsmanship and design. Based in UK, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "De Beers's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by De Beers's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does De Beers use AI photography?",
+          "answer": "While we can't speak to De Beers's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like De Beers?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes De Beers's photography distinctive?",
+          "answer": "De Beers is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like De Beers? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "De Beers",
+        "foundingDate": "1888"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "De Beers",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1888"
+      },
+      {
+        "label": "Country",
+        "value": "UK"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1888",
+        "milestone": "De Beers founded in UK"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "De Beers's century-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "mikimoto",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Mikimoto — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Mikimoto profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1893 in Japan.",
+      "primary_keyword": "mikimoto jewelry photography",
+      "secondary_keywords": [
+        "mikimoto brand",
+        "mikimoto AI photos",
+        "mikimoto product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Mikimoto — Brand Profile & Photography Insights",
+      "introduction": "Mikimoto, founded in 1893 in Japan, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Mikimoto History",
+          "body": "Established in 1893, Mikimoto has built a reputation for exceptional craftsmanship and design. Based in Japan, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Mikimoto's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Mikimoto's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Mikimoto use AI photography?",
+          "answer": "While we can't speak to Mikimoto's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Mikimoto?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Mikimoto's photography distinctive?",
+          "answer": "Mikimoto is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Mikimoto? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mikimoto",
+        "foundingDate": "1893"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Mikimoto",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1893"
+      },
+      {
+        "label": "Country",
+        "value": "Japan"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1893",
+        "milestone": "Mikimoto founded in Japan"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Mikimoto's century-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "piaget",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Piaget — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Piaget profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1874 in Switzerland.",
+      "primary_keyword": "piaget jewelry photography",
+      "secondary_keywords": [
+        "piaget brand",
+        "piaget AI photos",
+        "piaget product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Piaget — Brand Profile & Photography Insights",
+      "introduction": "Piaget, founded in 1874 in Switzerland, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Piaget History",
+          "body": "Established in 1874, Piaget has built a reputation for exceptional craftsmanship and design. Based in Switzerland, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Piaget's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Piaget's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Piaget use AI photography?",
+          "answer": "While we can't speak to Piaget's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Piaget?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Piaget's photography distinctive?",
+          "answer": "Piaget is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Piaget? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Piaget",
+        "foundingDate": "1874"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Piaget",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1874"
+      },
+      {
+        "label": "Country",
+        "value": "Switzerland"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1874",
+        "milestone": "Piaget founded in Switzerland"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Piaget's century-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "buccellati",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Buccellati — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Buccellati profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1919 in Italy.",
+      "primary_keyword": "buccellati jewelry photography",
+      "secondary_keywords": [
+        "buccellati brand",
+        "buccellati AI photos",
+        "buccellati product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Buccellati — Brand Profile & Photography Insights",
+      "introduction": "Buccellati, founded in 1919 in Italy, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Buccellati History",
+          "body": "Established in 1919, Buccellati has built a reputation for exceptional craftsmanship and design. Based in Italy, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Buccellati's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Buccellati's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Buccellati use AI photography?",
+          "answer": "While we can't speak to Buccellati's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Buccellati?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Buccellati's photography distinctive?",
+          "answer": "Buccellati is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Buccellati? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Buccellati",
+        "foundingDate": "1919"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Buccellati",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1919"
+      },
+      {
+        "label": "Country",
+        "value": "Italy"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1919",
+        "milestone": "Buccellati founded in Italy"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Buccellati's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "pomellato",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Pomellato — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Pomellato profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1967 in Italy.",
+      "primary_keyword": "pomellato jewelry photography",
+      "secondary_keywords": [
+        "pomellato brand",
+        "pomellato AI photos",
+        "pomellato product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Pomellato — Brand Profile & Photography Insights",
+      "introduction": "Pomellato, founded in 1967 in Italy, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Pomellato History",
+          "body": "Established in 1967, Pomellato has built a reputation for exceptional craftsmanship and design. Based in Italy, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Pomellato's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Pomellato's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Pomellato use AI photography?",
+          "answer": "While we can't speak to Pomellato's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Pomellato?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Pomellato's photography distinctive?",
+          "answer": "Pomellato is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Pomellato? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Pomellato",
+        "foundingDate": "1967"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Pomellato",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1967"
+      },
+      {
+        "label": "Country",
+        "value": "Italy"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1967",
+        "milestone": "Pomellato founded in Italy"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Pomellato's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "hearts-on-fire",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Hearts on Fire — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Hearts on Fire profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1996 in USA.",
+      "primary_keyword": "hearts on fire jewelry photography",
+      "secondary_keywords": [
+        "hearts on fire brand",
+        "hearts on fire AI photos",
+        "hearts on fire product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Hearts on Fire — Brand Profile & Photography Insights",
+      "introduction": "Hearts on Fire, founded in 1996 in USA, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Hearts on Fire History",
+          "body": "Established in 1996, Hearts on Fire has built a reputation for exceptional craftsmanship and design. Based in USA, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Hearts on Fire's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Hearts on Fire's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Hearts on Fire use AI photography?",
+          "answer": "While we can't speak to Hearts on Fire's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Hearts on Fire?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Hearts on Fire's photography distinctive?",
+          "answer": "Hearts on Fire is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Hearts on Fire? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Hearts on Fire",
+        "foundingDate": "1996"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Hearts on Fire",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1996"
+      },
+      {
+        "label": "Country",
+        "value": "USA"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1996",
+        "milestone": "Hearts on Fire founded in USA"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Hearts on Fire's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "james-allen",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "James Allen — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "James Allen profile: history, milestones, and how AI photography is transforming their product imagery. Founded 2006 in USA.",
+      "primary_keyword": "james allen jewelry photography",
+      "secondary_keywords": [
+        "james allen brand",
+        "james allen AI photos",
+        "james allen product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "James Allen — Brand Profile & Photography Insights",
+      "introduction": "James Allen, founded in 2006 in USA, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "James Allen History",
+          "body": "Established in 2006, James Allen has built a reputation for exceptional craftsmanship and design. Based in USA, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "James Allen's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by James Allen's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does James Allen use AI photography?",
+          "answer": "While we can't speak to James Allen's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like James Allen?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes James Allen's photography distinctive?",
+          "answer": "James Allen is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like James Allen? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "James Allen",
+        "foundingDate": "2006"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "James Allen",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "2006"
+      },
+      {
+        "label": "Country",
+        "value": "USA"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "2006",
+        "milestone": "James Allen founded in USA"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "James Allen's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "blue-nile",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Blue Nile — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Blue Nile profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1999 in USA.",
+      "primary_keyword": "blue nile jewelry photography",
+      "secondary_keywords": [
+        "blue nile brand",
+        "blue nile AI photos",
+        "blue nile product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Blue Nile — Brand Profile & Photography Insights",
+      "introduction": "Blue Nile, founded in 1999 in USA, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Blue Nile History",
+          "body": "Established in 1999, Blue Nile has built a reputation for exceptional craftsmanship and design. Based in USA, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Blue Nile's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Blue Nile's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Blue Nile use AI photography?",
+          "answer": "While we can't speak to Blue Nile's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Blue Nile?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Blue Nile's photography distinctive?",
+          "answer": "Blue Nile is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Blue Nile? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Blue Nile",
+        "foundingDate": "1999"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Blue Nile",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1999"
+      },
+      {
+        "label": "Country",
+        "value": "USA"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1999",
+        "milestone": "Blue Nile founded in USA"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Blue Nile's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "brilliant-earth",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Brilliant Earth — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Brilliant Earth profile: history, milestones, and how AI photography is transforming their product imagery. Founded 2005 in USA.",
+      "primary_keyword": "brilliant earth jewelry photography",
+      "secondary_keywords": [
+        "brilliant earth brand",
+        "brilliant earth AI photos",
+        "brilliant earth product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Brilliant Earth — Brand Profile & Photography Insights",
+      "introduction": "Brilliant Earth, founded in 2005 in USA, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Brilliant Earth History",
+          "body": "Established in 2005, Brilliant Earth has built a reputation for exceptional craftsmanship and design. Based in USA, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Brilliant Earth's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Brilliant Earth's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Brilliant Earth use AI photography?",
+          "answer": "While we can't speak to Brilliant Earth's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Brilliant Earth?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Brilliant Earth's photography distinctive?",
+          "answer": "Brilliant Earth is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Brilliant Earth? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Brilliant Earth",
+        "foundingDate": "2005"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Brilliant Earth",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "2005"
+      },
+      {
+        "label": "Country",
+        "value": "USA"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "2005",
+        "milestone": "Brilliant Earth founded in USA"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Brilliant Earth's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "kay-jewelers",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Kay Jewelers — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Kay Jewelers profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1916 in USA.",
+      "primary_keyword": "kay jewelers jewelry photography",
+      "secondary_keywords": [
+        "kay jewelers brand",
+        "kay jewelers AI photos",
+        "kay jewelers product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Kay Jewelers — Brand Profile & Photography Insights",
+      "introduction": "Kay Jewelers, founded in 1916 in USA, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Kay Jewelers History",
+          "body": "Established in 1916, Kay Jewelers has built a reputation for exceptional craftsmanship and design. Based in USA, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Kay Jewelers's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Kay Jewelers's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Kay Jewelers use AI photography?",
+          "answer": "While we can't speak to Kay Jewelers's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Kay Jewelers?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Kay Jewelers's photography distinctive?",
+          "answer": "Kay Jewelers is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Kay Jewelers? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kay Jewelers",
+        "foundingDate": "1916"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Kay Jewelers",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1916"
+      },
+      {
+        "label": "Country",
+        "value": "USA"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1916",
+        "milestone": "Kay Jewelers founded in USA"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Kay Jewelers's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "zales",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Zales — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Zales profile: history, milestones, and how AI photography is transforming their product imagery. Founded 1924 in USA.",
+      "primary_keyword": "zales jewelry photography",
+      "secondary_keywords": [
+        "zales brand",
+        "zales AI photos",
+        "zales product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Zales — Brand Profile & Photography Insights",
+      "introduction": "Zales, founded in 1924 in USA, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Zales History",
+          "body": "Established in 1924, Zales has built a reputation for exceptional craftsmanship and design. Based in USA, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Zales's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Zales's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Zales use AI photography?",
+          "answer": "While we can't speak to Zales's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Zales?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Zales's photography distinctive?",
+          "answer": "Zales is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Zales? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Zales",
+        "foundingDate": "1924"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Zales",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "1924"
+      },
+      {
+        "label": "Country",
+        "value": "USA"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1924",
+        "milestone": "Zales founded in USA"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Zales's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "mejuri",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Mejuri — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Mejuri profile: history, milestones, and how AI photography is transforming their product imagery. Founded 2015 in Canada.",
+      "primary_keyword": "mejuri jewelry photography",
+      "secondary_keywords": [
+        "mejuri brand",
+        "mejuri AI photos",
+        "mejuri product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Mejuri — Brand Profile & Photography Insights",
+      "introduction": "Mejuri, founded in 2015 in Canada, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Mejuri History",
+          "body": "Established in 2015, Mejuri has built a reputation for exceptional craftsmanship and design. Based in Canada, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Mejuri's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Mejuri's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Mejuri use AI photography?",
+          "answer": "While we can't speak to Mejuri's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Mejuri?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Mejuri's photography distinctive?",
+          "answer": "Mejuri is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Mejuri? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mejuri",
+        "foundingDate": "2015"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Mejuri",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "2015"
+      },
+      {
+        "label": "Country",
+        "value": "Canada"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "2015",
+        "milestone": "Mejuri founded in Canada"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Mejuri's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "catbird",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Catbird — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Catbird profile: history, milestones, and how AI photography is transforming their product imagery. Founded 2004 in USA.",
+      "primary_keyword": "catbird jewelry photography",
+      "secondary_keywords": [
+        "catbird brand",
+        "catbird AI photos",
+        "catbird product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Catbird — Brand Profile & Photography Insights",
+      "introduction": "Catbird, founded in 2004 in USA, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Catbird History",
+          "body": "Established in 2004, Catbird has built a reputation for exceptional craftsmanship and design. Based in USA, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Catbird's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Catbird's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Catbird use AI photography?",
+          "answer": "While we can't speak to Catbird's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Catbird?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Catbird's photography distinctive?",
+          "answer": "Catbird is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Catbird? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Catbird",
+        "foundingDate": "2004"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Catbird",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "2004"
+      },
+      {
+        "label": "Country",
+        "value": "USA"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "2004",
+        "milestone": "Catbird founded in USA"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Catbird's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "monica-vinader",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Monica Vinader — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Monica Vinader profile: history, milestones, and how AI photography is transforming their product imagery. Founded 2008 in UK.",
+      "primary_keyword": "monica vinader jewelry photography",
+      "secondary_keywords": [
+        "monica vinader brand",
+        "monica vinader AI photos",
+        "monica vinader product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Monica Vinader — Brand Profile & Photography Insights",
+      "introduction": "Monica Vinader, founded in 2008 in UK, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Monica Vinader History",
+          "body": "Established in 2008, Monica Vinader has built a reputation for exceptional craftsmanship and design. Based in UK, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Monica Vinader's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Monica Vinader's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Monica Vinader use AI photography?",
+          "answer": "While we can't speak to Monica Vinader's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Monica Vinader?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Monica Vinader's photography distinctive?",
+          "answer": "Monica Vinader is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Monica Vinader? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Monica Vinader",
+        "foundingDate": "2008"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Monica Vinader",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "2008"
+      },
+      {
+        "label": "Country",
+        "value": "UK"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "2008",
+        "milestone": "Monica Vinader founded in UK"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Monica Vinader's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  },
+  {
+    "slug": "missoma",
+    "playbook_type": "profiles",
+    "seo": {
+      "title": "Missoma — Jewelry Brand Profile & AI Photography | JewelryAI",
+      "meta_description": "Missoma profile: history, milestones, and how AI photography is transforming their product imagery. Founded 2008 in UK.",
+      "primary_keyword": "missoma jewelry photography",
+      "secondary_keywords": [
+        "missoma brand",
+        "missoma AI photos",
+        "missoma product images"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "Missoma — Brand Profile & Photography Insights",
+      "introduction": "Missoma, founded in 2008 in UK, is one of the most recognized brands in the jewelry industry. This profile explores their legacy and how modern AI photography technologies are transforming jewelry imagery for brands at every scale.",
+      "sections": [
+        {
+          "heading": "Missoma History",
+          "body": "Established in 2008, Missoma has built a reputation for exceptional craftsmanship and design. Based in UK, the brand has grown to become a global leader in the jewelry industry, setting trends and standards that influence the entire market."
+        },
+        {
+          "heading": "Photography & Visual Identity",
+          "body": "Missoma's visual identity is defined by their distinctive photography style. Their campaigns blend editorial artistry with precise product visualization. Modern AI photography tools now enable emerging brands to achieve similar visual standards at a fraction of the cost."
+        },
+        {
+          "heading": "How AI Photography Benefits Similar Brands",
+          "body": "Brands inspired by Missoma's visual standards can use AI photography to achieve comparable results. JewelryAI's templates include styles inspired by luxury editorial photography, enabling e-commerce sellers and boutique brands to present their collections with premium-quality imagery."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Missoma use AI photography?",
+          "answer": "While we can't speak to Missoma's specific processes, many luxury brands are exploring AI photography for e-commerce and social media content. JewelryAI helps brands at all scales achieve premium visual standards."
+        },
+        {
+          "question": "How can I get photography like Missoma?",
+          "answer": "JewelryAI's luxury and editorial templates are inspired by high-end brand photography. Upload your products to achieve similar visual quality at a fraction of the cost."
+        },
+        {
+          "question": "What makes Missoma's photography distinctive?",
+          "answer": "Missoma is known for exceptional lighting, precise composition, and consistent brand aesthetics — qualities that AI photography can replicate and scale for any jewelry brand."
+        }
+      ],
+      "call_to_action": "Want photography inspired by brands like Missoma? Try JewelryAI's luxury templates."
+    },
+    "schema": {
+      "type": "Organization",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Missoma",
+        "foundingDate": "2008"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "Ring Photography Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/jewelry-store-owners",
+        "anchor_text": "For Store Owners",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Ring Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "profileBrands"
+    ],
+    "profile_name": "Missoma",
+    "verified_facts": [
+      {
+        "label": "Founded",
+        "value": "2008"
+      },
+      {
+        "label": "Country",
+        "value": "UK"
+      },
+      {
+        "label": "Industry",
+        "value": "Jewelry & Luxury Goods"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "2008",
+        "milestone": "Missoma founded in UK"
+      },
+      {
+        "year": "Present",
+        "milestone": "Global jewelry brand with worldwide recognition"
+      }
+    ],
+    "unique_insight": "Missoma's decades-long commitment to visual excellence has set the standard for jewelry presentation that AI photography now makes accessible to all brands."
+  }
+]

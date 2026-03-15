@@ -1,0 +1,1292 @@
+[
+  {
+    "slug": "shopify-jewelry-photography",
+    "playbook_type": "integrations",
+    "seo": {
+      "title": "JewelryAI + Shopify Integration | AI Jewelry Photography for Shopify",
+      "meta_description": "Learn how to use JewelryAI with Shopify. Step-by-step setup guide, use cases, and workflow examples for jewelry e-commerce photography.",
+      "primary_keyword": "shopify jewelry photography",
+      "secondary_keywords": [
+        "AI photos for shopify",
+        "shopify product photography",
+        "jewelry images shopify"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "How to Use AI Jewelry Photography with Shopify",
+      "introduction": "Selling jewelry on Shopify? Professional product photography is crucial for conversions. This guide shows you how to integrate JewelryAI with your Shopify store to create stunning, AI-generated jewelry photos that drive sales. Follow our step-by-step setup to start generating professional imagery in minutes.",
+      "sections": [
+        {
+          "heading": "Why Shopify Sellers Need AI Photography",
+          "body": "Shopify is one of the most competitive platforms for jewelry sellers. High-quality product images are the #1 factor in purchase decisions. JewelryAI helps Shopify sellers stand out with professional on-model photography at a fraction of traditional costs."
+        },
+        {
+          "heading": "Step-by-Step Setup Guide",
+          "body": "1. Create your JewelryAI account. 2. Photo your jewelry products with a smartphone. 3. Upload to JewelryAI and select templates. 4. Download finished images. 5. Upload to your Shopify product listings. The entire workflow takes under 10 minutes per product."
+        },
+        {
+          "heading": "Best Practices",
+          "body": "For optimal results on Shopify: use lifestyle/on-model shots as your primary image, include detail close-ups as secondary images, maintain consistent styling across your catalog, and optimize image dimensions for Shopify's requirements."
+        },
+        {
+          "heading": "Workflow Examples",
+          "body": "Example 1: New product launch — generate 5 styled variations per SKU for A/B testing. Example 2: Seasonal refresh — update all listing images with seasonal styling without reshooting. Example 3: Scale operations — photograph 100+ new pieces in a day using AI batch processing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does JewelryAI integrate directly with Shopify?",
+          "answer": "Currently, you download images from JewelryAI and upload them to Shopify. We're developing direct API integrations for seamless workflow automation. Sign up to be notified when the Shopify integration launches."
+        },
+        {
+          "question": "What image sizes work best for Shopify?",
+          "answer": "We deliver images optimized for Shopify's requirements. Standard delivery includes web-optimized (2000x2000px), social media (1080x1080px), and print-ready (4000x4000px) formats."
+        },
+        {
+          "question": "Can I use JewelryAI for all my Shopify product photos?",
+          "answer": "Yes! Many sellers use JewelryAI as their primary photography solution for Shopify. Our unlimited revision policy and fast turnaround make it ideal for maintaining a professional-looking store."
+        }
+      ],
+      "call_to_action": "Boost your Shopify jewelry sales with AI photography. Start your free trial at JewelryAI."
+    },
+    "schema": {
+      "type": "HowTo",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use JewelryAI with Shopify"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "See Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/ecommerce-entrepreneur",
+        "anchor_text": "For E-commerce Sellers",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "tools"
+    ],
+    "platform_name": "Shopify",
+    "setup_steps": [
+      {
+        "step": 1,
+        "title": "Create Account",
+        "description": "Sign up for JewelryAI"
+      },
+      {
+        "step": 2,
+        "title": "Upload Photos",
+        "description": "Upload product photos"
+      },
+      {
+        "step": 3,
+        "title": "Generate Images",
+        "description": "Select templates and generate"
+      },
+      {
+        "step": 4,
+        "title": "Upload to Shopify",
+        "description": "Add images to Shopify listings"
+      }
+    ],
+    "use_cases": [
+      "New product launches",
+      "Seasonal updates",
+      "Catalog expansion"
+    ],
+    "workflow_examples": [
+      {
+        "title": "Bulk Processing",
+        "description": "Process 100+ products for Shopify in one session"
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Generate multiple variations to test conversion rates"
+      }
+    ]
+  },
+  {
+    "slug": "woocommerce-jewelry-photography",
+    "playbook_type": "integrations",
+    "seo": {
+      "title": "JewelryAI + WooCommerce Integration | AI Jewelry Photography for WooCommerce",
+      "meta_description": "Learn how to use JewelryAI with WooCommerce. Step-by-step setup guide, use cases, and workflow examples for jewelry e-commerce photography.",
+      "primary_keyword": "woocommerce jewelry photography",
+      "secondary_keywords": [
+        "AI photos for woocommerce",
+        "woocommerce product photography",
+        "jewelry images woocommerce"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "How to Use AI Jewelry Photography with WooCommerce",
+      "introduction": "Selling jewelry on WooCommerce? Professional product photography is crucial for conversions. This guide shows you how to integrate JewelryAI with your WooCommerce store to create stunning, AI-generated jewelry photos that drive sales. Follow our step-by-step setup to start generating professional imagery in minutes.",
+      "sections": [
+        {
+          "heading": "Why WooCommerce Sellers Need AI Photography",
+          "body": "WooCommerce is one of the most competitive platforms for jewelry sellers. High-quality product images are the #1 factor in purchase decisions. JewelryAI helps WooCommerce sellers stand out with professional on-model photography at a fraction of traditional costs."
+        },
+        {
+          "heading": "Step-by-Step Setup Guide",
+          "body": "1. Create your JewelryAI account. 2. Photo your jewelry products with a smartphone. 3. Upload to JewelryAI and select templates. 4. Download finished images. 5. Upload to your WooCommerce product listings. The entire workflow takes under 10 minutes per product."
+        },
+        {
+          "heading": "Best Practices",
+          "body": "For optimal results on WooCommerce: use lifestyle/on-model shots as your primary image, include detail close-ups as secondary images, maintain consistent styling across your catalog, and optimize image dimensions for WooCommerce's requirements."
+        },
+        {
+          "heading": "Workflow Examples",
+          "body": "Example 1: New product launch — generate 5 styled variations per SKU for A/B testing. Example 2: Seasonal refresh — update all listing images with seasonal styling without reshooting. Example 3: Scale operations — photograph 100+ new pieces in a day using AI batch processing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does JewelryAI integrate directly with WooCommerce?",
+          "answer": "Currently, you download images from JewelryAI and upload them to WooCommerce. We're developing direct API integrations for seamless workflow automation. Sign up to be notified when the WooCommerce integration launches."
+        },
+        {
+          "question": "What image sizes work best for WooCommerce?",
+          "answer": "We deliver images optimized for WooCommerce's requirements. Standard delivery includes web-optimized (2000x2000px), social media (1080x1080px), and print-ready (4000x4000px) formats."
+        },
+        {
+          "question": "Can I use JewelryAI for all my WooCommerce product photos?",
+          "answer": "Yes! Many sellers use JewelryAI as their primary photography solution for WooCommerce. Our unlimited revision policy and fast turnaround make it ideal for maintaining a professional-looking store."
+        }
+      ],
+      "call_to_action": "Boost your WooCommerce jewelry sales with AI photography. Start your free trial at JewelryAI."
+    },
+    "schema": {
+      "type": "HowTo",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use JewelryAI with WooCommerce"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "See Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/ecommerce-entrepreneur",
+        "anchor_text": "For E-commerce Sellers",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "tools"
+    ],
+    "platform_name": "WooCommerce",
+    "setup_steps": [
+      {
+        "step": 1,
+        "title": "Create Account",
+        "description": "Sign up for JewelryAI"
+      },
+      {
+        "step": 2,
+        "title": "Upload Photos",
+        "description": "Upload product photos"
+      },
+      {
+        "step": 3,
+        "title": "Generate Images",
+        "description": "Select templates and generate"
+      },
+      {
+        "step": 4,
+        "title": "Upload to WooCommerce",
+        "description": "Add images to WooCommerce listings"
+      }
+    ],
+    "use_cases": [
+      "New product launches",
+      "Seasonal updates",
+      "Catalog expansion"
+    ],
+    "workflow_examples": [
+      {
+        "title": "Bulk Processing",
+        "description": "Process 100+ products for WooCommerce in one session"
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Generate multiple variations to test conversion rates"
+      }
+    ]
+  },
+  {
+    "slug": "etsy-jewelry-photography",
+    "playbook_type": "integrations",
+    "seo": {
+      "title": "JewelryAI + Etsy Integration | AI Jewelry Photography for Etsy",
+      "meta_description": "Learn how to use JewelryAI with Etsy. Step-by-step setup guide, use cases, and workflow examples for jewelry e-commerce photography.",
+      "primary_keyword": "etsy jewelry photography",
+      "secondary_keywords": [
+        "AI photos for etsy",
+        "etsy product photography",
+        "jewelry images etsy"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "How to Use AI Jewelry Photography with Etsy",
+      "introduction": "Selling jewelry on Etsy? Professional product photography is crucial for conversions. This guide shows you how to integrate JewelryAI with your Etsy store to create stunning, AI-generated jewelry photos that drive sales. Follow our step-by-step setup to start generating professional imagery in minutes.",
+      "sections": [
+        {
+          "heading": "Why Etsy Sellers Need AI Photography",
+          "body": "Etsy is one of the most competitive platforms for jewelry sellers. High-quality product images are the #1 factor in purchase decisions. JewelryAI helps Etsy sellers stand out with professional on-model photography at a fraction of traditional costs."
+        },
+        {
+          "heading": "Step-by-Step Setup Guide",
+          "body": "1. Create your JewelryAI account. 2. Photo your jewelry products with a smartphone. 3. Upload to JewelryAI and select templates. 4. Download finished images. 5. Upload to your Etsy product listings. The entire workflow takes under 10 minutes per product."
+        },
+        {
+          "heading": "Best Practices",
+          "body": "For optimal results on Etsy: use lifestyle/on-model shots as your primary image, include detail close-ups as secondary images, maintain consistent styling across your catalog, and optimize image dimensions for Etsy's requirements."
+        },
+        {
+          "heading": "Workflow Examples",
+          "body": "Example 1: New product launch — generate 5 styled variations per SKU for A/B testing. Example 2: Seasonal refresh — update all listing images with seasonal styling without reshooting. Example 3: Scale operations — photograph 100+ new pieces in a day using AI batch processing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does JewelryAI integrate directly with Etsy?",
+          "answer": "Currently, you download images from JewelryAI and upload them to Etsy. We're developing direct API integrations for seamless workflow automation. Sign up to be notified when the Etsy integration launches."
+        },
+        {
+          "question": "What image sizes work best for Etsy?",
+          "answer": "We deliver images optimized for Etsy's requirements. Standard delivery includes web-optimized (2000x2000px), social media (1080x1080px), and print-ready (4000x4000px) formats."
+        },
+        {
+          "question": "Can I use JewelryAI for all my Etsy product photos?",
+          "answer": "Yes! Many sellers use JewelryAI as their primary photography solution for Etsy. Our unlimited revision policy and fast turnaround make it ideal for maintaining a professional-looking store."
+        }
+      ],
+      "call_to_action": "Boost your Etsy jewelry sales with AI photography. Start your free trial at JewelryAI."
+    },
+    "schema": {
+      "type": "HowTo",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use JewelryAI with Etsy"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "See Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/ecommerce-entrepreneur",
+        "anchor_text": "For E-commerce Sellers",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "tools"
+    ],
+    "platform_name": "Etsy",
+    "setup_steps": [
+      {
+        "step": 1,
+        "title": "Create Account",
+        "description": "Sign up for JewelryAI"
+      },
+      {
+        "step": 2,
+        "title": "Upload Photos",
+        "description": "Upload product photos"
+      },
+      {
+        "step": 3,
+        "title": "Generate Images",
+        "description": "Select templates and generate"
+      },
+      {
+        "step": 4,
+        "title": "Upload to Etsy",
+        "description": "Add images to Etsy listings"
+      }
+    ],
+    "use_cases": [
+      "New product launches",
+      "Seasonal updates",
+      "Catalog expansion"
+    ],
+    "workflow_examples": [
+      {
+        "title": "Bulk Processing",
+        "description": "Process 100+ products for Etsy in one session"
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Generate multiple variations to test conversion rates"
+      }
+    ]
+  },
+  {
+    "slug": "amazon-jewelry-photography",
+    "playbook_type": "integrations",
+    "seo": {
+      "title": "JewelryAI + Amazon Integration | AI Jewelry Photography for Amazon",
+      "meta_description": "Learn how to use JewelryAI with Amazon. Step-by-step setup guide, use cases, and workflow examples for jewelry e-commerce photography.",
+      "primary_keyword": "amazon jewelry photography",
+      "secondary_keywords": [
+        "AI photos for amazon",
+        "amazon product photography",
+        "jewelry images amazon"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "How to Use AI Jewelry Photography with Amazon",
+      "introduction": "Selling jewelry on Amazon? Professional product photography is crucial for conversions. This guide shows you how to integrate JewelryAI with your Amazon store to create stunning, AI-generated jewelry photos that drive sales. Follow our step-by-step setup to start generating professional imagery in minutes.",
+      "sections": [
+        {
+          "heading": "Why Amazon Sellers Need AI Photography",
+          "body": "Amazon is one of the most competitive platforms for jewelry sellers. High-quality product images are the #1 factor in purchase decisions. JewelryAI helps Amazon sellers stand out with professional on-model photography at a fraction of traditional costs."
+        },
+        {
+          "heading": "Step-by-Step Setup Guide",
+          "body": "1. Create your JewelryAI account. 2. Photo your jewelry products with a smartphone. 3. Upload to JewelryAI and select templates. 4. Download finished images. 5. Upload to your Amazon product listings. The entire workflow takes under 10 minutes per product."
+        },
+        {
+          "heading": "Best Practices",
+          "body": "For optimal results on Amazon: use lifestyle/on-model shots as your primary image, include detail close-ups as secondary images, maintain consistent styling across your catalog, and optimize image dimensions for Amazon's requirements."
+        },
+        {
+          "heading": "Workflow Examples",
+          "body": "Example 1: New product launch — generate 5 styled variations per SKU for A/B testing. Example 2: Seasonal refresh — update all listing images with seasonal styling without reshooting. Example 3: Scale operations — photograph 100+ new pieces in a day using AI batch processing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does JewelryAI integrate directly with Amazon?",
+          "answer": "Currently, you download images from JewelryAI and upload them to Amazon. We're developing direct API integrations for seamless workflow automation. Sign up to be notified when the Amazon integration launches."
+        },
+        {
+          "question": "What image sizes work best for Amazon?",
+          "answer": "We deliver images optimized for Amazon's requirements. Standard delivery includes web-optimized (2000x2000px), social media (1080x1080px), and print-ready (4000x4000px) formats."
+        },
+        {
+          "question": "Can I use JewelryAI for all my Amazon product photos?",
+          "answer": "Yes! Many sellers use JewelryAI as their primary photography solution for Amazon. Our unlimited revision policy and fast turnaround make it ideal for maintaining a professional-looking store."
+        }
+      ],
+      "call_to_action": "Boost your Amazon jewelry sales with AI photography. Start your free trial at JewelryAI."
+    },
+    "schema": {
+      "type": "HowTo",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use JewelryAI with Amazon"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "See Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/ecommerce-entrepreneur",
+        "anchor_text": "For E-commerce Sellers",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "tools"
+    ],
+    "platform_name": "Amazon",
+    "setup_steps": [
+      {
+        "step": 1,
+        "title": "Create Account",
+        "description": "Sign up for JewelryAI"
+      },
+      {
+        "step": 2,
+        "title": "Upload Photos",
+        "description": "Upload product photos"
+      },
+      {
+        "step": 3,
+        "title": "Generate Images",
+        "description": "Select templates and generate"
+      },
+      {
+        "step": 4,
+        "title": "Upload to Amazon",
+        "description": "Add images to Amazon listings"
+      }
+    ],
+    "use_cases": [
+      "New product launches",
+      "Seasonal updates",
+      "Catalog expansion"
+    ],
+    "workflow_examples": [
+      {
+        "title": "Bulk Processing",
+        "description": "Process 100+ products for Amazon in one session"
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Generate multiple variations to test conversion rates"
+      }
+    ]
+  },
+  {
+    "slug": "instagram-shopping-jewelry-photography",
+    "playbook_type": "integrations",
+    "seo": {
+      "title": "JewelryAI + Instagram Shopping Integration | AI Jewelry Photography for Instagram Shopping",
+      "meta_description": "Learn how to use JewelryAI with Instagram Shopping. Step-by-step setup guide, use cases, and workflow examples for jewelry e-commerce photography.",
+      "primary_keyword": "instagram shopping jewelry photography",
+      "secondary_keywords": [
+        "AI photos for instagram shopping",
+        "instagram shopping product photography",
+        "jewelry images instagram shopping"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "How to Use AI Jewelry Photography with Instagram Shopping",
+      "introduction": "Selling jewelry on Instagram Shopping? Professional product photography is crucial for conversions. This guide shows you how to integrate JewelryAI with your Instagram Shopping store to create stunning, AI-generated jewelry photos that drive sales. Follow our step-by-step setup to start generating professional imagery in minutes.",
+      "sections": [
+        {
+          "heading": "Why Instagram Shopping Sellers Need AI Photography",
+          "body": "Instagram Shopping is one of the most competitive platforms for jewelry sellers. High-quality product images are the #1 factor in purchase decisions. JewelryAI helps Instagram Shopping sellers stand out with professional on-model photography at a fraction of traditional costs."
+        },
+        {
+          "heading": "Step-by-Step Setup Guide",
+          "body": "1. Create your JewelryAI account. 2. Photo your jewelry products with a smartphone. 3. Upload to JewelryAI and select templates. 4. Download finished images. 5. Upload to your Instagram Shopping product listings. The entire workflow takes under 10 minutes per product."
+        },
+        {
+          "heading": "Best Practices",
+          "body": "For optimal results on Instagram Shopping: use lifestyle/on-model shots as your primary image, include detail close-ups as secondary images, maintain consistent styling across your catalog, and optimize image dimensions for Instagram Shopping's requirements."
+        },
+        {
+          "heading": "Workflow Examples",
+          "body": "Example 1: New product launch — generate 5 styled variations per SKU for A/B testing. Example 2: Seasonal refresh — update all listing images with seasonal styling without reshooting. Example 3: Scale operations — photograph 100+ new pieces in a day using AI batch processing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does JewelryAI integrate directly with Instagram Shopping?",
+          "answer": "Currently, you download images from JewelryAI and upload them to Instagram Shopping. We're developing direct API integrations for seamless workflow automation. Sign up to be notified when the Instagram Shopping integration launches."
+        },
+        {
+          "question": "What image sizes work best for Instagram Shopping?",
+          "answer": "We deliver images optimized for Instagram Shopping's requirements. Standard delivery includes web-optimized (2000x2000px), social media (1080x1080px), and print-ready (4000x4000px) formats."
+        },
+        {
+          "question": "Can I use JewelryAI for all my Instagram Shopping product photos?",
+          "answer": "Yes! Many sellers use JewelryAI as their primary photography solution for Instagram Shopping. Our unlimited revision policy and fast turnaround make it ideal for maintaining a professional-looking store."
+        }
+      ],
+      "call_to_action": "Boost your Instagram Shopping jewelry sales with AI photography. Start your free trial at JewelryAI."
+    },
+    "schema": {
+      "type": "HowTo",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use JewelryAI with Instagram Shopping"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "See Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/ecommerce-entrepreneur",
+        "anchor_text": "For E-commerce Sellers",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "tools"
+    ],
+    "platform_name": "Instagram Shopping",
+    "setup_steps": [
+      {
+        "step": 1,
+        "title": "Create Account",
+        "description": "Sign up for JewelryAI"
+      },
+      {
+        "step": 2,
+        "title": "Upload Photos",
+        "description": "Upload product photos"
+      },
+      {
+        "step": 3,
+        "title": "Generate Images",
+        "description": "Select templates and generate"
+      },
+      {
+        "step": 4,
+        "title": "Upload to Instagram Shopping",
+        "description": "Add images to Instagram Shopping listings"
+      }
+    ],
+    "use_cases": [
+      "New product launches",
+      "Seasonal updates",
+      "Catalog expansion"
+    ],
+    "workflow_examples": [
+      {
+        "title": "Bulk Processing",
+        "description": "Process 100+ products for Instagram Shopping in one session"
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Generate multiple variations to test conversion rates"
+      }
+    ]
+  },
+  {
+    "slug": "pinterest-jewelry-photography",
+    "playbook_type": "integrations",
+    "seo": {
+      "title": "JewelryAI + Pinterest Integration | AI Jewelry Photography for Pinterest",
+      "meta_description": "Learn how to use JewelryAI with Pinterest. Step-by-step setup guide, use cases, and workflow examples for jewelry e-commerce photography.",
+      "primary_keyword": "pinterest jewelry photography",
+      "secondary_keywords": [
+        "AI photos for pinterest",
+        "pinterest product photography",
+        "jewelry images pinterest"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "How to Use AI Jewelry Photography with Pinterest",
+      "introduction": "Selling jewelry on Pinterest? Professional product photography is crucial for conversions. This guide shows you how to integrate JewelryAI with your Pinterest store to create stunning, AI-generated jewelry photos that drive sales. Follow our step-by-step setup to start generating professional imagery in minutes.",
+      "sections": [
+        {
+          "heading": "Why Pinterest Sellers Need AI Photography",
+          "body": "Pinterest is one of the most competitive platforms for jewelry sellers. High-quality product images are the #1 factor in purchase decisions. JewelryAI helps Pinterest sellers stand out with professional on-model photography at a fraction of traditional costs."
+        },
+        {
+          "heading": "Step-by-Step Setup Guide",
+          "body": "1. Create your JewelryAI account. 2. Photo your jewelry products with a smartphone. 3. Upload to JewelryAI and select templates. 4. Download finished images. 5. Upload to your Pinterest product listings. The entire workflow takes under 10 minutes per product."
+        },
+        {
+          "heading": "Best Practices",
+          "body": "For optimal results on Pinterest: use lifestyle/on-model shots as your primary image, include detail close-ups as secondary images, maintain consistent styling across your catalog, and optimize image dimensions for Pinterest's requirements."
+        },
+        {
+          "heading": "Workflow Examples",
+          "body": "Example 1: New product launch — generate 5 styled variations per SKU for A/B testing. Example 2: Seasonal refresh — update all listing images with seasonal styling without reshooting. Example 3: Scale operations — photograph 100+ new pieces in a day using AI batch processing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does JewelryAI integrate directly with Pinterest?",
+          "answer": "Currently, you download images from JewelryAI and upload them to Pinterest. We're developing direct API integrations for seamless workflow automation. Sign up to be notified when the Pinterest integration launches."
+        },
+        {
+          "question": "What image sizes work best for Pinterest?",
+          "answer": "We deliver images optimized for Pinterest's requirements. Standard delivery includes web-optimized (2000x2000px), social media (1080x1080px), and print-ready (4000x4000px) formats."
+        },
+        {
+          "question": "Can I use JewelryAI for all my Pinterest product photos?",
+          "answer": "Yes! Many sellers use JewelryAI as their primary photography solution for Pinterest. Our unlimited revision policy and fast turnaround make it ideal for maintaining a professional-looking store."
+        }
+      ],
+      "call_to_action": "Boost your Pinterest jewelry sales with AI photography. Start your free trial at JewelryAI."
+    },
+    "schema": {
+      "type": "HowTo",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use JewelryAI with Pinterest"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "See Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/ecommerce-entrepreneur",
+        "anchor_text": "For E-commerce Sellers",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "tools"
+    ],
+    "platform_name": "Pinterest",
+    "setup_steps": [
+      {
+        "step": 1,
+        "title": "Create Account",
+        "description": "Sign up for JewelryAI"
+      },
+      {
+        "step": 2,
+        "title": "Upload Photos",
+        "description": "Upload product photos"
+      },
+      {
+        "step": 3,
+        "title": "Generate Images",
+        "description": "Select templates and generate"
+      },
+      {
+        "step": 4,
+        "title": "Upload to Pinterest",
+        "description": "Add images to Pinterest listings"
+      }
+    ],
+    "use_cases": [
+      "New product launches",
+      "Seasonal updates",
+      "Catalog expansion"
+    ],
+    "workflow_examples": [
+      {
+        "title": "Bulk Processing",
+        "description": "Process 100+ products for Pinterest in one session"
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Generate multiple variations to test conversion rates"
+      }
+    ]
+  },
+  {
+    "slug": "magento-jewelry-photography",
+    "playbook_type": "integrations",
+    "seo": {
+      "title": "JewelryAI + Magento Integration | AI Jewelry Photography for Magento",
+      "meta_description": "Learn how to use JewelryAI with Magento. Step-by-step setup guide, use cases, and workflow examples for jewelry e-commerce photography.",
+      "primary_keyword": "magento jewelry photography",
+      "secondary_keywords": [
+        "AI photos for magento",
+        "magento product photography",
+        "jewelry images magento"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "How to Use AI Jewelry Photography with Magento",
+      "introduction": "Selling jewelry on Magento? Professional product photography is crucial for conversions. This guide shows you how to integrate JewelryAI with your Magento store to create stunning, AI-generated jewelry photos that drive sales. Follow our step-by-step setup to start generating professional imagery in minutes.",
+      "sections": [
+        {
+          "heading": "Why Magento Sellers Need AI Photography",
+          "body": "Magento is one of the most competitive platforms for jewelry sellers. High-quality product images are the #1 factor in purchase decisions. JewelryAI helps Magento sellers stand out with professional on-model photography at a fraction of traditional costs."
+        },
+        {
+          "heading": "Step-by-Step Setup Guide",
+          "body": "1. Create your JewelryAI account. 2. Photo your jewelry products with a smartphone. 3. Upload to JewelryAI and select templates. 4. Download finished images. 5. Upload to your Magento product listings. The entire workflow takes under 10 minutes per product."
+        },
+        {
+          "heading": "Best Practices",
+          "body": "For optimal results on Magento: use lifestyle/on-model shots as your primary image, include detail close-ups as secondary images, maintain consistent styling across your catalog, and optimize image dimensions for Magento's requirements."
+        },
+        {
+          "heading": "Workflow Examples",
+          "body": "Example 1: New product launch — generate 5 styled variations per SKU for A/B testing. Example 2: Seasonal refresh — update all listing images with seasonal styling without reshooting. Example 3: Scale operations — photograph 100+ new pieces in a day using AI batch processing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does JewelryAI integrate directly with Magento?",
+          "answer": "Currently, you download images from JewelryAI and upload them to Magento. We're developing direct API integrations for seamless workflow automation. Sign up to be notified when the Magento integration launches."
+        },
+        {
+          "question": "What image sizes work best for Magento?",
+          "answer": "We deliver images optimized for Magento's requirements. Standard delivery includes web-optimized (2000x2000px), social media (1080x1080px), and print-ready (4000x4000px) formats."
+        },
+        {
+          "question": "Can I use JewelryAI for all my Magento product photos?",
+          "answer": "Yes! Many sellers use JewelryAI as their primary photography solution for Magento. Our unlimited revision policy and fast turnaround make it ideal for maintaining a professional-looking store."
+        }
+      ],
+      "call_to_action": "Boost your Magento jewelry sales with AI photography. Start your free trial at JewelryAI."
+    },
+    "schema": {
+      "type": "HowTo",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use JewelryAI with Magento"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "See Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/ecommerce-entrepreneur",
+        "anchor_text": "For E-commerce Sellers",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "tools"
+    ],
+    "platform_name": "Magento",
+    "setup_steps": [
+      {
+        "step": 1,
+        "title": "Create Account",
+        "description": "Sign up for JewelryAI"
+      },
+      {
+        "step": 2,
+        "title": "Upload Photos",
+        "description": "Upload product photos"
+      },
+      {
+        "step": 3,
+        "title": "Generate Images",
+        "description": "Select templates and generate"
+      },
+      {
+        "step": 4,
+        "title": "Upload to Magento",
+        "description": "Add images to Magento listings"
+      }
+    ],
+    "use_cases": [
+      "New product launches",
+      "Seasonal updates",
+      "Catalog expansion"
+    ],
+    "workflow_examples": [
+      {
+        "title": "Bulk Processing",
+        "description": "Process 100+ products for Magento in one session"
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Generate multiple variations to test conversion rates"
+      }
+    ]
+  },
+  {
+    "slug": "bigcommerce-jewelry-photography",
+    "playbook_type": "integrations",
+    "seo": {
+      "title": "JewelryAI + BigCommerce Integration | AI Jewelry Photography for BigCommerce",
+      "meta_description": "Learn how to use JewelryAI with BigCommerce. Step-by-step setup guide, use cases, and workflow examples for jewelry e-commerce photography.",
+      "primary_keyword": "bigcommerce jewelry photography",
+      "secondary_keywords": [
+        "AI photos for bigcommerce",
+        "bigcommerce product photography",
+        "jewelry images bigcommerce"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "How to Use AI Jewelry Photography with BigCommerce",
+      "introduction": "Selling jewelry on BigCommerce? Professional product photography is crucial for conversions. This guide shows you how to integrate JewelryAI with your BigCommerce store to create stunning, AI-generated jewelry photos that drive sales. Follow our step-by-step setup to start generating professional imagery in minutes.",
+      "sections": [
+        {
+          "heading": "Why BigCommerce Sellers Need AI Photography",
+          "body": "BigCommerce is one of the most competitive platforms for jewelry sellers. High-quality product images are the #1 factor in purchase decisions. JewelryAI helps BigCommerce sellers stand out with professional on-model photography at a fraction of traditional costs."
+        },
+        {
+          "heading": "Step-by-Step Setup Guide",
+          "body": "1. Create your JewelryAI account. 2. Photo your jewelry products with a smartphone. 3. Upload to JewelryAI and select templates. 4. Download finished images. 5. Upload to your BigCommerce product listings. The entire workflow takes under 10 minutes per product."
+        },
+        {
+          "heading": "Best Practices",
+          "body": "For optimal results on BigCommerce: use lifestyle/on-model shots as your primary image, include detail close-ups as secondary images, maintain consistent styling across your catalog, and optimize image dimensions for BigCommerce's requirements."
+        },
+        {
+          "heading": "Workflow Examples",
+          "body": "Example 1: New product launch — generate 5 styled variations per SKU for A/B testing. Example 2: Seasonal refresh — update all listing images with seasonal styling without reshooting. Example 3: Scale operations — photograph 100+ new pieces in a day using AI batch processing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does JewelryAI integrate directly with BigCommerce?",
+          "answer": "Currently, you download images from JewelryAI and upload them to BigCommerce. We're developing direct API integrations for seamless workflow automation. Sign up to be notified when the BigCommerce integration launches."
+        },
+        {
+          "question": "What image sizes work best for BigCommerce?",
+          "answer": "We deliver images optimized for BigCommerce's requirements. Standard delivery includes web-optimized (2000x2000px), social media (1080x1080px), and print-ready (4000x4000px) formats."
+        },
+        {
+          "question": "Can I use JewelryAI for all my BigCommerce product photos?",
+          "answer": "Yes! Many sellers use JewelryAI as their primary photography solution for BigCommerce. Our unlimited revision policy and fast turnaround make it ideal for maintaining a professional-looking store."
+        }
+      ],
+      "call_to_action": "Boost your BigCommerce jewelry sales with AI photography. Start your free trial at JewelryAI."
+    },
+    "schema": {
+      "type": "HowTo",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use JewelryAI with BigCommerce"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "See Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/ecommerce-entrepreneur",
+        "anchor_text": "For E-commerce Sellers",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "tools"
+    ],
+    "platform_name": "BigCommerce",
+    "setup_steps": [
+      {
+        "step": 1,
+        "title": "Create Account",
+        "description": "Sign up for JewelryAI"
+      },
+      {
+        "step": 2,
+        "title": "Upload Photos",
+        "description": "Upload product photos"
+      },
+      {
+        "step": 3,
+        "title": "Generate Images",
+        "description": "Select templates and generate"
+      },
+      {
+        "step": 4,
+        "title": "Upload to BigCommerce",
+        "description": "Add images to BigCommerce listings"
+      }
+    ],
+    "use_cases": [
+      "New product launches",
+      "Seasonal updates",
+      "Catalog expansion"
+    ],
+    "workflow_examples": [
+      {
+        "title": "Bulk Processing",
+        "description": "Process 100+ products for BigCommerce in one session"
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Generate multiple variations to test conversion rates"
+      }
+    ]
+  },
+  {
+    "slug": "squarespace-jewelry-photography",
+    "playbook_type": "integrations",
+    "seo": {
+      "title": "JewelryAI + Squarespace Integration | AI Jewelry Photography for Squarespace",
+      "meta_description": "Learn how to use JewelryAI with Squarespace. Step-by-step setup guide, use cases, and workflow examples for jewelry e-commerce photography.",
+      "primary_keyword": "squarespace jewelry photography",
+      "secondary_keywords": [
+        "AI photos for squarespace",
+        "squarespace product photography",
+        "jewelry images squarespace"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "How to Use AI Jewelry Photography with Squarespace",
+      "introduction": "Selling jewelry on Squarespace? Professional product photography is crucial for conversions. This guide shows you how to integrate JewelryAI with your Squarespace store to create stunning, AI-generated jewelry photos that drive sales. Follow our step-by-step setup to start generating professional imagery in minutes.",
+      "sections": [
+        {
+          "heading": "Why Squarespace Sellers Need AI Photography",
+          "body": "Squarespace is one of the most competitive platforms for jewelry sellers. High-quality product images are the #1 factor in purchase decisions. JewelryAI helps Squarespace sellers stand out with professional on-model photography at a fraction of traditional costs."
+        },
+        {
+          "heading": "Step-by-Step Setup Guide",
+          "body": "1. Create your JewelryAI account. 2. Photo your jewelry products with a smartphone. 3. Upload to JewelryAI and select templates. 4. Download finished images. 5. Upload to your Squarespace product listings. The entire workflow takes under 10 minutes per product."
+        },
+        {
+          "heading": "Best Practices",
+          "body": "For optimal results on Squarespace: use lifestyle/on-model shots as your primary image, include detail close-ups as secondary images, maintain consistent styling across your catalog, and optimize image dimensions for Squarespace's requirements."
+        },
+        {
+          "heading": "Workflow Examples",
+          "body": "Example 1: New product launch — generate 5 styled variations per SKU for A/B testing. Example 2: Seasonal refresh — update all listing images with seasonal styling without reshooting. Example 3: Scale operations — photograph 100+ new pieces in a day using AI batch processing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does JewelryAI integrate directly with Squarespace?",
+          "answer": "Currently, you download images from JewelryAI and upload them to Squarespace. We're developing direct API integrations for seamless workflow automation. Sign up to be notified when the Squarespace integration launches."
+        },
+        {
+          "question": "What image sizes work best for Squarespace?",
+          "answer": "We deliver images optimized for Squarespace's requirements. Standard delivery includes web-optimized (2000x2000px), social media (1080x1080px), and print-ready (4000x4000px) formats."
+        },
+        {
+          "question": "Can I use JewelryAI for all my Squarespace product photos?",
+          "answer": "Yes! Many sellers use JewelryAI as their primary photography solution for Squarespace. Our unlimited revision policy and fast turnaround make it ideal for maintaining a professional-looking store."
+        }
+      ],
+      "call_to_action": "Boost your Squarespace jewelry sales with AI photography. Start your free trial at JewelryAI."
+    },
+    "schema": {
+      "type": "HowTo",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use JewelryAI with Squarespace"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "See Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/ecommerce-entrepreneur",
+        "anchor_text": "For E-commerce Sellers",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "tools"
+    ],
+    "platform_name": "Squarespace",
+    "setup_steps": [
+      {
+        "step": 1,
+        "title": "Create Account",
+        "description": "Sign up for JewelryAI"
+      },
+      {
+        "step": 2,
+        "title": "Upload Photos",
+        "description": "Upload product photos"
+      },
+      {
+        "step": 3,
+        "title": "Generate Images",
+        "description": "Select templates and generate"
+      },
+      {
+        "step": 4,
+        "title": "Upload to Squarespace",
+        "description": "Add images to Squarespace listings"
+      }
+    ],
+    "use_cases": [
+      "New product launches",
+      "Seasonal updates",
+      "Catalog expansion"
+    ],
+    "workflow_examples": [
+      {
+        "title": "Bulk Processing",
+        "description": "Process 100+ products for Squarespace in one session"
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Generate multiple variations to test conversion rates"
+      }
+    ]
+  },
+  {
+    "slug": "wix-jewelry-photography",
+    "playbook_type": "integrations",
+    "seo": {
+      "title": "JewelryAI + Wix Integration | AI Jewelry Photography for Wix",
+      "meta_description": "Learn how to use JewelryAI with Wix. Step-by-step setup guide, use cases, and workflow examples for jewelry e-commerce photography.",
+      "primary_keyword": "wix jewelry photography",
+      "secondary_keywords": [
+        "AI photos for wix",
+        "wix product photography",
+        "jewelry images wix"
+      ],
+      "search_intent": "informational"
+    },
+    "content": {
+      "h1": "How to Use AI Jewelry Photography with Wix",
+      "introduction": "Selling jewelry on Wix? Professional product photography is crucial for conversions. This guide shows you how to integrate JewelryAI with your Wix store to create stunning, AI-generated jewelry photos that drive sales. Follow our step-by-step setup to start generating professional imagery in minutes.",
+      "sections": [
+        {
+          "heading": "Why Wix Sellers Need AI Photography",
+          "body": "Wix is one of the most competitive platforms for jewelry sellers. High-quality product images are the #1 factor in purchase decisions. JewelryAI helps Wix sellers stand out with professional on-model photography at a fraction of traditional costs."
+        },
+        {
+          "heading": "Step-by-Step Setup Guide",
+          "body": "1. Create your JewelryAI account. 2. Photo your jewelry products with a smartphone. 3. Upload to JewelryAI and select templates. 4. Download finished images. 5. Upload to your Wix product listings. The entire workflow takes under 10 minutes per product."
+        },
+        {
+          "heading": "Best Practices",
+          "body": "For optimal results on Wix: use lifestyle/on-model shots as your primary image, include detail close-ups as secondary images, maintain consistent styling across your catalog, and optimize image dimensions for Wix's requirements."
+        },
+        {
+          "heading": "Workflow Examples",
+          "body": "Example 1: New product launch — generate 5 styled variations per SKU for A/B testing. Example 2: Seasonal refresh — update all listing images with seasonal styling without reshooting. Example 3: Scale operations — photograph 100+ new pieces in a day using AI batch processing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does JewelryAI integrate directly with Wix?",
+          "answer": "Currently, you download images from JewelryAI and upload them to Wix. We're developing direct API integrations for seamless workflow automation. Sign up to be notified when the Wix integration launches."
+        },
+        {
+          "question": "What image sizes work best for Wix?",
+          "answer": "We deliver images optimized for Wix's requirements. Standard delivery includes web-optimized (2000x2000px), social media (1080x1080px), and print-ready (4000x4000px) formats."
+        },
+        {
+          "question": "Can I use JewelryAI for all my Wix product photos?",
+          "answer": "Yes! Many sellers use JewelryAI as their primary photography solution for Wix. Our unlimited revision policy and fast turnaround make it ideal for maintaining a professional-looking store."
+        }
+      ],
+      "call_to_action": "Boost your Wix jewelry sales with AI photography. Start your free trial at JewelryAI."
+    },
+    "schema": {
+      "type": "HowTo",
+      "structured_data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use JewelryAI with Wix"
+      }
+    },
+    "internal_links": [
+      {
+        "url": "/examples/ai-rings-photography-examples",
+        "anchor_text": "See Examples",
+        "playbook_type": "examples"
+      },
+      {
+        "url": "/for/ecommerce-entrepreneur",
+        "anchor_text": "For E-commerce Sellers",
+        "playbook_type": "personas"
+      },
+      {
+        "url": "/templates/minimalist-rings-photography-template",
+        "anchor_text": "Templates",
+        "playbook_type": "templates"
+      },
+      {
+        "url": "/vs/ai-photography-vs-traditional-photography-for-rings",
+        "anchor_text": "AI vs Traditional",
+        "playbook_type": "comparisons"
+      },
+      {
+        "url": "/glossary/product-photography",
+        "anchor_text": "Product Photography",
+        "playbook_type": "glossary"
+      }
+    ],
+    "related_pages": [],
+    "data_requirements_used": [
+      "tools"
+    ],
+    "platform_name": "Wix",
+    "setup_steps": [
+      {
+        "step": 1,
+        "title": "Create Account",
+        "description": "Sign up for JewelryAI"
+      },
+      {
+        "step": 2,
+        "title": "Upload Photos",
+        "description": "Upload product photos"
+      },
+      {
+        "step": 3,
+        "title": "Generate Images",
+        "description": "Select templates and generate"
+      },
+      {
+        "step": 4,
+        "title": "Upload to Wix",
+        "description": "Add images to Wix listings"
+      }
+    ],
+    "use_cases": [
+      "New product launches",
+      "Seasonal updates",
+      "Catalog expansion"
+    ],
+    "workflow_examples": [
+      {
+        "title": "Bulk Processing",
+        "description": "Process 100+ products for Wix in one session"
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Generate multiple variations to test conversion rates"
+      }
+    ]
+  }
+]

@@ -21,8 +21,19 @@ const nextConfig: NextConfig = {
         hostname: 'customer-ceouac30q8dlws1c.cloudflarestream.com',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        pathname: '/**',
+      },
     ],
   },
+
 
   // Performance optimizations
   compress: true,

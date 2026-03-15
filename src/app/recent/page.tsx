@@ -24,7 +24,7 @@ const Gallery = () => {
     const galleryTopRef = useRef<HTMLDivElement>(null);
 
     // Filter items based on user selection
-    const allowedIds = [
+    const allowedIds = React.useMemo(() => [
         1040, 1041, 1043, 1049, 1045,
         12019, 12018, 12020, 12023, 12013, 12005, 12003,
         11132,
@@ -33,26 +33,29 @@ const Gallery = () => {
         20023, // New video
         20024, 20025, 20026, 20027, // New videos
         12031, 12032, 12033 // New images
-    ];
+    ], []);
 
     // Shuffle array function
-    const shuffleArray = <T,>(array: T[]): T[] => {
+    const shuffleArray = React.useCallback(<T,>(array: T[]): T[] => {
         const shuffled = [...array];
         for (let i = shuffled.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
         return shuffled;
-    };
+    }, []);
 
-    // Combine all potential items from all sources
-    const allPotentialItems = [...galleryItems, ...photoItems, ...recentFolderItems];
+    // Combine all potential items from all sources and filter
+    const allGalleryItems = React.useMemo(() => {
+        const potential = [...galleryItems, ...photoItems, ...recentFolderItems];
+        return potential.filter(item => allowedIds.includes(item.id));
+    }, [allowedIds]);
 
-    // Filter to include ONLY the IDs specified by the user
-    const allGalleryItems = allPotentialItems.filter(item => allowedIds.includes(item.id));
+    const [randomizedItems, setRandomizedItems] = useState<GalleryItem[]>(allGalleryItems);
 
-    // Randomize items whenever allGalleryItems changes
-    const randomizedItems = React.useMemo(() => shuffleArray(allGalleryItems), [allGalleryItems]); // Re-calculates on mount
+    useEffect(() => {
+        setRandomizedItems(shuffleArray(allGalleryItems));
+    }, [allGalleryItems]);
 
     // Handle category change with scroll to top
     const handleCategoryChange = (category: "all" | "photos" | "videos" | "featured") => {

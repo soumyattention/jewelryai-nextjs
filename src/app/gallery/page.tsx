@@ -23,20 +23,24 @@ const Gallery = () => {
   const galleryTopRef = useRef<HTMLDivElement>(null);
 
   // Shuffle array function
-  const shuffleArray = <T,>(array: T[]): T[] => {
+  const shuffleArray = React.useCallback(<T,>(array: T[]): T[] => {
     const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
     return shuffled;
-  };
+  }, []);
 
 // All gallery data is now static - no API calls needed
-  const allGalleryItems = [...galleryItems, ...photoItems];
+  const allGalleryItems = React.useMemo(() => [...galleryItems, ...photoItems], []);
 
-  // Randomize items whenever allGalleryItems changes
-  const randomizedItems = React.useMemo(() => shuffleArray(allGalleryItems), [allGalleryItems]);
+  // Items are randomized once on mount to avoid reshuffling during re-renders
+  const [randomizedItems, setRandomizedItems] = useState<GalleryItem[]>(allGalleryItems);
+
+  useEffect(() => {
+    setRandomizedItems(shuffleArray(allGalleryItems));
+  }, [allGalleryItems]);
 
   // Handle category change with scroll to top
   const handleCategoryChange = (category: "all" | "photos" | "videos" | "featured") => {
