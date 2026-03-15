@@ -5,7 +5,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 // Static gallery data - images and videos are hardcoded, no API calls needed
 import { galleryItems, photoItems, GalleryItem } from '@/lib/gallery-data';
-import { X, ChevronLeft, ChevronRight, Play, Grid3x3 } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, Play, Grid3x3, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Component as Docks } from '@/components/ui/docks';
 import { PhotoGallery } from '@/components/ui/gallery';
@@ -346,7 +347,7 @@ const Gallery = () => {
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="relative max-w-[95vw] max-h-[95vh] flex items-center justify-center"
+              className="relative max-w-[95vw] max-h-[95vh] flex flex-col items-center justify-center p-4 gap-4"
               onClick={(e) => e.stopPropagation()}
             >
               {selectedItem.type === 'video' ? (
@@ -354,7 +355,7 @@ const Gallery = () => {
                   <video
                     ref={videoRef}
                     src={selectedItem.src}
-                    className="max-w-[95vw] max-h-[95vh] w-auto h-auto object-contain rounded-xl shadow-2xl"
+                    className="max-w-[95vw] max-h-[85vh] w-auto h-auto object-contain rounded-xl shadow-2xl"
                     controls
                     autoPlay
                     loop
@@ -367,9 +368,28 @@ const Gallery = () => {
                 <img
                   src={selectedItem.src}
                   alt={selectedItem.alt}
-                  className="max-w-[95vw] max-h-[95vh] w-auto h-auto object-contain rounded-xl shadow-2xl"
+                  className="max-w-[95vw] max-h-[85vh] w-auto h-auto object-contain rounded-xl shadow-2xl"
                 />
               )}
+              {/* SEO Physical Link to design page - FIXES ORPHAN ISSUE */}
+              {(() => {
+                let slug = '';
+                try {
+                   const seoData = require('@/data/gallery-seo.json');
+                   const mapping = seoData.find((s: any) => s.id === selectedItem.id);
+                   if (mapping) slug = mapping.slug;
+                } catch {}
+                if (!slug) return null;
+                return (
+                  <Link 
+                    href={`/design/${slug}`}
+                    className="mt-2 bg-black/50 hover:bg-black/70 backdrop-blur-md border border-white/20 text-white transition-all duration-300 rounded-full px-6 py-2.5 font-medium flex items-center gap-2 group"
+                  >
+                    <span>View Technical Details & Variations</span>
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                );
+              })()}
             </motion.div>
 
           </motion.div>

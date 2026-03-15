@@ -49,7 +49,7 @@ const Footer = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-16 mb-8 sm:mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 lg:gap-16 mb-8 sm:mb-12">
           
           {/* About Us Section */}
           <div className="space-y-4 sm:space-y-6">
@@ -122,23 +122,66 @@ const Footer = () => {
                 <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-200" />
               </Link>
               
-              <a 
+              <Link 
                 href="/refunds" 
                 className="group flex items-center space-x-3 text-gray-300 hover:text-amber-400 transition-colors duration-200 touch-manipulation py-1"
               >
                 <div className="w-2 h-2 bg-amber-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
                 <span className="text-sm sm:text-base">Cancellation & Refunds</span>
                 <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-200" />
-              </a>
+              </Link>
               
-              <a 
+              <Link 
                 href="/tos" 
                 className="group flex items-center space-x-3 text-gray-300 hover:text-amber-400 transition-colors duration-200 touch-manipulation py-1"
               >
                 <div className="w-2 h-2 bg-amber-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
                 <span className="text-sm sm:text-base">Terms of Services</span>
                 <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-200" />
-              </a>
+              </Link>
+            </div>
+          </div>
+
+          {/* Resources Section */}
+          <div className="space-y-4 sm:space-y-6">
+            <h3 className="text-lg sm:text-xl font-bold text-white mb-4 sm:mb-6">Resources</h3>
+            
+            <div className="space-y-3 sm:space-y-4">
+              <Link
+                href="/explore"
+                className="group flex items-center space-x-3 text-gray-300 hover:text-amber-400 transition-colors duration-200 touch-manipulation py-1"
+              >
+                <div className="w-2 h-2 bg-amber-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+                <span className="text-sm sm:text-base">Explore Directory</span>
+                <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-200" />
+              </Link>
+
+              <Link
+                href="/locations/ai-jewelry-photography-new-york-city"
+                className="group flex items-center space-x-3 text-gray-300 hover:text-amber-400 transition-colors duration-200 touch-manipulation py-1"
+              >
+                <div className="w-2 h-2 bg-amber-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+                <span className="text-sm sm:text-base">Locations</span>
+                <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-200" />
+              </Link>
+
+              <Link
+                href="/templates/minimalist-rings-photography-template"
+                className="group flex items-center space-x-3 text-gray-300 hover:text-amber-400 transition-colors duration-200 touch-manipulation py-1"
+              >
+                <div className="w-2 h-2 bg-amber-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+                <span className="text-sm sm:text-base">Free Templates</span>
+                <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-200" />
+              </Link>
+
+              <Link
+                href="/glossary/brilliant-cut"
+                className="group flex items-center space-x-3 text-gray-300 hover:text-amber-400 transition-colors duration-200 touch-manipulation py-1"
+              >
+                <div className="w-2 h-2 bg-amber-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+                <span className="text-sm sm:text-base">Jewelry Glossary</span>
+                <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-200" />
+              </Link>
             </div>
           </div>
 
