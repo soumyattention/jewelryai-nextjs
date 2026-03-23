@@ -51,6 +51,15 @@ export const metadata: Metadata = {
   verification: {
     google: 'google-site-verification-code', // User needs to add this from Google Search Console
   },
+  icons: {
+    icon: [
+      { url: '/icon.png' },
+      { url: '/favicon.png' },
+    ],
+    apple: [
+      { url: '/icon.png' },
+    ],
+  },
 };
 
 export default function RootLayout({

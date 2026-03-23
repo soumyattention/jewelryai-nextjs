@@ -1491,6 +1491,14 @@ export const galleryItems: GalleryItem[] = [
         src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1771597601/final_video_k42h7i.mp4",
         alt: "AI-generated jewelry video",
         autoplay: true
+    },
+    {
+        id: 1058,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1774236631/hz1_to1vmn.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
     }
 ];
 
@@ -1720,6 +1728,14 @@ export const recentFolderItems: GalleryItem[] = [
         category: "videos",
         type: "video",
         src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1771597601/final_video_k42h7i.mp4",
+        alt: "AI-generated jewelry video",
+        autoplay: true
+    },
+    {
+        id: 20028,
+        category: "videos",
+        type: "video",
+        src: "https://res.cloudinary.com/dc4ezu6y8/video/upload/v1774236631/hz1_to1vmn.mp4",
         alt: "AI-generated jewelry video",
         autoplay: true
     }
