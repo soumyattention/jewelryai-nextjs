@@ -45,6 +45,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/lang`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${baseUrl}/directory`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${baseUrl}/profiles`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    // Guide pages
+    { url: `${baseUrl}/guides`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${baseUrl}/guides/ai-models-jewelry-photography`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/guides/ai-jewelry-marketing`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/guides/realistic-ai-jewelry-photos`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/guides/virtual-models-jewellery`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/guides/ai-jewelry-shopify`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/guides/best-ai-jewelry-tools`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/guides/ai-jewelry-video`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${baseUrl}/guides/ai-jewellery-marketing-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    // French pages
+    { url: `${baseUrl}/fr/photographie-bijoux-ia`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 
   // Original design pSEO routes

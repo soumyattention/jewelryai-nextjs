@@ -8,8 +8,8 @@ export const metadata: Metadata = {
     default: "Jewelry AI - AI Jewelry Photography & Video Studio | 90% Cost Reduction",
     template: "%s | Jewelry AI"
   },
-  description: "Transform your jewelry photos into stunning professional shots with AI. Get 10 images and 3 videos in 24 hours. 90% cheaper than traditional photography.",
-  keywords: "AI jewelry photography, jewelry video production, product photography, jewelry marketing, AI photo studio, jewelry advertising, e-commerce jewelry",
+  description: "Transform your jewelry photos into stunning, hyper-realistic on-model photography and videos with AI. The best custom-trained AI for jewelry and jewellery photography. Get 10 images and 3 videos in 48 hours. 90% cheaper than traditional photography. Trusted by 500+ brands.",
+  keywords: "AI jewelry photography, AI jewellery photography, AI model for jewelry, AI jewelry model, virtual model for jewelry, AI jewellery model, AI jewelry photo, AI jewelry video, AI for jewelry marketing, AI jewellery marketing, jewelry AI photoshoot, jewellery AI photoshoot, best AI for jewelry, custom trained AI jewelry, AI jewelry shopify, virtual jewelry photography, jewelry content creation, jewelry video production, jewelry advertising, e-commerce jewelry photos",
   authors: [{ name: "Jewelry AI" }],
   creator: "Jewelry AI",
   publisher: "Jewelry AI",

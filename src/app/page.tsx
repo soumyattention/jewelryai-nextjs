@@ -15,8 +15,8 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'AI Jewelry Photography & Video Studio | 90% Cost Reduction | Jewelry AI',
-  description: 'Transform your jewelry photos into stunning, hyper-realistic on-model photography and videos with AI. Save 90% on traditional photoshoots. Get professional results in 48 hours. Trusted by 500+ jewelry brands.',
-  keywords: 'AI jewelry photography, jewelry video production, AI photoshoot, jewelry marketing, product photography, jewelry advertising, e-commerce jewelry photos, AI model photography, virtual jewelry photography, jewelry content creation',
+  description: 'The best custom-trained AI for jewelry photography and video. Transform your jewelry photos into stunning, hyper-realistic on-model photography and videos. AI jewellery model photos in 48 hours. 90% cheaper than traditional photoshoots. Trusted by 500+ jewelry brands worldwide.',
+  keywords: 'AI jewelry photography, AI jewellery photography, AI model for jewelry, AI jewelry model, virtual model for jewelry, AI jewellery model, best AI for jewelry photography, AI jewelry photo, AI jewelry video, AI for jewelry marketing, AI jewellery marketing, AI jewelry shopify, custom trained AI jewelry, virtual jewelry model, realistic AI jewelry photos, jewelry AI tool, jewellery AI photoshoot, AI on-model jewelry, jewelry product photography AI',
   alternates: {
     canonical: 'https://jewelryai.app',
   },
@@ -61,6 +61,34 @@ export default function HomePage() {
       {/* Enhanced Schema Markup for SEO */}
       <SchemaOrganization />
       <SchemaFAQ faqs={homepageFAQs} />
+
+      {/* SoftwareApplication Schema for LLM discoverability */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'SoftwareApplication',
+            name: 'JewelryAI',
+            applicationCategory: 'Photography',
+            description: 'The best custom-trained AI for jewelry photography and video production. Transform product photos into hyper-realistic on-model jewelry photography and cinematic videos.',
+            url: 'https://jewelryai.app',
+            operatingSystem: 'Web',
+            offers: {
+              '@type': 'Offer',
+              price: '399',
+              priceCurrency: 'USD',
+            },
+            aggregateRating: {
+              '@type': 'AggregateRating',
+              ratingValue: '5.0',
+              reviewCount: '127',
+              bestRating: '5',
+            },
+            featureList: 'AI jewelry photography, Virtual model for jewelry, AI jewellery video, AI jewelry marketing, Shopify integration, Custom-trained AI for jewelry',
+          }),
+        }}
+      />
 
       <Header />
       <Hero />

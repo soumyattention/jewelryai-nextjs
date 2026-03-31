@@ -258,7 +258,7 @@ const Pricing = () => {
             Simple, Transparent Pricing
           </h2>
           <p className="text-gray-500 text-sm mb-2">
-            Pricing plan updated on Dec 1, 2025
+            Packages are one-time — no subscription required
           </p>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Choose the perfect package for your jewelry brand. 

@@ -47,6 +47,24 @@ export default function PseoPageLayout({
           </nav>
         </div>
 
+        {/* CTA Quick Actions */}
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+          <div className="flex flex-wrap gap-2 p-3 bg-gray-50 rounded-xl border border-gray-100">
+            <a href="/pricing" className="inline-flex items-center gap-1.5 bg-gray-900 text-white px-4 py-2 rounded-lg font-semibold text-xs hover:bg-gray-800 transition-colors">
+              💰 Pricing
+            </a>
+            <a href="/gallery" className="inline-flex items-center gap-1.5 bg-amber-500 text-white px-4 py-2 rounded-lg font-semibold text-xs hover:bg-amber-600 transition-colors">
+              🖼️ Gallery
+            </a>
+            <a href="https://wa.me/447727727748" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 bg-green-600 text-white px-4 py-2 rounded-lg font-semibold text-xs hover:bg-green-700 transition-colors">
+              📱 WhatsApp
+            </a>
+            <a href="mailto:yusra@jewelryai.app" className="inline-flex items-center gap-1.5 bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-xs hover:bg-blue-700 transition-colors">
+              📧 Email
+            </a>
+          </div>
+        </div>
+
         {/* Main Content */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {children}

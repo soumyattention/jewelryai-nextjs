@@ -17,6 +17,10 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
       {
+        userAgent: 'PerplexityBot',
+        allow: '/',
+      },
+      {
         userAgent: 'GoogleBot',
         allow: '/',
       },

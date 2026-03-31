@@ -29,7 +29,7 @@ export const SchemaProduct: React.FC<ProductSchemaProps> = ({
   image = 'https://jewelryai.app/og-image.jpg',
   url = 'https://jewelryai.app/pricing',
   availability = 'InStock',
-  priceValidUntil = '2025-12-31',
+  priceValidUntil = '2027-12-31',
   aggregateRating,
 }) => {
   const schema = {
