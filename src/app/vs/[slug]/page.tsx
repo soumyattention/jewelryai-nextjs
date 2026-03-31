@@ -33,7 +33,7 @@ export default async function PseoPage({ params }: PageProps) {
   if (!item) notFound();
   return (
     <PseoPageLayout breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Comparisons', href: '/vs' }, { label: item.content.h1 }]} internalLinks={item.internal_links} callToAction={item.content.call_to_action} schemaJsonLd={item.schema.structured_data}>
-      <PseoContentRenderer h1={item.content.h1} introduction={item.content.introduction} sections={item.content.sections} faq={item.content.faq} badges={['Comparison', 'Analysis']}
+      <PseoContentRenderer h1={item.content.h1} introduction={item.content.introduction} sections={item.content.sections} faq={item.content.faq} badges={['Comparison', 'Analysis']} keyTakeaways={item.content.key_takeaways} featuredImages={item.featured_images} lastUpdated={item.last_updated}
         extraContent={item.feature_matrix && <ComparisonTable optionAName={item.option_a_name} optionBName={item.option_b_name} features={item.feature_matrix} />}
       />
     </PseoPageLayout>

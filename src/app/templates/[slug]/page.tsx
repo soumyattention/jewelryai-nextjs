@@ -55,6 +55,9 @@ export default async function TemplatesPage({ params }: PageProps) {
         sections={item.content.sections}
         faq={item.content.faq}
         badges={['Template', 'Free Download']}
+        keyTakeaways={item.content.key_takeaways}
+        featuredImages={item.featured_images}
+        lastUpdated={item.last_updated}
       />
     </PseoPageLayout>
   );

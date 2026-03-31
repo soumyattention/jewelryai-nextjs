@@ -32,7 +32,7 @@ export default async function PseoPage({ params }: PageProps) {
   if (!item) notFound();
   return (
     <PseoPageLayout breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Integrations', href: '/integrations' }, { label: item.content.h1 }]} internalLinks={item.internal_links} callToAction={item.content.call_to_action} schemaJsonLd={item.schema.structured_data}>
-      <PseoContentRenderer h1={item.content.h1} introduction={item.content.introduction} sections={item.content.sections} faq={item.content.faq} badges={['Integration', 'Guide']} />
+      <PseoContentRenderer h1={item.content.h1} introduction={item.content.introduction} sections={item.content.sections} faq={item.content.faq} badges={['Integration', 'Guide']} keyTakeaways={item.content.key_takeaways} featuredImages={item.featured_images} lastUpdated={item.last_updated} />
     </PseoPageLayout>
   );
 }
