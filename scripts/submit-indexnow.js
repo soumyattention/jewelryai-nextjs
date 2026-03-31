@@ -11,7 +11,7 @@ const path = require('path');
 const KEY = '4fdcc5bad87e4cc4bdef6858f453e170';
 const HOST = 'jewelryai.app';
 const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
-const DATA_DIR = path.join(__dirname, 'src/data');
+const DATA_DIR = path.join(process.cwd(), 'src/data');
 
 // Collect all URLs
 const urls = [
