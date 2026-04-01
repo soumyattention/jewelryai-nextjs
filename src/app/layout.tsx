@@ -70,6 +70,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Pinterest Domain Verification */}
+        <meta name="p:domain_verify" content="50eecbf3fd525ddb641c983bf7db943c"/>
         {/* Resource Hints - Preconnect to external domains */}
         <link rel="preconnect" href="https://ik.imagekit.io" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
