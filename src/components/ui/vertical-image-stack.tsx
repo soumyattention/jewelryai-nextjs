@@ -7,7 +7,7 @@ import { ExternalLink, Play, Instagram } from "lucide-react"
 
 export interface PortfolioItem {
   id: number
-  /** Thumbnail image URL (always required, used as poster for videos) */
+  /** Thumbnail image URL, used only for non-video fallbacks */
   thumbnail: string
   /** Alt text */
   alt: string
@@ -41,6 +41,7 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const lastNavigationTime = useRef(0)
   const preloadedVideos = useRef(new Map<string, HTMLVideoElement>())
+  const stackRef = useRef<HTMLDivElement>(null)
   const navigationCooldown = 400
 
   const navigate = useCallback(
@@ -114,6 +115,26 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
     })
   }, [currentIndex, items])
 
+  useEffect(() => {
+    const videos = stackRef.current?.querySelectorAll<HTMLVideoElement>(
+      "[data-portfolio-video]",
+    )
+
+    videos?.forEach((video) => {
+      const isActive = Number(video.dataset.index) === currentIndex
+
+      if (isActive) {
+        video.currentTime = 0
+        video.play().catch(() => {
+          // Autoplay can be blocked until user interaction in some browsers.
+        })
+      } else {
+        video.pause()
+        video.currentTime = 0
+      }
+    })
+  }, [currentIndex])
+
   const getCardStyle = (index: number) => {
     const total = items.length
     let diff = index - currentIndex
@@ -158,6 +179,7 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
 
       {/* Card Stack */}
       <div
+        ref={stackRef}
         className="relative flex h-[620px] w-[340px] items-center justify-center"
         style={{ perspective: "1200px" }}
       >
@@ -192,10 +214,9 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
                 zIndex: style.zIndex,
               }}
             >
-                <a
-                  href={isCurrent ? item.href : undefined}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <div
+                  role={isCurrent ? "link" : undefined}
+                  tabIndex={isCurrent ? 0 : -1}
                   className={`relative block h-[520px] w-[290px] overflow-hidden rounded-3xl bg-zinc-900 ring-1 ring-white/10 ${
                     isCurrent ? "cursor-pointer" : ""
                   }`}
@@ -205,24 +226,34 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
                       : "0 10px 30px -10px rgba(0,0,0,0.4)",
                   }}
                   onClick={(e) => {
-                    // Prevent dragging from triggering a click
-                    if (!isCurrent) e.preventDefault()
+                    if (!isCurrent) return
+                    window.open(item.href, "_blank", "noopener,noreferrer")
+                  }}
+                  onKeyDown={(e) => {
+                    if (!isCurrent) return
+
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault()
+                      window.open(item.href, "_blank", "noopener,noreferrer")
+                    }
                   }}
                 >
                 {/* Card inner glow */}
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-b from-white/10 via-transparent to-transparent z-[1]" />
 
-                {/* Media — video or image */}
-                {item.videoUrl && isCurrent ? (
+                {/* Media — video cards render video immediately so the first frame is the cover */}
+                {item.videoUrl ? (
                   <video
+                    data-portfolio-video
+                    data-index={index}
                     src={getFastVideoUrl(item.videoUrl)}
-                    autoPlay
+                    autoPlay={isCurrent}
                     loop
                     muted
                     playsInline
                     preload="auto"
+                    aria-label={item.alt}
                     className="absolute inset-0 w-full h-full object-cover"
-                    poster={item.thumbnail}
                   />
                 ) : (
                   <Image
@@ -284,7 +315,7 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
                     </motion.a>
                   )}
                 </div>
-              </a>
+              </div>
             </motion.div>
           )
         })}
