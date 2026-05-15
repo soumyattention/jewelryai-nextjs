@@ -37,6 +37,14 @@ const getFastVideoUrl = (videoUrl: string) =>
     "/video/upload/f_auto,q_auto:eco,vc_auto,c_limit,w_720/",
   )
 
+const getFirstFramePosterUrl = (videoUrl: string) =>
+  videoUrl
+    .replace(
+      "/video/upload/f_auto,q_auto/",
+      "/video/upload/f_jpg,q_auto,so_0,c_limit,w_720/",
+    )
+    .replace(/\.mp4$/, ".jpg")
+
 export function VerticalImageStack({ items }: VerticalImageStackProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const lastNavigationTime = useRef(0)
@@ -254,6 +262,7 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
                     preload="auto"
                     aria-label={item.alt}
                     className="absolute inset-0 w-full h-full object-cover"
+                    poster={getFirstFramePosterUrl(item.videoUrl)}
                   />
                 ) : (
                   <Image
