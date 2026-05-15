@@ -29,9 +29,18 @@ interface VerticalImageStackProps {
   items: PortfolioItem[]
 }
 
+const VIDEO_PRELOAD_RADIUS = 2
+
+const getFastVideoUrl = (videoUrl: string) =>
+  videoUrl.replace(
+    "/video/upload/f_auto,q_auto/",
+    "/video/upload/f_auto,q_auto:eco,vc_auto,c_limit,w_720/",
+  )
+
 export function VerticalImageStack({ items }: VerticalImageStackProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const lastNavigationTime = useRef(0)
+  const preloadedVideos = useRef(new Map<string, HTMLVideoElement>())
   const navigationCooldown = 400
 
   const navigate = useCallback(
@@ -76,6 +85,34 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
     window.addEventListener("wheel", handleWheel, { passive: true })
     return () => window.removeEventListener("wheel", handleWheel)
   }, [handleWheel])
+
+  useEffect(() => {
+    if (items.length === 0) return
+
+    const urlsToPreload = new Set<string>()
+
+    for (let offset = -VIDEO_PRELOAD_RADIUS; offset <= VIDEO_PRELOAD_RADIUS; offset++) {
+      const index = (currentIndex + offset + items.length) % items.length
+      const videoUrl = items[index]?.videoUrl
+
+      if (videoUrl) {
+        urlsToPreload.add(getFastVideoUrl(videoUrl))
+      }
+    }
+
+    urlsToPreload.forEach((videoUrl) => {
+      if (preloadedVideos.current.has(videoUrl)) return
+
+      const video = document.createElement("video")
+      video.src = videoUrl
+      video.preload = "auto"
+      video.muted = true
+      video.playsInline = true
+      video.load()
+
+      preloadedVideos.current.set(videoUrl, video)
+    })
+  }, [currentIndex, items])
 
   const getCardStyle = (index: number) => {
     const total = items.length
@@ -178,11 +215,12 @@ export function VerticalImageStack({ items }: VerticalImageStackProps) {
                 {/* Media — video or image */}
                 {item.videoUrl && isCurrent ? (
                   <video
-                    src={item.videoUrl}
+                    src={getFastVideoUrl(item.videoUrl)}
                     autoPlay
                     loop
                     muted
                     playsInline
+                    preload="auto"
                     className="absolute inset-0 w-full h-full object-cover"
                     poster={item.thumbnail}
                   />
