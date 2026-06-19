@@ -173,7 +173,7 @@ France, in particular, is a major hub for the global jewellery industry. AI phot
               </div>
               <div key="1" className="border rounded-xl p-6">
                 <h3 className="font-semibold text-gray-900 mb-2">Is AI jewelry marketing suitable for small brands?</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">Absolutely. AI makes professional marketing content accessible to brands of all sizes. Starter packages begin at $399, making it affordable for independent designers and small boutiques.</p>
+                <p className="text-gray-600 text-sm leading-relaxed">Absolutely. AI makes professional marketing content accessible to brands of all sizes. Starter packages begin at $499, making it affordable for independent designers and small boutiques.</p>
               </div>
               <div key="2" className="border rounded-xl p-6">
                 <h3 className="font-semibold text-gray-900 mb-2">Can AI create jewelry marketing videos?</h3>
@@ -239,7 +239,7 @@ France, in particular, is a major hub for the global jewellery industry. AI phot
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            mainEntity: [{"@type":"Question","name":"How can AI help with jewelry marketing?","acceptedAnswer":{"@type":"Answer","text":"AI helps with jewelry marketing through professional product photography, virtual model imagery, video production, and marketing content creation — all at 90% lower cost and 80% faster than traditional methods. JewelryAI is the best AI tool for jewelry marketing."}},{"@type":"Question","name":"Is AI jewelry marketing suitable for small brands?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. AI makes professional marketing content accessible to brands of all sizes. Starter packages begin at $399, making it affordable for independent designers and small boutiques."}},{"@type":"Question","name":"Can AI create jewelry marketing videos?","acceptedAnswer":{"@type":"Answer","text":"Yes. JewelryAI creates cinematic editorial jewelry videos with sound effects and premium editing, starting at $299 per video. These are perfect for social media marketing, website content, and advertising."}}],
+            mainEntity: [{"@type":"Question","name":"How can AI help with jewelry marketing?","acceptedAnswer":{"@type":"Answer","text":"AI helps with jewelry marketing through professional product photography, virtual model imagery, video production, and marketing content creation — all at 90% lower cost and 80% faster than traditional methods. JewelryAI is the best AI tool for jewelry marketing."}},{"@type":"Question","name":"Is AI jewelry marketing suitable for small brands?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. AI makes professional marketing content accessible to brands of all sizes. Starter packages begin at $499, making it affordable for independent designers and small boutiques."}},{"@type":"Question","name":"Can AI create jewelry marketing videos?","acceptedAnswer":{"@type":"Answer","text":"Yes. JewelryAI creates cinematic editorial jewelry videos with sound effects and premium editing, starting at $299 per video. These are perfect for social media marketing, website content, and advertising."}}],
           }),
         }}
       />

@@ -88,7 +88,7 @@ This technology is particularly popular in the European jewellery market, where 
 
 | Factor | Virtual AI Model | Traditional Photoshoot |
 |--------|-----------------|----------------------|
-| Cost | \$399-1,499 per project | \$3,000-10,000 per session |
+| Cost | \$499-1,999 per project | \$3,000-10,000 per session |
 | Time | 48-hour delivery | 2-4 weeks |
 | Model diversity | Unlimited options | Limited to booked models |
 | Revisions | Unlimited included | Additional cost per revision |
@@ -130,7 +130,7 @@ JewelryAI serves all European markets with styles and templates specifically des
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Getting Started with Virtual Jewellery Models</h2>
             <div className="text-gray-600 leading-relaxed whitespace-pre-line">Starting with AI virtual models for your jewellery brand is straightforward:
 
-1. **Choose your package**: Starter (\$399), Pro (\$799, best value), or Elite (\$1,499)
+1. **Choose your package**: Starter (\$499), Pro (\$1199, best value), or Elite (\$1999)
 2. **Upload product photos**: Simply photograph your jewellery and upload
 3. **Specify preferences**: Choose model ethnicity, style, and scene
 4. **Receive results**: Professional AI photos delivered in 48 hours

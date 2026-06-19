@@ -85,7 +85,7 @@ The technology works by analysing your product photos and generating photorealis
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Why AI Jewelry Models Are Superior to Traditional Photoshoots</h2>
             <div className="text-gray-600 leading-relaxed whitespace-pre-line">Traditional jewelry photoshoots are expensive, time-consuming, and logistically complex. Here is why brands are switching to AI:
 
-• **Cost reduction**: A traditional on-model jewelry shoot costs \$3,000-10,000. AI photography starts at \$399 — a 90% saving
+• **Cost reduction**: A traditional on-model jewelry shoot costs \$3,000-10,000. AI photography starts at \$499 — a 90% saving
 • **Speed**: Traditional shoots take 2-4 weeks. AI delivers in 48 hours
 • **Diversity**: Instantly generate models of any ethnicity, body type, and age without re-shooting
 • **Consistency**: Perfect lighting and styling across your entire catalog
@@ -132,7 +132,7 @@ The process is simple: upload your product photos, choose your preferred model a
 Photograph your jewelry with any smartphone or camera against a clean background. Natural daylight works best. Ensure your piece is in focus and shot from multiple angles.
 
 **Step 2: Choose Your Package**
-JewelryAI offers packages starting at \$399 for the Starter tier (10 AI photos, 1 video) up to \$1,499 for the Elite tier (60 photos, 10 videos). The Pro Package (\$799) offers the best value with 30 photos and 5 videos.
+JewelryAI offers packages starting at \$499 for the Starter tier (up to 5 AI photos, 1 video) up to \$1999 for the Elite tier (up to 60 photos, 10 videos + free professional video). The Pro Package (\$1199) offers the best value with up to 30 photos and 5 videos.
 
 **Step 3: Select Model Preferences**
 Specify the model ethnicity, age range, style, and scene you want. You can also bring your own reference images for the model, pose, or background.

@@ -22,7 +22,7 @@ const FAQ = () => {
     },
     {
       question: 'How does the "unlimited revisions" process work?',
-      answer: 'For Collection package customers, we refine the outputs until you\'re completely satisfied. We work through your dedicated communication channel to understand your feedback and make adjustments to achieve the exact look you want.'
+      answer: 'For Pro and Elite package customers, we refine the outputs until you\'re completely satisfied. We work through your dedicated communication channel to understand your feedback and make adjustments to achieve the exact look you want.'
     },
     {
       question: 'Do you offer larger, custom packages?',

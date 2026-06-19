@@ -10,7 +10,7 @@ const HowItWorks = () => {
       icon: Package,
       title: 'Choose Your Package',
       description: 'Pick the plan that fits your collection size.',
-      details: 'Start with our $99 trial or go full scale with our Collection package.'
+      details: 'Start with our Starter package or go full scale with our Elite package.'
     },
     {
       number: '02',

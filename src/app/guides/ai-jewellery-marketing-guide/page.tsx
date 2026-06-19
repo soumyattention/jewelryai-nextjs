@@ -127,7 +127,7 @@ Whether you are a Parisian maison or a boutique bijouterie in Lyon or Marseille,
 
 1. **Contact us**: WhatsApp (+44 7727 727748) or email (yusra@jewelryai.app)
 2. **Send product photos**: Photograph your jewellery and upload digitally
-3. **Select your package**: Starter (\$399/£330), Pro (\$799/£660), or Elite (\$1,499/£1,240)
+3. **Select your package**: Starter (\$499/£410), Pro (\$1199/£990), or Elite (\$1999/£1650)
 4. **Receive results**: Professional AI photos delivered in 48 hours
 5. **Unlimited revisions**: We iterate until every image exceeds your expectations
 

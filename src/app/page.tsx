@@ -76,7 +76,7 @@ export default function HomePage() {
             operatingSystem: 'Web',
             offers: {
               '@type': 'Offer',
-              price: '399',
+              price: '499',
               priceCurrency: 'USD',
             },
             aggregateRating: {

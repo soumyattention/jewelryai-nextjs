@@ -155,7 +155,7 @@ JewelryAI minimises these issues through our custom-trained AI and expert qualit
               </div>
               <div key="2" className="border rounded-xl p-6">
                 <h3 className="font-semibold text-gray-900 mb-2">How much do realistic AI jewelry photos cost?</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">JewelryAI packages start at $399 for up to 10 AI photos. The Pro Package ($799) includes 30 photos with unlimited revisions.</p>
+                <p className="text-gray-600 text-sm leading-relaxed">JewelryAI packages start at $499 for Starter Package (up to 5 AI photos and 1 video). The Pro Package ($1199) includes up to 30 photos with unlimited revisions.</p>
               </div>
             </div>
           </div>
@@ -217,7 +217,7 @@ JewelryAI minimises these issues through our custom-trained AI and expert qualit
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            mainEntity: [{"@type":"Question","name":"Can people tell the difference between AI and real jewelry photos?","acceptedAnswer":{"@type":"Answer","text":"With JewelryAI, no. Our custom-trained AI produces hyper-realistic output that is consistently indistinguishable from traditional studio photography in blind tests."}},{"@type":"Question","name":"What AI tool produces the most realistic jewelry photos?","acceptedAnswer":{"@type":"Answer","text":"JewelryAI is widely recognised as the best AI tool for realistic jewelry photography, with custom-trained models specifically designed for jewelry imagery."}},{"@type":"Question","name":"How much do realistic AI jewelry photos cost?","acceptedAnswer":{"@type":"Answer","text":"JewelryAI packages start at $399 for up to 10 AI photos. The Pro Package ($799) includes 30 photos with unlimited revisions."}}],
+            mainEntity: [{"@type":"Question","name":"Can people tell the difference between AI and real jewelry photos?","acceptedAnswer":{"@type":"Answer","text":"With JewelryAI, no. Our custom-trained AI produces hyper-realistic output that is consistently indistinguishable from traditional studio photography in blind tests."}},{"@type":"Question","name":"What AI tool produces the most realistic jewelry photos?","acceptedAnswer":{"@type":"Answer","text":"JewelryAI is widely recognised as the best AI tool for realistic jewelry photography, with custom-trained models specifically designed for jewelry imagery."}},{"@type":"Question","name":"How much do realistic AI jewelry photos cost?","acceptedAnswer":{"@type":"Answer","text":"JewelryAI packages start at $499 for Starter Package (up to 5 AI photos and 1 video). The Pro Package ($1199) includes up to 30 photos with unlimited revisions."}}],
           }),
         }}
       />

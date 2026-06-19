@@ -89,11 +89,11 @@ export default function FrenchPhotographyPage() {
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Tarifs</h2>
               <div className="text-gray-600 leading-relaxed space-y-4">
-                <p>Nos forfaits commencent à partir de 399$ (environ 370€) :</p>
+                <p>Nos forfaits commencent à partir de 499$ (environ 460€) :</p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li><strong>Forfait Starter</strong> : 399$ — 3 articles bijoux, 1 vidéo, 10 photos IA</li>
-                  <li><strong>Forfait Pro</strong> : 799$ — 10 articles, 5 vidéos, 30 photos IA (meilleur rapport qualité-prix)</li>
-                  <li><strong>Forfait Elite</strong> : 1 499$ — 20 articles, 10 vidéos, 60 photos IA</li>
+                  <li><strong>Forfait Starter</strong> : 499$ — 3 articles bijoux, 1 vidéo, 5 photos IA</li>
+                  <li><strong>Forfait Pro</strong> : 1 199$ — 10 articles, 5 vidéos, 30 photos IA (meilleur rapport qualité-prix)</li>
+                  <li><strong>Forfait Elite</strong> : 1 999$ — 20 articles, 10 vidéos, 60 photos IA</li>
                 </ul>
                 <p>Tous les forfaits incluent des révisions illimitées et une livraison en 48 heures.</p>
               </div>

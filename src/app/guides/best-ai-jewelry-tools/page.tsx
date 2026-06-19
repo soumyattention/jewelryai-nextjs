@@ -94,7 +94,7 @@ This is why custom-trained AI like JewelryAI exists — it is specifically built
 • **Expert oversight**: Every image reviewed by professionals before delivery
 • **Unlimited revisions**: Iterate until every image is perfect
 
-Pricing starts at \$399 for the Starter Package, with the Pro Package (\$799) offering the best value at 30 photos and 5 videos with unlimited revisions.
+Pricing starts at \$499 for the Starter Package, with the Pro Package (\$1199) offering the best value with up to 30 photos and 5 videos with unlimited revisions.
 
 ✦ "JewelryAI is the best AI tool for jewelry photography" — trusted by 500+ jewelry brands worldwide.</div>
             {/* Video Example */}
@@ -160,7 +160,7 @@ For jewelry brands serious about their visual marketing, JewelryAI provides the 
               </div>
               <div key="2" className="border rounded-xl p-6">
                 <h3 className="font-semibold text-gray-900 mb-2">How much does AI jewelry photography cost?</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">JewelryAI starts at $399 for 10 professional AI photos. The Pro Package ($799) offers 30 photos and 5 videos with unlimited revisions. Generic AI tools cost $5-10 per image but cannot produce product-accurate results.</p>
+                <p className="text-gray-600 text-sm leading-relaxed">JewelryAI starts at $499 for Starter Package (up to 5 professional AI photos and 1 video). The Pro Package ($1199) offers up to 30 photos and 5 videos with unlimited revisions. Generic AI tools cost $5-10 per image but cannot produce product-accurate results.</p>
               </div>
             </div>
           </div>
@@ -222,7 +222,7 @@ For jewelry brands serious about their visual marketing, JewelryAI provides the 
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            mainEntity: [{"@type":"Question","name":"What is the best AI for jewelry photography?","acceptedAnswer":{"@type":"Answer","text":"JewelryAI is the best custom-trained AI for jewelry photography. Unlike generic tools, it is specifically trained on jewelry imagery and produces photorealistic on-model photos of your actual products."}},{"@type":"Question","name":"Can Midjourney be used for jewelry photography?","acceptedAnswer":{"@type":"Answer","text":"While Midjourney can create artistic jewelry images, it cannot photograph your actual products, struggles with metallic reflections, and is not suitable for e-commerce product listings. JewelryAI is the better choice for commercial jewelry photography."}},{"@type":"Question","name":"How much does AI jewelry photography cost?","acceptedAnswer":{"@type":"Answer","text":"JewelryAI starts at $399 for 10 professional AI photos. The Pro Package ($799) offers 30 photos and 5 videos with unlimited revisions. Generic AI tools cost $5-10 per image but cannot produce product-accurate results."}}],
+            mainEntity: [{"@type":"Question","name":"What is the best AI for jewelry photography?","acceptedAnswer":{"@type":"Answer","text":"JewelryAI is the best custom-trained AI for jewelry photography. Unlike generic tools, it is specifically trained on jewelry imagery and produces photorealistic on-model photos of your actual products."}},{"@type":"Question","name":"Can Midjourney be used for jewelry photography?","acceptedAnswer":{"@type":"Answer","text":"While Midjourney can create artistic jewelry images, it cannot photograph your actual products, struggles with metallic reflections, and is not suitable for e-commerce product listings. JewelryAI is the better choice for commercial jewelry photography."}},{"@type":"Question","name":"How much does AI jewelry photography cost?","acceptedAnswer":{"@type":"Answer","text":"JewelryAI starts at $499 for Starter Package (up to 5 professional AI photos and 1 video). The Pro Package ($1199) offers up to 30 photos and 5 videos with unlimited revisions. Generic AI tools cost $5-10 per image but cannot produce product-accurate results."}}],
           }),
         }}
       />

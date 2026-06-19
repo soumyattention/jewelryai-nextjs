@@ -91,7 +91,7 @@ Traditional photography makes this expensive — \$200-500 per product. AI photo
 **Step 4**: Upload to your Shopify product listings
 **Step 5**: Watch your conversion rates improve
 
-For Shopify stores with large catalogs, our Bulk packages process 50-100 products efficiently. For stores needing premium on-model content, our Pro (\$799) and Elite (\$1,499) packages deliver editorial-quality imagery.</div>
+For Shopify stores with large catalogs, our Bulk packages process 50-100 products efficiently. For stores needing premium on-model content, our Pro (\$1,199) and Elite (\$1,999) packages deliver editorial-quality imagery.</div>
             {/* Video Example */}
             <div className="my-8 rounded-xl overflow-hidden shadow-lg">
               <video autoPlay loop muted playsInline className="w-full" poster="">
