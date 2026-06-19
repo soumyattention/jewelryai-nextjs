@@ -13,7 +13,7 @@ const PricingPage = () => {
       <SchemaProduct
         name="AI Jewelry Photography Packages"
         description="Explore our AI jewelry photography and videography packages. Options include Starter, Pro, and Elite packages for comprehensive solutions, plus dedicated Professional Video and Bulk Image services. Premium AI models, unlimited revisions, and fast turnaround available."
-        price="799"
+        price="499"
         priceCurrency="USD"
         aggregateRating={{
           ratingValue: "5.0",

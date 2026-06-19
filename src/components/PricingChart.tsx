@@ -27,9 +27,9 @@ const PricingChart = () => {
       gradient: "from-amber-50 via-yellow-50 to-white",
       headerColor: "text-amber-900",
       packages: [
-        { id: 'starter', name: 'Starter', price: '$399', link: 'https://checkout.dodopayments.com/buy/pdt_JfEBSDf2uaTQ4fJJpGcjO?quantity=1&showDiscounts=false', btnBase: 'from-amber-100 to-yellow-100 text-amber-900 border-amber-200' },
-        { id: 'pro', name: 'Pro', price: '$799', popular: true, link: 'https://checkout.dodopayments.com/buy/pdt_8SIvnAnAPWosbYqJGYAyL?quantity=1&showDiscounts=false', btnBase: 'from-amber-100 to-orange-100 text-orange-900 border-orange-200' },
-        { id: 'elite', name: 'Elite', price: '$1499', link: 'https://checkout.dodopayments.com/buy/pdt_3BVscqwamSZs6UQKJLYvL?quantity=1&showDiscounts=false', btnBase: 'from-amber-100 to-yellow-100 text-amber-900 border-amber-200' },
+        { id: 'starter', name: 'Starter', price: '$499', link: 'https://checkout.dodopayments.com/buy/pdt_JfEBSDf2uaTQ4fJJpGcjO?quantity=1&showDiscounts=false', btnBase: 'from-amber-100 to-yellow-100 text-amber-900 border-amber-200' },
+        { id: 'pro', name: 'Pro', price: '$1199', popular: true, link: 'https://checkout.dodopayments.com/buy/pdt_8SIvnAnAPWosbYqJGYAyL?quantity=1&showDiscounts=false', btnBase: 'from-amber-100 to-orange-100 text-orange-900 border-orange-200' },
+        { id: 'elite', name: 'Elite', price: '$1999', link: 'https://checkout.dodopayments.com/buy/pdt_3BVscqwamSZs6UQKJLYvL?quantity=1&showDiscounts=false', btnBase: 'from-amber-100 to-yellow-100 text-amber-900 border-amber-200' },
       ]
     },
     {
@@ -57,11 +57,11 @@ const PricingChart = () => {
       category: "Content Deliverables",
       rows: [
         { name: "Jewelry Articles", values: { starter: "3", pro: "10", elite: "20", vid15: "-", vid30: "-", bulk50: "-", bulk100: "-" } },
-        { name: "AI Editorial Photos", values: { starter: "Up to 10", pro: "Up to 30", elite: "Up to 60", vid15: "-", vid30: "-", bulk50: "50", bulk100: "100" } },
+        { name: "AI Editorial Photos", values: { starter: "Up to 5", pro: "Up to 30", elite: "Up to 60", vid15: "-", vid30: "-", bulk50: "50", bulk100: "100" } },
         { name: "Cinematic Videos", values: { 
-          starter: <div className="flex flex-col items-center"><span>1</span><span className="text-xs sm:text-sm text-gray-600 font-medium mt-1">(approx $399 per video)</span></div>, 
-          pro: <div className="flex flex-col items-center"><span>5</span><span className="text-xs sm:text-sm text-gray-600 font-medium mt-1">(approx $160 per video)</span></div>, 
-          elite: <div className="flex flex-col items-center"><span>10</span><span className="text-xs sm:text-sm text-gray-600 font-medium mt-1">(approx $136 per video)</span></div>, 
+          starter: <div className="flex flex-col items-center"><span>1</span><span className="text-xs sm:text-sm text-gray-600 font-medium mt-1">(approx $499 per video)</span></div>, 
+          pro: <div className="flex flex-col items-center"><span>5</span><span className="text-xs sm:text-sm text-gray-600 font-medium mt-1">(approx $240 per video)</span></div>, 
+          elite: <div className="flex flex-col items-center"><span>10</span><span className="text-xs sm:text-sm text-gray-600 font-medium mt-1">(approx $182 per video)</span></div>, 
           vid15: "-", vid30: "-", bulk50: "-", bulk100: "-" 
         } },
         { name: "Professional Video", values: { starter: "-", pro: "-", elite: "1 (Free)", vid15: "1 (15s)", vid30: "1 (30s)", bulk50: "-", bulk100: "-" } },

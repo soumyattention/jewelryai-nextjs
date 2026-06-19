@@ -9,11 +9,11 @@ const Pricing = () => {
   const allInOnePackages = [
     {
       name: 'Starter Package',
-      price: '$399',
+      price: '$499',
       features: [
         'Up to 3 Jewelry Articles',
         '1 Cinematic Jewelry Editorial Video',
-        'AI Editorial Photoshoots as per requirements (upto 10)',
+        'AI Editorial Photoshoots as per requirements (upto 5)',
         'Highest Quality of AI Engine, indistinguishable from reality',
         '<span class="bg-yellow-200 px-1 text-black font-medium">Limited Requests and Revisions</span>',
         '7 Days Completion (ongoing one by one)'
@@ -24,7 +24,7 @@ const Pricing = () => {
     },
     {
       name: 'Pro Package',
-      price: '$799',
+      price: '$1199',
       features: [
         'Up to 10 Jewelry Articles',
         '5 Cinematic Jewelry Editorial Video',
@@ -41,7 +41,7 @@ const Pricing = () => {
     },
     {
       name: 'Elite Package',
-      price: '$1499',
+      price: '$1999',
       features: [
         'Up to 20 Jewelry Articles',
         '10 Cinematic Jewelry Editorial Video',
@@ -50,7 +50,7 @@ const Pricing = () => {
         '<span class="bg-yellow-200 px-1 text-black font-medium">Bring your Reference Model/Pose/Style/Scene/Anything</span>',
         '<span class="bg-yellow-200 px-1 text-black font-medium">Unlimited Requests and Revisions</span>',
         '21 Days Completion (ongoing one by one)',
-        '<span class="bg-purple-600 text-white px-2 py-0.5 rounded text-xs font-bold uppercase mr-2 tracking-wide align-middle">Professional</span><span class="bg-purple-100 text-purple-900 px-1 font-semibold align-middle">1 Professional Video for Free (Worth $299)</span>'
+        '<span class="bg-purple-600 text-white px-2 py-0.5 rounded text-xs font-bold uppercase mr-2 tracking-wide align-middle">Professional</span><span class="bg-purple-100 text-purple-900 px-1 font-semibold align-middle">1 Professional Video for Free (Worth $499)</span>'
       ],
       highlighted: false,
       color: 'gold',
